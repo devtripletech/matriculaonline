@@ -1,0 +1,484 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202211 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.matriculaonline.direitosbc.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2687                
+POS_VISITOR 10132               
+POS_DAY 14464               
+POS_DOMAIN 3413                
+POS_LOGIN 3842                
+POS_ROBOT 3997                
+POS_WORMS 4529                
+POS_EMAILSENDER 4660                
+POS_EMAILRECEIVER 4803                
+POS_SESSION 15136               
+POS_SIDER 15336               
+POS_FILETYPES 4938                
+POS_DOWNLOADS 5115                
+POS_OS 5163                
+POS_BROWSER 5339                
+POS_SCREENSIZE 5765                
+POS_UNKNOWNREFERER 5839                
+POS_UNKNOWNREFERERBROWSER 6124                
+POS_ORIGIN 6318                
+POS_SEREFERRALS 6457                
+POS_PAGEREFS 6601                
+POS_SEARCHWORDS 6841                
+POS_KEYWORDS 6993                
+POS_MISC 2351                
+POS_ERRORS 7052                
+POS_CLUSTER 3698                
+POS_SIDER_404 7169                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221201005059 1506 508580 30472807198058
+FirstTime 0
+LastTime 20221130231021
+LastUpdate 20221201044352 1506 1285 219 0 1
+TotalVisits 111                 
+TotalUnique 87                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 94                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 3 3 3050 2 2 2011
+1 6 32 463890 15 38 643785
+2 7 29 598991 6 11 114111
+3 10 55 710670 14 38 247634
+4 2 5 12109 1 1 1010
+5 0 0 0 4 31 378397
+6 2 2 2032 10 26 130323
+7 4 4 1352 8 30 326723
+8 0 0 0 3 5 3120
+9 11 11 10871 16 34 509679
+10 8 8 8112 5 23 333453
+11 0 0 0 3 32 194643
+12 6 6 6031 9 32 259647
+13 23 69 839269 4 42 408801
+14 24 112 1370513 11 31 127462
+15 10 25 243394 4 21 118341
+16 15 75 949717 4 8 4040
+17 6 44 649537 9 17 113600
+18 13 57 685315 58 95 114374
+19 9 39 475893 22 27 89228
+20 17 62 698996 4 9 4113
+21 25 145 1891546 3 3 3003
+22 4 14 191874 5 39 602118
+23 10 69 1092153 0 2 0
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 14
+br 60 267 3390380
+unknown 57 267 3584618
+us 54 130 1377177
+de 15 15 15139
+cn 6 44 649537
+ca 5 20 238325
+in 4 34 471087
+fr 3 3 335
+jp 2 17 235543
+ru 2 17 235544
+fi 1 1 1010
+ec 2 17 235542
+sa 2 17 235535
+id 2 17 235543
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 11
+bingbot/ 187 631176 20221129015945 22
+AhrefsBot/ 107 863457 20221127093153 13
+Googlebot/ 63 237700 20221126144649 9
+motor 34 471088 20221126033853 0
+BLEXBot/ 24 13673 20221128175011 11
+facebookexternalhit/ 15 208842 20221127142844 0
+urllib 7 7019 20221129190259 0
+oBot/ 3 2070 20221111061929 1
+unknown 3 150 20221126171603 3
+no_user_agent 2 2002 20221126171502 0
+bingpreview 2 1529 20221109053845 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 211 1241489 0 0
+php 133 128817 0 0
+png 48 7436112 0 0
+html 80 67872 0 0
+js 392 2030793 0 0
+Unknown 2 232 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 8
+macosx 21 21
+linuxandroid 104 14
+ios_iphone 144 36
+Unknown 8 7
+win8.1 17 2
+win10 458 90
+linux 64 10
+win7 50 35
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 19
+chrome102.0.5005.125 20 2
+chrome76.0.3809.132 4 4
+firefox58.0 3 3
+firefox106.0 3 3
+firefox104.0 17 4
+chrome93.0.4577.0 44 6
+chrome107.0.0.0 342 68
+chrome107.0.5304.91 14 2
+iphone 113 30
+mozilla 4 4
+chrome104.0.0.0 17 17
+safari16.0 14 4
+chrome76.0.3809.71 51 6
+chrome74.0.3729.169 2 1
+safari16.1 17 2
+msie9.0 33 33
+chrome104.0.5112.101 19 4
+chrome106.0.0.0 145 19
+Unknown 4 3
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 4
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221119122416
+Turnitin_(https://bit.ly/2UvnfoQ) 20221115185930
+WhatsApp/2.22.24.27_A 20221123131029
+cortex/1.0 20221119130851
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 3
+Turnitin_(https://bit.ly/2UvnfoQ) 20221115185930
+WhatsApp/2.22.24.27_A 20221123131029
+cortex/1.0 20221119130851
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 109 110
+From1 0 0
+From2 0 0
+From3 45 45
+From4 61 711
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://www.direitosbc.br 26 26
+https://l.instagram.com 17 17
+https://www.direitosbc.br 2 2
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 3
+503 29 1793790
+400 1 89480
+404 79 407640
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 63
+/sitemap.xml 6 -
+/Blog 1 http://matriculaonline.direitosbc.br/Blog
+/TEST 1 http://matriculaonline.direitosbc.br/TEST
+/sito 1 http://matriculaonline.direitosbc.br/sito
+/SHOP 1 http://matriculaonline.direitosbc.br/SHOP
+/www 1 http://matriculaonline.direitosbc.br/www
+/2019 1 http://matriculaonline.direitosbc.br/2019
+/sitemap.txt 8 -
+/Www 1 http://matriculaonline.direitosbc.br/Www
+/shop 1 http://matriculaonline.direitosbc.br/shop
+/oldsite 1 http://matriculaonline.direitosbc.br/oldsite
+/NEW 1 http://matriculaonline.direitosbc.br/NEW
+/Shop 1 http://matriculaonline.direitosbc.br/Shop
+/wp-old 1 http://matriculaonline.direitosbc.br/wp-old
+/RDWeb 1 -
+/sitemap 5 -
+/ssl-vpn/prelogin.esp 1 -
+/2020 1 http://matriculaonline.direitosbc.br/2020
+/remote/login 1 -
+/sitio 1 http://matriculaonline.direitosbc.br/sitio
+/wordpress 1 http://matriculaonline.direitosbc.br/wordpress
+/blog 1 http://matriculaonline.direitosbc.br/blog
+/bc 1 http://matriculaonline.direitosbc.br/bc
+/2021 1 http://matriculaonline.direitosbc.br/2021
+/explore 1 -
+/new 1 http://matriculaonline.direitosbc.br/new
+/New 1 http://matriculaonline.direitosbc.br/New
+/clients 1 -
+/global-protect/prelogin.esp 1 -
+/BLOG 1 http://matriculaonline.direitosbc.br/BLOG
+/Wp 1 http://matriculaonline.direitosbc.br/Wp
+/myvpn 1 -
+/Test 1 http://matriculaonline.direitosbc.br/Test
+/sslvpnclient 1 -
+/test 1 http://matriculaonline.direitosbc.br/test
+/Wordpress 1 http://matriculaonline.direitosbc.br/Wordpress
+/bk 1 http://matriculaonline.direitosbc.br/bk
+/Old 1 http://matriculaonline.direitosbc.br/Old
+/2018 1 http://matriculaonline.direitosbc.br/2018
+/WP 1 http://matriculaonline.direitosbc.br/WP
+/Site 1 http://matriculaonline.direitosbc.br/Site
+/BACKUP 1 http://matriculaonline.direitosbc.br/BACKUP
+/vpntunnel 1 -
+/bac 1 http://matriculaonline.direitosbc.br/bac
+/OLD 1 http://matriculaonline.direitosbc.br/OLD
+/WordPress 1 http://matriculaonline.direitosbc.br/WordPress
+/bak 1 http://matriculaonline.direitosbc.br/bak
+/old 1 http://matriculaonline.direitosbc.br/old
+/wp 1 http://matriculaonline.direitosbc.br/wp
+/demo 1 http://matriculaonline.direitosbc.br/demo
+/Backup 1 http://matriculaonline.direitosbc.br/Backup
+/main 1 http://matriculaonline.direitosbc.br/main
+/WORDPRESS 1 http://matriculaonline.direitosbc.br/WORDPRESS
+/site 1 http://matriculaonline.direitosbc.br/site
+/2022 1 http://matriculaonline.direitosbc.br/2022
+/svpn/index.cgi 1 -
+/dana-na 1 -
+/sitemap.xml.gz 1 -
+/SITE 1 http://matriculaonline.direitosbc.br/SITE
+/old-site 1 http://matriculaonline.direitosbc.br/old-site
+/my.policy 1 -
+/backup 1 http://matriculaonline.direitosbc.br/backup
+/WWW 1 http://matriculaonline.direitosbc.br/WWW
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 94
+201.63.196.26 32 107 1101277 20221130210708
+40.77.167.50 9 9 9136 20221113145607
+157.55.39.162 5 5 5084 20221129063758
+2804:7f0:b0c2:ac68:b974:8069:2993:9efc 4 17 232461 20221130180619
+207.46.13.52 4 4 4068 20221129133007
+65.154.226.170 4 34 471070 20221122024924
+2804:18:8d5:3a5d:1:0:979b:c3b7 4 19 237558 20221113163633
+167.94.138.61 4 4 4004 20221119122416
+185.81.157.238 3 3 335 20221101075206
+189.120.76.108 3 18 236554 20221116144852
+23.228.130.132 2 17 235543 20221130210701
+192.141.34.76 0 3 196248 
+2607:5300:201:3100::4b95 1 1 0 20221128183139
+2a03:2880:10ff:d::face:b00c 0 2 9899 
+47.254.43.7 1 1 1001 20221119132109
+207.46.13.50 1 1 1020 20221109101124
+2804:388:d034:ea27:7863:fd01:bda:1148 2 2 1788 20221108135050
+101.198.0.155 1 8 58738 20221126171536
+207.46.13.97 1 1 1015 20221105230416
+2804:14d:7848:4439::1000 3 13 190855 20221112223738
+195.201.36.69 2 2 2019 20221109200613
+182.79.221.135 2 17 235546 20221130211717
+101.198.0.187 0 8 176019 
+220.148.241.72 2 17 235543 20221130231021
+2804:14d:7899:9259:a196:7c99:efc5:b520 3 18 237265 20221125203856
+207.46.13.182 1 1 1012 20221113124141
+2804:14d:7848:569c:dcc7:c7e9:e58:b0b2 2 2 1788 20221109140819
+40.77.167.74 1 1 1013 20221106010912
+2804:431:c7ca:49ed:8c02:15a2:4a5e:a4a7 2 17 235544 20221122233751
+157.55.39.21 3 3 3040 20221129133511
+49.44.67.135 2 17 235541 20221130212521
+47.254.36.89 1 1 1007 20221119132110
+187.26.201.91 2 17 235544 20221108195620
+2804:e94:1047:6c00:bcb2:bb41:dd86:2490 2 2 2018 20221124141520
+49.12.194.37 1 1 1010 20221129092551
+179.212.10.126 2 17 235544 20221103165229
+110.50.81.201 2 17 235543 20221130210716
+201.87.15.191 2 10 195039 20221103144723
+191.243.208.205 2 2 1788 20221109153958
+116.203.80.208 1 1 1009 20221109191456
+47.89.251.140 2 2 2019 20221119132224
+20.106.27.209 0 1 154919 
+199.47.82.18 1 1 1001 20221115185930
+168.119.163.145 1 1 1007 20221129094516
+157.55.39.36 1 1 1021 20221113032856
+65.108.156.7 1 1 1009 20221129093738
+2804:e94:1047:6c00:90d1:1f81:b638:18bb 2 17 235544 20221123141504
+157.55.39.35 2 2 2034 20221109031045
+2804:14d:78b1:5033:3481:e9c3:c429:e027 2 14 193530 20221101144425
+135.181.104.179 1 1 1010 20221109140448
+2804:14d:78a6:a3a0:aca2:8f24:893:993c 2 2 1788 20221108233835
+157.55.39.37 2 2 2036 20221129133516
+2804:14c:50:a465:19c8:70f2:6625:8c0a 2 17 235543 20221102151334
+188.34.152.95 3 3 3030 20221109151925
+204.157.110.214 2 17 235541 20221112035425
+65.154.226.171 2 17 235535 20221118033143
+2804:14d:1a81:859f:d8e1:adf4:9d2e:6585 2 2 1788 20221127205108
+131.108.49.100 2 2 1788 20221127142844
+2a03:2880:13ff:b::face:b00c 0 1 154919 
+62.149.111.4 2 17 235535 20221130210710
+45.236.213.5 2 17 235544 20221122193437
+65.154.226.168 2 17 235535 20221123010852
+2a03:2880:10ff::face:b00c 0 5 22942 
+65.109.133.29 2 2 2019 20221129094705
+87.245.198.8 2 17 235544 20221130210711
+142.132.183.246 1 1 1007 20221109191440
+142.166.12.196 2 17 235545 20221130231019
+2804:431:cfc2:800b:c114:604a:8910:c9a7 2 13 226325 20221108013535
+177.125.38.147 2 5 12109 20221125040432
+2804:14d:72b3:a03f:29c2:348e:dd96:5066 2 17 235543 20221115205837
+167.235.19.113 1 1 1010 20221124092706
+190.63.135.6 2 17 235542 20221130210709
+5.161.83.179 2 2 2019 20221109151904
+23.88.106.203 1 1 1010 20221129092350
+2a03:2880:10ff:4::face:b00c 2 8 201366 20221119130815
+201.64.116.203 1 14 227799 20221130231010
+2804:388:d04d:94d7:b59f:7f9c:32a2:134b 1 1 1001 20221113192527
+173.82.201.253 1 1 1001 20221129105848
+2804:14d:7830:43e1:a9a1:2f3e:6eb4:53d9 2 17 235544 20221124144055
+200.205.34.84 3 18 237266 20221107160729
+189.29.184.84 3 3 2795 20221113163825
+179.127.134.98 2 17 235544 20221121215142
+2804:431:cfd5:62a9:5899:d96d:bfde:1324 3 7 165420 20221112025219
+2804:389:205f:c2b6:1ca9:73c3:a026:d3c 2 2 1788 20221108025025
+207.46.13.144 3 3 3053 20221123160005
+2804:214:825e:a2fe:38e2:e4b9:59cd:b9c1 2 10 49280 20221104140124
+101.198.0.180 3 18 236759 20221126171526
+2804:7f0:b7c0:7680:9144:e343:a2ba:819c 2 17 235544 20221110035146
+2a03:2880:10ff:7::face:b00c 0 2 1337 
+2804:14d:328a:930b:887b:43b5:49b0:d907 2 2 1788 20221107194342
+101.198.0.151 2 10 178021 20221126171608
+205.169.39.63 3 3 2780 20221123094526
+2804:14c:f429:8366:55cf:fddc:ca61:771d 2 14 193530 20221115185832
+2804:7f0:b142:ae84:ac7d:7e63:41f4:199d 2 6 40922 20221111183821
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20221101 5 17 193865 2
+20221102 2 17 235543 1
+20221103 4 27 430583 2
+20221104 5 29 421600 2
+20221105 4 4 4068 4
+20221106 2 2 2030 2
+20221107 8 38 456455 3
+20221108 10 36 467233 5
+20221109 22 22 21796 13
+20221110 2 17 235544 1
+20221111 2 6 40922 1
+20221112 9 38 592835 4
+20221113 13 28 246428 8
+20221115 5 32 430074 3
+20221116 3 21 432802 1
+20221118 5 35 472071 3
+20221119 10 26 398494 5
+20221121 2 17 235544 1
+20221122 9 69 924645 4
+20221123 17 62 698406 10
+20221124 5 20 238572 3
+20221125 5 23 249374 2
+20221126 6 44 649537 3
+20221127 4 4 3576 2
+20221128 1 1 0 1
+20221129 14 14 14167 12
+20221130 41 217 2809151 13
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 5
+0s-30s 92
+2mn-5mn 2
+30s-2mn 9
+15mn-30mn 1
+30mn-1h 2
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/index.php 133 128817 96 55
+/views/preInscricao.html 55 42190 0 42
+/ 21 19122 14 10
+/views/matricula.html 4 6560 0 4
+/_profiler/phpinfo 1 118 0 0
+/.env.example 1 114 1 0
+END_SIDER

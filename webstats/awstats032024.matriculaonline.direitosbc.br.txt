@@ -1,0 +1,2531 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202403 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.matriculaonline.direitosbc.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2700                
+POS_VISITOR 65875               
+POS_DAY 95467               
+POS_DOMAIN 3557                
+POS_LOGIN 4037                
+POS_ROBOT 4192                
+POS_WORMS 5010                
+POS_EMAILSENDER 5141                
+POS_EMAILRECEIVER 5284                
+POS_SESSION 96323               
+POS_SIDER 96535               
+POS_FILETYPES 5419                
+POS_DOWNLOADS 5606                
+POS_OS 5654                
+POS_BROWSER 5851                
+POS_SCREENSIZE 7277                
+POS_UNKNOWNREFERER 7351                
+POS_UNKNOWNREFERERBROWSER 8295                
+POS_ORIGIN 8805                
+POS_SEREFERRALS 8951                
+POS_PAGEREFS 9139                
+POS_SEARCHWORDS 10411               
+POS_KEYWORDS 10563               
+POS_MISC 2364                
+POS_ERRORS 10622               
+POS_CLUSTER 3893                
+POS_SIDER_404 10768               
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20240401010052 8694 3133629 16794985489865
+FirstTime 20240301001001
+LastTime 20240331132048
+LastUpdate 20240401043821 8694 8642 49 0 2
+TotalVisits 666                 
+TotalUnique 556                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 575                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+DirectorSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+PDFSupport 0 0 0
+FlashSupport 0 0 0
+QuickTimeSupport 0 0 0
+TotalMisc 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 154 324 3494486 62 145 1369462
+1 66 100 768694 21 91 628454
+2 31 33 135411 16 50 286173
+3 10 10 7700 17 80 869623
+4 14 15 32318 6 18 60822
+5 17 18 29632 6 21 102601
+6 12 12 8427 3 17 78029
+7 2 2 1398 8 12 5940
+8 11 55 838156 16 52 396010
+9 17 18 19069 13 55 425481
+10 33 87 1134275 18 68 666111
+11 101 235 2578992 38 129 1152523
+12 122 251 2589763 10 94 940481
+13 200 389 4233452 26 215 2090543
+14 149 215 1378867 39 214 2160238
+15 147 279 2611818 11 159 1469957
+16 118 255 2842354 15 102 867424
+17 76 102 802152 11 71 577947
+18 177 278 2236989 18 152 1409516
+19 265 493 4802486 25 202 1873477
+20 118 187 1624002 14 112 1090275
+21 469 853 3594436 180 1837 23135130
+22 80 84 121733 21 94 684277
+23 165 243 1701772 24 183 1883139
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 18
+unknown 1186 1589 10040525
+br 889 1898 20505025
+us 428 798 3252122
+pt 9 31 421945
+gb 8 8 5592
+cn 6 50 834262
+sg 5 27 419150
+fr 5 27 418413
+ie 3 25 417326
+ca 3 3 2118
+lv 1 1 699
+nl 1 1 699
+kr 3 25 417326
+ru 2 24 416629
+hk 1 1 706
+kz 3 25 417326
+se 0 4 17820
+in 1 1 699
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 19
+facebookexternalhit/ 310 3743799 20240329110945 11
+bingbot/ 209 1851298 20240330185813 14
+Applebot/ 176 1736323 20240328163142 8
+Googlebot/ 106 773808 20240329180825 13
+AhrefsBot/ 67 535015 20240329103742 6
+nbot 40 24741 20240331133218 5
+motor 37 206273 20240329024627 0
+Dalvik/ 33 440819 20240316140548 0
+SemrushBot/ 31 11355 20240330151713 16
+bot[\s_+:,\.\;\/\\-] 29 435461 20240327235830 3
+sift 2 85 20240312064232 2
+unknown 7 275 20240329223533 7
+python 1 35 20240316035444 1
+CCBot/ 4 2143 20240305112630 1
+oBot/ 6 1794 20240318114012 4
+link 4 2153 20240314114242 1
+Googlebot\-Image/ 6 158449 20240326140817 0
+no_user_agent 25 13980 20240331044946 0
+wordpress 7 0 20240327220006 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+js 1480 19309962 0 0
+css 370 1648350 0 0
+woff2 8 144224 0 0
+html 1297 1392485 0 0
+php 1249 888979 0 0
+png 134 14204382 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+Unknown 126 121
+ios_iphone 559 366
+linux 59 36
+win10 2909 1529
+linuxandroid 632 354
+win7 33 11
+macosx 199 129
+win8.1 7 6
+win16 14 2
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 66
+chrome109.0.0.0 64 20
+mozilla 23 23
+chrome123.0.0.0 591 259
+safari17.3.1 190 134
+chrome87.0.4280.88 50 6
+safari16.1 15 15
+safari17.2.1 5 5
+chrome124.0.0.0 6 6
+safari16.6 15 15
+chrome122.0.6261.64 13 13
+chrome122.0.6261.119 46 24
+chrome101.0.4951.67 7 4
+chrome103.0.5060.134 95 11
+safari 40 22
+chrome92.0.4515.107 7 6
+chrome102.0.0.0 4 4
+chrome110.0.0.0 21 2
+firefox122.0 1 1
+firefox124.0 31 31
+chrome100.0.4896.133 3 3
+chrome121.0.0.0 129 104
+chrome122.0.6261.136 4 4
+Unknown 101 96
+chrome66.0.3359.117 6 6
+chrome122.0.6261.88 25 3
+safari17.1.2 3 3
+chrome59.0.3071.125 26 5
+opera106.0.0.0 26 4
+chrome108.0.0.0 10 10
+firefox123.0 44 22
+firefox115.0 24 24
+opera107.0.0.0 101 55
+chrome117.0.5938.60 27 5
+chrome100.0.4896.127 2 2
+chrome122.0.6261.66 4 4
+safari16.5 13 13
+chrome116.0.0.0 610 312
+chrome83.0.4103.122 30 4
+iphone 254 134
+firefox50.0 3 3
+safari16.0 3 3
+safari14.1.3 7 7
+safari17.0 15 10
+chrome70.0.3538.67 1 1
+chrome101.0.4951.54 16 6
+safari16.2 21 21
+chrome122.0.6261.106 5 5
+chrome122.0.0.0 1598 933
+chrome120.0.0.0 21 19
+chrome122.0.6261.120 30 6
+vodafone 1 1
+safari17.2 7 7
+chrome115.0.0.0 27 26
+safari15.6.6 9 9
+safari17.4 5 5
+chrome122.0.6261.105 49 26
+chrome105.0.0.0 3 3
+chrome117.0.0.0 19 18
+safari16.3 12 12
+firefox91.0 3 3
+chrome79.0.3945.88 1 1
+chrome121.0.6167.178 8 8
+firefox108.0 1 0
+safari17.4.1 1 1
+chrome111.0.5563.116 4 4
+chrome122.0.6261.125 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 16
+cortex/1.0 20240323192410
+Vodafone/1.0/V802SE/SEJ001_Browser/SEMC-Browser/4.1 20240321223258
+LTMetadataService/1.0 20240313184440
+WhatsApp/2.23.20.0 20240327170136
+WhatsApp/2.24.5.73_i 20240313204648
+Google-ilp 20240310232922
+Mozilla/5.0_AppleWebKit/537.36_(KHTML,_like_Gecko;_compatible;_GeedoProductSearch;__http://www.geedo.com/product-search.html)_Chrome/79.0.3945.88_Safari/537.36 20240320213703
+WhatsApp/2.2407.10_W 20240313180354
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20240330013802
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20240330083713
+Iframely/1.3.1_(_https://iframely.com/docs/about)_Atlassian 20240328192413
+axios/0.17.1 20240313184529
+Trello 20240322105706
+WhatsApp/2.24.4.78_i 20240306200234
+WhatsApp/2.2410.2_W 20240328204404
+WhatsApp/2.24.5.75_i 20240331003731
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 12
+WhatsApp/2.24.5.75_i 20240331003731
+WhatsApp/2.2410.2_W 20240328204404
+WhatsApp/2.2407.10_W 20240313180354
+WhatsApp/2.24.5.73_i 20240313204648
+Google-ilp 20240310232922
+Trello 20240322105706
+WhatsApp/2.24.4.78_i 20240306200234
+WhatsApp/2.23.20.0 20240327170136
+axios/0.17.1 20240313184529
+cortex/1.0 20240323192410
+Iframely/1.3.1_(_https://iframely.com/docs/about)_Atlassian 20240328192413
+LTMetadataService/1.0 20240313184440
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 370 376
+From1 18 18
+From2 9 9
+From3 921 921
+From4 1236 3214
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 3
+baidu 3 3
+www_google_com 4 4
+google_com 2 2
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 18
+https://www.direitosbc.br 508 508
+https://www.direitosbc.br/alunos-pos/curso-de-atualizacao-empresa-humanista-e-esg-governanca-ambiental-social-e-corporativa/ 270 270
+https://l.instagram.com 57 57
+https://www.direitosbc.br/alunos-graduacao/inscricoes-abertas-para-o-novo-curso-de-atualizacao-gestao-de-escritorio-aceleracao-de-carreiras-para-advogados/ 36 36
+https://trello.com 11 11
+https://chamados-ti.direitosbc.br 9 9
+https://www.instagram.com 8 8
+https://linktr.ee 5 5
+https://www.direitosbc.br/oratoria-aplicada-ao-direito-tecnicas-de-apresentacao-e-de-comunicacao-verbal-em-ambientes-virtuais/ 3 3
+http://m.facebook.com 3 3
+https://webmail.saobernardo.sp.gov.br 1 1
+https://app.octadesk.com/chat/6f171787-ca74-4a80-a38f-ff1845471a51/unread 2 2
+https://www.direitosbc.br/direito-societario/ 1 1
+https://app.octadesk.com/chat/e3bb0834-a1e8-4d59-b3b7-28474f1b7511/byAgent 2 2
+https://l.facebook.com 2 2
+https://www.direitosbc.br/gestao-de-escritorio-aceleracao-de-carreiras-para-advogados/ 1 1
+https://www.direitosbc.br 1 1
+https://www.direitosbc.br/o-passo-a-passo-da-declaracao-de-imposto-de-renda-para-advogado/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 5
+405 48 26496
+301 93 24193
+503 1 89604
+404 2366 33457190
+403 58 688344
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 1519
+/WEB-INF/classes/247/1.class 1 -
+/WEB-INF/classes/10/271.class 1 -
+/WEB-INF/classes/20/5.class 1 -
+/WEB-INF/classes//277/011.class 1 -
+/WEB-INF/classes/117/9.class 1 -
+/WEB-INF/classes/317/017.class 1 -
+/WEB-INF/classes/36/9h.class 1 -
+/WEB-INF/classes/111/5.class 1 -
+/WEB-INF/classes/150/348l.class 1 -
+/WEB-INF/classes/0C10/134.class 1 -
+/WEB-INF/classes/315/537l.class 1 -
+/WEB-INF/classes/44L205/7.class 1 -
+/WEB-INF/classes/225/451.class 1 -
+/WEB-INF/classes/64/9.class 1 -
+/WEB-INF/classes/17/4L92/1.class 1 -
+/WEB-INF/classes/224/5.class 1 -
+/WEB-INF/classes//862/565Zm.class 1 -
+/WEB-INF/classes/1/962l.class 1 -
+/WEB-INF/classes/65/1.class 1 -
+/WEB-INF/classes/80/1.class 1 -
+/WEB-INF/classes/94/202.class 1 -
+/WEB-INF/classes/282/121l.class 1 -
+/WEB-INF/classes/39/929.class 1 -
+/WEB-INF/classes/7/2a1.class 1 -
+/WEB-INF/classes/40/066.class 1 -
+/WEB-INF/classes/232/72Z.class 1 -
+/WEB-INF/classes/73/9.class 1 -
+/WEB-INF/classes/9/933.class 1 -
+/WEB-INF/classes/7/278.class 1 -
+/WEB-INF/classes/10/019.class 1 -
+/WEB-INF/classes/5/8.class 1 -
+/WEB-INF/classes/1/37Q299/229.class 1 -
+/WEB-INF/classes/1/267L289/718.class 1 -
+/WEB-INF/classes/229/769.class 1 -
+/WEB-INF/classes/M879/544.class 1 -
+/WEB-INF/classes/0/2v0/1.class 1 -
+/WEB-INF/classes/115/5.class 1 -
+/WEB-INF/classes/8/725.class 1 -
+/WEB-INF/classes/5/923.class 1 -
+/WEB-INF/classes/181/5.class 1 -
+/WEB-INF/classes/20/3V166h20/3c0/6.class 1 -
+/WEB-INF/classes/1/839.class 1 -
+/WEB-INF/classes/5/9.class 1 -
+/WEB-INF/classes/6/984.class 1 -
+/www.direitosbc.br/wp-admin/post.php 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/1/85.class 1 -
+/WEB-INF/classes/1/927.class 1 -
+/WEB-INF/classes/6/943.class 1 -
+/js/angular-route.min.js.map 11 -
+/WEB-INF/classes/265c/08.class 1 -
+/WEB-INF/classes/13/269.class 1 -
+/WEB-INF/classes/5/794.class 1 -
+/WEB-INF/classes/1/435ZM81.class 1 -
+/WEB-INF/classes/2/7V114H132/1z.class 1 -
+/WEB-INF/classes/0c0/4.class 1 -
+/WEB-INF/classes/246/702.class 1 -
+/WEB-INF/classes/5A5/006.class 1 -
+/WEB-INF/classes/1/515.class 1 -
+/WEB-INF/classes/0/4V65/5z.class 1 -
+/WEB-INF/classes/127/2h.class 1 -
+/WEB-INF/classes/125/3.class 1 -
+/WEB-INF/classes/M10/006.class 1 -
+/WEB-INF/classes/147/581.class 1 -
+/WEB-INF/classes/M63/628.class 1 -
+/WEB-INF/classes/2/113/113/13c1/058.class 1 -
+/WEB-INF/classes/3/22Z.class 1 -
+/WEB-INF/classes/166/288.class 1 -
+/WEB-INF/classes/24/9L148.class 1 -
+/WEB-INF/classes/129/8V79/7z.class 1 -
+/WEB-INF/classes/252/413A7.class 1 -
+/WEB-INF/classes/197/11.class 1 -
+/WEB-INF/classes/1/014.class 1 -
+/WEB-INF/classes/32/808.class 1 -
+/WEB-INF/classes/8/8C118/3.class 1 -
+/WEB-INF/classes/57/427.class 1 -
+/WEB-INF/classes/256/912.class 1 -
+/WEB-INF/classes/5/153.class 1 -
+/WEB-INF/classes/1/507/114.class 1 -
+/WEB-INF/classes//989a1/02.class 1 -
+/WEB-INF/classes/231/6.class 1 -
+/WEB-INF/classes/84/174.class 1 -
+/WEB-INF/classes/82/335.class 1 -
+/WEB-INF/classes/289/718.class 1 -
+/WEB-INF/classes/1/121.class 1 -
+/WEB-INF/classes/M290/9.class 1 -
+/WEB-INF/classes/22/533.class 1 -
+/WEB-INF/classes/209/221.class 1 -
+/WEB-INF/classes/145/4.class 1 -
+/WEB-INF/classes/168/128.class 1 -
+/WEB-INF/classes/M75/8.class 1 -
+/WEB-INF/classes/40/049.class 1 -
+/WEB-INF/classes/235/2z.class 1 -
+/WEB-INF/classes/1/767l.class 1 -
+/WEB-INF/classes/1/618Z.class 1 -
+/WEB-INF/classes/M128/1.class 1 -
+/WEB-INF/classes/27/516a1.class 1 -
+/WEB-INF/classes/211/2.class 1 -
+/WEB-INF/classes/M248/478.class 1 -
+/WEB-INF/classes/6/537/579.class 1 -
+/WEB-INF/classes//951/69.class 1 -
+/WEB-INF/classes/M225/3.class 1 -
+/WEB-INF/classes/1/284ZM126.class 1 -
+/WEB-INF/classes/145/9.class 1 -
+/WEB-INF/classes/242/4.class 1 -
+/WEB-INF/classes/1/071/195.class 1 -
+/WEB-INF/classes/73/901.class 1 -
+/WEB-INF/classes/1/1/239.class 1 -
+/WEB-INF/classes/10/94Z.class 1 -
+/WEB-INF/classes/77/7V33/3L163/2.class 1 -
+/WEB-INF/classes/13/951.class 1 -
+/WEB-INF/classes/17/829.class 1 -
+/wp-admin/post.php 3 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/4/8l38/6.class 1 -
+/WEB-INF/classes/14/9v128/7H38/4V65/9L53/3.class 1 -
+/WEB-INF/classes/51/452l1/838.class 1 -
+/WEB-INF/classes/269/023.class 1 -
+/js/trace.axd 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/110/235.class 1 -
+/WEB-INF/classes/1/733.class 1 -
+/WEB-INF/classes/2/693/984/984.class 1 -
+/WEB-INF/classes/7/551.class 1 -
+/WEB-INF/classes/205/545.class 1 -
+/WEB-INF/classes/282/121.class 1 -
+/WEB-INF/classes/6/941.class 1 -
+/WEB-INF/classes/154/614.class 1 -
+/WEB-INF/classes/0/7l15/5.class 1 -
+/WEB-INF/classes//937/266.class 1 -
+/WEB-INF/classes/3/192.class 1 -
+/WEB-INF/classes/219/497.class 1 -
+/WEB-INF/classes/1/606Z.class 1 -
+/WEB-INF/classes//211/022.class 1 -
+/WEB-INF/classes/6/855l1/786.class 1 -
+/WEB-INF/classes/M19/257.class 1 -
+/WEB-INF/classes/34/6L222.class 1 -
+/WEB-INF/classes/7/924.class 1 -
+/WEB-INF/classes/M92/1.class 1 -
+/WEB-INF/classes/1/766.class 1 -
+/WEB-INF/classes/1/6V77/7z.class 1 -
+/WEB-INF/classes/242/4c.class 1 -
+/WEB-INF/classes/0/2s0.class 1 -
+/WEB-INF/classes/1/549Z.class 1 -
+/WEB-INF/classes/11/98.class 1 -
+/WEB-INF/classes/251/1.class 1 -
+/js/ui-bootstrap-tpls.min.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/2/25.class 1 -
+/WEB-INF/classes/293/955.class 1 -
+/WEB-INF/classes/M974/934.class 1 -
+/WEB-INF/classes/251/2.class 1 -
+/WEB-INF/classes/93/074v199/3H2074/144V227/363A40/052.class 1 -
+/WEB-INF/classes/170/7h19/3v2/7h.class 1 -
+/WEB-INF/classes/213/5.class 1 -
+/WEB-INF/classes/M298/154.class 1 -
+/WEB-INF/classes/225/8.class 1 -
+/WEB-INF/classes/4/087Z.class 1 -
+/WEB-INF/classes/108/122.class 1 -
+/WEB-INF/classes/124/8.class 1 -
+/WEB-INF/classes/1/057.class 1 -
+/WEB-INF/classes/6/731.class 1 -
+/WEB-INF/classes/7/852.class 1 -
+/WEB-INF/classes/99/5.class 1 -
+/WEB-INF/classes/6/8.class 1 -
+/WEB-INF/classes/M117/4.class 1 -
+/WEB-INF/classes/70/837.class 1 -
+/WEB-INF/classes/52/9.class 1 -
+/WEB-INF/classes/260/589.class 1 -
+/WEB-INF/classes/1/47Zm21/626.class 1 -
+/WEB-INF/classes/1/056Z.class 1 -
+/WEB-INF/classes/86/014.class 1 -
+/WEB-INF/classes/199/725l.class 1 -
+/WEB-INF/classes/1v13v4/8v39/1c0.class 1 -
+/WEB-INF/classes/2/123.class 1 -
+/WEB-INF/classes/8/02c/064.class 1 -
+/WEB-INF/classes/6/994.class 1 -
+/WEB-INF/classes/286/348.class 1 -
+/WEB-INF/classes//55/779.class 1 -
+/WEB-INF/classes/M993/49.class 1 -
+/WEB-INF/classes/0/1l12/1.class 1 -
+/WEB-INF/classes/47/1L29/6.class 1 -
+/WEB-INF/classes/58/165.class 1 -
+/WEB-INF/classes/100/8.class 1 -
+/WEB-INF/classes/19/3V142/3z.class 1 -
+/WEB-INF/classes/49/338.class 1 -
+/WEB-INF/classes/145/742.class 1 -
+/WEB-INF/classes/1/014c/434/9/882.class 1 -
+/WEB-INF/classes/1/641q1/3/621.class 1 -
+/WEB-INF/classes/198/12a1.class 1 -
+/WEB-INF/classes/2/114Z.class 1 -
+/WEB-INF/classes/24/926.class 1 -
+/WEB-INF/classes/62/4c.class 1 -
+/WEB-INF/classes/33/2L277/6.class 1 -
+/WEB-INF/classes/1/436.class 1 -
+/WEB-INF/classes/0/6.class 1 -
+/WEB-INF/classes/10/012.class 1 -
+/WEB-INF/classes/1l4/5.class 1 -
+/WEB-INF/classes/270/863.class 1 -
+/WEB-INF/classes/195/6.class 1 -
+/WEB-INF/classes/78/9.class 1 -
+/WEB-INF/classes/96/316.class 1 -
+/WEB-INF/classes/0C171/9.class 1 -
+/WEB-INF/classes/1/443c/432.class 1 -
+/WEB-INF/classes/51/515.class 1 -
+/WEB-INF/classes/M104/721.class 1 -
+/WEB-INF/classes/38/7.class 1 -
+/WEB-INF/classes//616/7.class 1 -
+/WEB-INF/classes/62/029.class 1 -
+/WEB-INF/classes/339/018.class 1 -
+/WEB-INF/classes/M224/3.class 1 -
+/WEB-INF/classes/7/115.class 1 -
+/WEB-INF/classes/2/214.class 1 -
+/WEB-INF/classes/1/261l.class 1 -
+/WEB-INF/classes/1/366/365l.class 1 -
+/WEB-INF/classes/4/016a6/988.class 1 -
+/WEB-INF/classes/7/1.class 1 -
+/WEB-INF/classes//016/04.class 1 -
+/WEB-INF/classes/7/422a7.class 1 -
+/WEB-INF/classes//534/131.class 1 -
+/WEB-INF/classes/219/496.class 1 -
+/WEB-INF/classes/fonts/googleapis/com.class 1 -
+/WEB-INF/classes/6/423.class 1 -
+/WEB-INF/classes//95/69/985/985.class 1 -
+/WEB-INF/classes/M145/3.class 1 -
+/WEB-INF/classes/68/167.class 1 -
+/WEB-INF/classes/M956/292.class 1 -
+/WEB-INF/classes/s0/4.class 1 -
+/WEB-INF/classes/17/991a8.class 1 -
+/WEB-INF/classes/11/746.class 1 -
+/WEB-INF/classes/82/5z.class 1 -
+/WEB-INF/classes/269/1.class 1 -
+/WEB-INF/classes/41/7.class 1 -
+/WEB-INF/classes/106/008.class 1 -
+/WEB-INF/classes/26/064.class 1 -
+/WEB-INF/classes/41/3l15/9.class 1 -
+/WEB-INF/classes/258/509l.class 1 -
+/WEB-INF/classes/27/4.class 1 -
+/WEB-INF/classes/6/767.class 1 -
+/WEB-INF/classes/1/8l8/1.class 1 -
+/WEB-INF/classes//216/031.class 1 -
+/WEB-INF/classes/21/756.class 1 -
+/WEB-INF/classes/13/3.class 1 -
+/WEB-INF/classes/1/928Z.class 1 -
+/WEB-INF/classes/1/593c/389.class 1 -
+/WEB-INF/classes/195/268.class 1 -
+/WEB-INF/classes/315/876.class 1 -
+/WEB-INF/classes/1/4c0/4.class 1 -
+/WEB-INF/classes/227/93.class 1 -
+/WEB-INF/classes/31/6.class 1 -
+/WEB-INF/classes/1/255.class 1 -
+/WEB-INF/classes/1/251.class 1 -
+/WEB-INF/classes/19/3V161/2z.class 1 -
+/%20index.php 3 -
+/WEB-INF/classes/M186/835.class 1 -
+/WEB-INF/classes/2/5/134.class 1 -
+/apple-touch-icon-120x120.png 1 -
+/WEB-INF/classes/31/3z.class 1 -
+/WEB-INF/classes/4/725.class 1 -
+/WEB-INF/classes/M124/8.class 1 -
+/WEB-INF/classes/270/865.class 1 -
+/WEB-INF/classes//589/045.class 1 -
+/WEB-INF/classes/M750/007.class 1 -
+/WEB-INF/classes/64/3L282.class 1 -
+/WEB-INF/classes/4/086.class 1 -
+/WEB-INF/classes/8/3.class 1 -
+/WEB-INF/classes/1/037c.class 1 -
+/WEB-INF/classes/44/919.class 1 -
+/js/pdfview/2000197500107891483 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/12a4/995.class 1 -
+/WEB-INF/classes/115/9.class 1 -
+/WEB-INF/classes/241/8c.class 1 -
+/WEB-INF/classes/54/6l5/1.class 1 -
+/WEB-INF/classes/4/58.class 1 -
+/WEB-INF/classes/41/242.class 1 -
+/WEB-INF/classes/1/217l/649.class 1 -
+/WEB-INF/classes/M904/543.class 1 -
+/WEB-INF/classes/0/8c0/5.class 1 -
+/WEB-INF/classes/12/835.class 1 -
+/WEB-INF/classes/93a57/443.class 1 -
+/WEB-INF/classes/170/5Z.class 1 -
+/WEB-INF/classes/6/112.class 1 -
+/WEB-INF/classes/5/987/77.class 1 -
+/WEB-INF/classes/7/786a1.class 1 -
+/WEB-INF/classes/1/175/045.class 1 -
+/WEB-INF/classes/2/5a1.class 1 -
+/WEB-INF/classes/0/2c0.class 1 -
+/js/angular.min.js.map 8 -
+/WEB-INF/classes/3/159.class 1 -
+/WEB-INF/classes/4/36A40/066.class 1 -
+/WEB-INF/classes/215/1.class 1 -
+/WEB-INF/classes/25/726.class 1 -
+/WEB-INF/classes/75/064l1/241.class 1 -
+/WEB-INF/classes/1/685.class 1 -
+/controller/controller.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/248/478.class 1 -
+/WEB-INF/classes/1/391.class 1 -
+/WEB-INF/classes/140/694.class 1 -
+/WEB-INF/classes/M123/8.class 1 -
+/WEB-INF/classes/36/784.class 1 -
+/WEB-INF/classes/154/177.class 1 -
+/WEB-INF/classes/c7/3.class 1 -
+/WEB-INF/classes/15/367a1.class 1 -
+/WEB-INF/classes/9/688.class 1 -
+/WEB-INF/classes/2/235a1.class 1 -
+/WEB-INF/classes/3/185.class 1 -
+/WEB-INF/classes/23/4.class 1 -
+/WEB-INF/classes/7/251.class 1 -
+/WEB-INF/classes/2/3.class 1 -
+/WEB-INF/classes/M176/3.class 1 -
+/WEB-INF/classes/137/381.class 1 -
+/WEB-INF/classes/15/5c.class 1 -
+/WEB-INF/classes/119/3.class 1 -
+/WEB-INF/classes/8/03a1.class 1 -
+/WEB-INF/classes/963/017.class 1 -
+/WEB-INF/classes//01/271.class 1 -
+/WEB-INF/classes/1/006.class 1 -
+/WEB-INF/classes/110/235l1/839.class 1 -
+/WEB-INF/classes/164/307.class 1 -
+/WEB-INF/classes/2/356a1/025.class 1 -
+/WEB-INF/classes/188/674.class 1 -
+/WEB-INF/classes/3/283.class 1 -
+/WEB-INF/classes/23/437.class 1 -
+/WEB-INF/classes/164/2q.class 1 -
+/WEB-INF/classes/1/428.class 1 -
+/WEB-INF/classes/M231/605.class 1 -
+/WEB-INF/classes/M292/416.class 1 -
+/WEB-INF/classes/5/715.class 1 -
+/WEB-INF/classes/M1002/5.class 1 -
+/WEB-INF/classes/50/9c.class 1 -
+/WEB-INF/classes/M121/1.class 1 -
+/WEB-INF/classes/6/99.class 1 -
+/controller/trace.axd 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/114/474.class 1 -
+/WEB-INF/classes/240/8A1.class 1 -
+/WEB-INF/classes/16/9.class 1 -
+/WEB-INF/classes/293/955l.class 1 -
+/WEB-INF/classes/l1/9.class 1 -
+/WEB-INF/classes/75/064.class 1 -
+/WEB-INF/classes/6/5.class 1 -
+/WEB-INF/classes/81/5l0.class 1 -
+/WEB-INF/classes/13/2.class 1 -
+/WEB-INF/classes/0/9.class 1 -
+/WEB-INF/classes/l1/6.class 1 -
+/WEB-INF/classes/15/2v13/2h.class 1 -
+/WEB-INF/classes/4/139A40/019.class 1 -
+/WEB-INF/classes/10/938Z.class 1 -
+/WEB-INF/classes/72/95.class 1 -
+/WEB-INF/classes/290/9.class 1 -
+/WEB-INF/classes/2/349Z.class 1 -
+/WEB-INF/classes/2/925Z.class 1 -
+/WEB-INF/classes/10/8l6/242.class 1 -
+/WEB-INF/classes/106/758.class 1 -
+/WEB-INF/classes/5/743.class 1 -
+/WEB-INF/classes//012/244a7.class 1 -
+/WEB-INF/classes/4/5.class 1 -
+/WEB-INF/classes/24/135a1.class 1 -
+/WEB-INF/classes/9/76.class 1 -
+/WEB-INF/classes/177/492a6/5.class 1 -
+/WEB-INF/classes/47/1l.class 1 -
+/WEB-INF/classes/23/3l25/5.class 1 -
+/WEB-INF/classes/29/2.class 1 -
+/WEB-INF/classes/294/787A1.class 1 -
+/WEB-INF/classes/7/4.class 1 -
+/WEB-INF/classes/9/659.class 1 -
+/WEB-INF/classes/54/5.class 1 -
+/WEB-INF/classes/1/2l.class 1 -
+/WEB-INF/classes/1/1.class 1 -
+/WEB-INF/classes/1/2s1/1.class 1 -
+/WEB-INF/classes/26/4V114c0.class 1 -
+/WEB-INF/classes/1/385.class 1 -
+/WEB-INF/classes/250/7.class 1 -
+/WEB-INF/classes/215/1c.class 1 -
+/WEB-INF/classes/40/116.class 1 -
+/WEB-INF/classes/M876/837.class 1 -
+/WEB-INF/classes/40/3L62/6.class 1 -
+/WEB-INF/classes/2/015.class 1 -
+/WEB-INF/classes/M113/154.class 1 -
+/WEB-INF/classes/8/09a7/115.class 1 -
+/WEB-INF/classes/47/225.class 1 -
+/WEB-INF/classes/37/4.class 1 -
+/WEB-INF/classes/212/525Zm1/535.class 1 -
+/WEB-INF/classes/6/145.class 1 -
+/WEB-INF/classes/251/6.class 1 -
+/WEB-INF/classes/5/793.class 1 -
+/WEB-INF/classes/1/919/564l2/381.class 1 -
+/www.direitosbc.br/wp-admin/estagio 1 -
+/WEB-INF/classes/194/689a1.class 1 -
+/WEB-INF/classes/8/8c0/1.class 1 -
+/WEB-INF/classes/1/4.class 1 -
+/WEB-INF/classes/M163/2.class 1 -
+/WEB-INF/classes/207/2z.class 1 -
+/WEB-INF/classes/146/2.class 1 -
+/WEB-INF/classes/M995/7.class 1 -
+/WEB-INF/classes/13/92.class 1 -
+/js/jquery.maskMoney.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/9/69.class 1 -
+/WEB-INF/classes/1/393Z.class 1 -
+/WEB-INF/classes/1/767a57/443.class 1 -
+/WEB-INF/classes/59/031.class 1 -
+/WEB-INF/classes/43/6L148.class 1 -
+/WEB-INF/classes/6/242a6/978.class 1 -
+/WEB-INF/classes/225/467l8/647.class 1 -
+/WEB-INF/classes/1/2ZM921.class 1 -
+/WEB-INF/classes/6/129l7/473.class 1 -
+/WEB-INF/classes/210/2H53/3l.class 1 -
+/WEB-INF/classes/1/366/366l.class 1 -
+/WEB-INF/classes/6/028a1.class 1 -
+/WEB-INF/classes/18/6c0.class 1 -
+/WEB-INF/classes/9/927.class 1 -
+/sitemap.xml.gz 2 -
+/WEB-INF/classes/M103/687.class 1 -
+/WEB-INF/classes/1/918/566Z.class 1 -
+/direitosbc.br/wp-admin/post.php 2 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/11/471.class 1 -
+/WEB-INF/classes/8/1.class 1 -
+/WEB-INF/classes/21/1c.class 1 -
+/WEB-INF/classes/40/019.class 1 -
+/WEB-INF/classes/5/293a/986/986.class 1 -
+/WEB-INF/classes/1/243l.class 1 -
+/WEB-INF/classes/2/03q/864.class 1 -
+/WEB-INF/classes/64/3l50/3.class 1 -
+/WEB-INF/classes/24/1L264.class 1 -
+/WEB-INF/classes/65/428.class 1 -
+/WEB-INF/classes/10/273.class 1 -
+/WEB-INF/classes/16/7L226/7.class 1 -
+/wp-json/ 2 http://matriculaonline.direitosbc.br/wp-json/
+/WEB-INF/classes/12/2l.class 1 -
+/WEB-INF/classes/285/7.class 1 -
+/WEB-INF/classes/M30/4.class 1 -
+/WEB-INF/classes/206/3z.class 1 -
+/WEB-INF/classes/M962/794.class 1 -
+/WEB-INF/classes/1/3H147h.class 1 -
+/WEB-INF/classes/232/7.class 1 -
+/js/jquery.min.map 11 -
+/WEB-INF/classes/0/2v0/1c0.class 1 -
+/WEB-INF/classes/0/1L92/8.class 1 -
+/WEB-INF/classes/C173/4.class 1 -
+/WEB-INF/classes/1/687.class 1 -
+/WEB-INF/classes/5/824a1.class 1 -
+/WEB-INF/classes/6/689.class 1 -
+/WEB-INF/classes/8/906Z.class 1 -
+/WEB-INF/classes/1/252.class 1 -
+/WEB-INF/classes/0/4c0.class 1 -
+/WEB-INF/classes/0a10/019.class 1 -
+/WEB-INF/classes/292/377.class 1 -
+/WEB-INF/classes/1/176.class 1 -
+/WEB-INF/classes/287/1.class 1 -
+/WEB-INF/classes/86/015.class 1 -
+/WEB-INF/classes/18a8/037.class 1 -
+/WEB-INF/classes/56/474a1.class 1 -
+/WEB-INF/classes/163/8.class 1 -
+/WEB-INF/classes/196/7.class 1 -
+/WEB-INF/classes/2/11.class 1 -
+/WEB-INF/classes/1/393.class 1 -
+/WEB-INF/classes/0/2l21.class 1 -
+/WEB-INF/classes/127/2z.class 1 -
+/WEB-INF/classes/0/2L214.class 1 -
+/WEB-INF/classes/886/983.class 1 -
+/WEB-INF/classes/286/7.class 1 -
+/WEB-INF/classes/2/5a1/03.class 1 -
+/WEB-INF/classes//022c/015.class 1 -
+/WEB-INF/classes/117/4.class 1 -
+/WEB-INF/classes/45/1c0/1.class 1 -
+/WEB-INF/classes/M112/4.class 1 -
+/WEB-INF/classes/28/991.class 1 -
+/WEB-INF/classes/294/669A1.class 1 -
+/WEB-INF/classes/1/03.class 1 -
+/WEB-INF/classes/8/906.class 1 -
+/WEB-INF/classes/241/8a1.class 1 -
+/WEB-INF/classes/57/478.class 1 -
+/WEB-INF/classes/264/635a6/979.class 1 -
+/WEB-INF/classes/M226/7.class 1 -
+/WEB-INF/classes/7/3.class 1 -
+/WEB-INF/classes/137/383.class 1 -
+/WEB-INF/classes/M115/5.class 1 -
+/WEB-INF/classes/261a6/941.class 1 -
+/WEB-INF/classes/7/2A1.class 1 -
+/WEB-INF/classes/211/4.class 1 -
+/WEB-INF/classes/57/443.class 1 -
+/WEB-INF/classes/17/3.class 1 -
+/WEB-INF/classes/7/008.class 1 -
+/WEB-INF/classes/25/8c0.class 1 -
+/WEB-INF/classes/13/5.class 1 -
+/WEB-INF/classes/227/565.class 1 -
+/WEB-INF/classes/31/3l.class 1 -
+/WEB-INF/classes/2/594.class 1 -
+/WEB-INF/classes/4/4A/985/985.class 1 -
+/WEB-INF/classes/3/677.class 1 -
+/WEB-INF/classes/0/3h72/9l.class 1 -
+/WEB-INF/classes/2/555.class 1 -
+/WEB-INF/classes/4/788.class 1 -
+/WEB-INF/classes/0/3l15/5.class 1 -
+/elmah.axd 1 https://www.direitosbc.br/alunos-graduacao/inscricoes-abertas-para-o-novo-curso-de-atualizacao-gestao-de-escritorio-aceleracao-de-carreiras-para-advogados/
+/WEB-INF/classes/0/1L265.class 1 -
+/WEB-INF/classes/41L177/2.class 1 -
+/WEB-INF/classes//587/192.class 1 -
+/WEB-INF/classes/291/56.class 1 -
+/WEB-INF/classes/102/883.class 1 -
+/js/loading-bar.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/2/8/828Z.class 1 -
+/WEB-INF/classes/146/2Z.class 1 -
+/WEB-INF/classes/251/1z.class 1 -
+/WEB-INF/classes/115/4.class 1 -
+/WEB-INF/classes/63/628.class 1 -
+/WEB-INF/classes/0/4.class 1 -
+/WEB-INF/classes/M92/076.class 1 -
+/WEB-INF/classes/M22/533.class 1 -
+/WEB-INF/classes/7/314c/136/008/271/021/41/021a7.class 1 -
+/WEB-INF/classes/51h193/3l14/9.class 1 -
+/WEB-INF/classes/18/876.class 1 -
+/WEB-INF/classes/197/1z.class 1 -
+/WEB-INF/classes//158/009.class 1 -
+/wp-login.php 1 -
+/WEB-INF/classes/49l51/4.class 1 -
+/WEB-INF/classes/1/025.class 1 -
+/WEB-INF/classes/0/2.class 1 -
+/WEB-INF/classes/7/442.class 1 -
+/WEB-INF/classes//361/014.class 1 -
+/WEB-INF/classes/118/2z.class 1 -
+/WEB-INF/classes/1/311l.class 1 -
+/WEB-INF/classes/275/027a1.class 1 -
+/WEB-INF/classes//237/012l.class 1 -
+/WEB-INF/classes/14/9l74/2.class 1 -
+/WEB-INF/classes/242/4L117/4.class 1 -
+/WEB-INF/classes/248/305Z.class 1 -
+/WEB-INF/classes/h54/5c0/6.class 1 -
+/WEB-INF/classes/93/4.class 1 -
+/WEB-INF/classes/4/97Q899/921.class 1 -
+/WEB-INF/classes/31/1.class 1 -
+/WEB-INF/classes/65/466.class 1 -
+/WEB-INF/classes/40/05.class 1 -
+/WEB-INF/classes/1/246c.class 1 -
+/WEB-INF/classes/9/971.class 1 -
+/WEB-INF/classes/M217/656.class 1 -
+/WEB-INF/classes/3/9.class 1 -
+/WEB-INF/classes/24/9l81/3.class 1 -
+/WEB-INF/classes/242/6a1.class 1 -
+/WEB-INF/classes/142/808.class 1 -
+/WEB-INF/classes/14/1.class 1 -
+/js/bootstrap-select.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/246/638.class 1 -
+/WEB-INF/classes/13/507h0A8.class 1 -
+/WEB-INF/classes/258/509.class 1 -
+/WEB-INF/classes/41/1a9/47.class 1 -
+/WEB-INF/classes/224/8.class 1 -
+/WEB-INF/classes/40/3.class 1 -
+/WEB-INF/classes/86/2l.class 1 -
+/WEB-INF/classes/135/541.class 1 -
+/WEB-INF/classes/116/834.class 1 -
+/WEB-INF/classes/11/67.class 1 -
+/WEB-INF/classes/750/063.class 1 -
+/WEB-INF/classes/1/922Z.class 1 -
+/WEB-INF/classes/4/995.class 1 -
+/WEB-INF/classes/11/811/4.class 1 -
+/WEB-INF/classes/6/006.class 1 -
+/WEB-INF/classes/25/1l.class 1 -
+/WEB-INF/classes/0a10/02.class 1 -
+/WEB-INF/classes/198/366a1.class 1 -
+/WEB-INF/classes/M299/092.class 1 -
+/WEB-INF/classes/2034/093.class 1 -
+/WEB-INF/classes//147l1/13.class 1 -
+/WEB-INF/classes/1/5.class 1 -
+/WEB-INF/classes/150/5.class 1 -
+/WEB-INF/classes/1/7l.class 1 -
+/WEB-INF/classes/66l20/8.class 1 -
+/WEB-INF/classes/9/863.class 1 -
+/WEB-INF/classes/11/269l.class 1 -
+/WEB-INF/classes/2/132Z.class 1 -
+/WEB-INF/classes/M931/091.class 1 -
+/WEB-INF/classes/1/22.class 1 -
+/WEB-INF/classes/5/3L38/5.class 1 -
+/WEB-INF/classes/62/029a11/471.class 1 -
+/WEB-INF/classes/84/51.class 1 -
+/WEB-INF/classes/6/069A7.class 1 -
+/WEB-INF/classes/193l26/8.class 1 -
+/WEB-INF/classes/201/838.class 1 -
+/WEB-INF/classes/184/1h.class 1 -
+/WEB-INF/classes/122/041.class 1 -
+/WEB-INF/classes/40/338.class 1 -
+/js/angular-route.min.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/200/8a1.class 1 -
+/WEB-INF/classes/250/929.class 1 -
+/WEB-INF/classes/0/7v130/1c0.class 1 -
+/WEB-INF/classes/16/906c/043.class 1 -
+/WEB-INF/classes/6/246.class 1 -
+/WEB-INF/classes/62/076.class 1 -
+/WEB-INF/classes/M66/3.class 1 -
+/WEB-INF/classes/0/8l1/6.class 1 -
+/WEB-INF/classes/V170/7z.class 1 -
+/WEB-INF/classes/43/7l27/9.class 1 -
+/WEB-INF/classes/1h150/5c0/6.class 1 -
+/WEB-INF/classes/11/806.class 1 -
+/WEB-INF/classes/43/4c0/4.class 1 -
+/WEB-INF/classes/1/295.class 1 -
+/WEB-INF/classes/16/8l81.class 1 -
+/WEB-INF/classes/13/511h0a8.class 1 -
+/WEB-INF/classes/121/6.class 1 -
+/WEB-INF/classes/152/6z.class 1 -
+/WEB-INF/classes/3/386l8/153.class 1 -
+/WEB-INF/classes/1/218/113l.class 1 -
+/WEB-INF/classes/0/4C116/3.class 1 -
+/WEB-INF/classes/2/276a40/049.class 1 -
+/WEB-INF/classes/0l7/8.class 1 -
+/WEB-INF/classes/1/764q.class 1 -
+/WEB-INF/classes/241/8z.class 1 -
+/WEB-INF/classes/9/47.class 1 -
+/WEB-INF/classes/13/542l.class 1 -
+/WEB-INF/classes/0/8s0/9.class 1 -
+/WEB-INF/classes/2/29a7.class 1 -
+/WEB-INF/classes/12/532A1.class 1 -
+/WEB-INF/classes/298/181.class 1 -
+/WEB-INF/classes/4/36.class 1 -
+/WEB-INF/classes/131/877.class 1 -
+/WEB-INF/classes/1/927/537l2/072.class 1 -
+/WEB-INF/classes/1/064.class 1 -
+/WEB-INF/classes/0/3L36/7.class 1 -
+/WEB-INF/classes/44/9l0.class 1 -
+/WEB-INF/classes/7/7.class 1 -
+/js/pdfview/trace.axd 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/8/859l7/737.class 1 -
+/WEB-INF/classes/1/311Z.class 1 -
+/WEB-INF/classes//091L224/634.class 1 -
+/WEB-INF/classes/M250/416.class 1 -
+/WEB-INF/classes/6/979.class 1 -
+/WEB-INF/classes/262/736.class 1 -
+/WEB-INF/classes/1/016/947.class 1 -
+/WEB-INF/classes/53/826.class 1 -
+/WEB-INF/classes/39/97.class 1 -
+/WEB-INF/classes/M43/08.class 1 -
+/WEB-INF/classes/127/107.class 1 -
+/WEB-INF/classes/M74/783.class 1 -
+/WEB-INF/classes/27/2.class 1 -
+/direitosbc.br/admin/post.php 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/165/5.class 1 -
+/WEB-INF/classes/M62/6.class 1 -
+/WEB-INF/classes/1/707.class 1 -
+/WEB-INF/classes/0/7.class 1 -
+/WEB-INF/classes/M12/113.class 1 -
+/WEB-INF/classes//121/039l.class 1 -
+/WEB-INF/classes/1/764L3/492.class 1 -
+/WEB-INF/classes/56/9.class 1 -
+/WEB-INF/classes/1/559.class 1 -
+/WEB-INF/classes/31/977Z.class 1 -
+/WEB-INF/classes/1h89/3c0/6.class 1 -
+/WEB-INF/classes/35/419.class 1 -
+/WEB-INF/classes/79/081.class 1 -
+/css/bootstrap-select.css.map 15 -
+/WEB-INF/classes/2/541l.class 1 -
+/WEB-INF/classes/8/555a1.class 1 -
+/WEB-INF/classes/1/961Z.class 1 -
+/WEB-INF/classes/1/617L967.class 1 -
+/WEB-INF/classes/2074/144.class 1 -
+/WEB-INF/classes/2/051.class 1 -
+/WEB-INF/classes/M171/8.class 1 -
+/WEB-INF/classes/142/808l1/839.class 1 -
+/WEB-INF/classes/3/108h0a10.class 1 -
+/WEB-INF/classes/104/721.class 1 -
+/WEB-INF/classes/68/2.class 1 -
+/WEB-INF/classes/242/4z.class 1 -
+/WEB-INF/classes/24/1l50/7.class 1 -
+/WEB-INF/classes/1/3l.class 1 -
+/WEB-INF/classes/M13/216.class 1 -
+/WEB-INF/classes/3/394.class 1 -
+/WEB-INF/classes/4/7a3/488.class 1 -
+/WEB-INF/classes/4/5A4/505.class 1 -
+/WEB-INF/classes/120l1/5.class 1 -
+/WEB-INF/classes/2/574h.class 1 -
+/WEB-INF/classes/7/737.class 1 -
+/WEB-INF/classes/9/9.class 1 -
+/WEB-INF/classes/77/6l.class 1 -
+/WEB-INF/classes/291/006a1.class 1 -
+/WEB-INF/classes/1/2l0.class 1 -
+/WEB-INF/classes/92/1.class 1 -
+/WEB-INF/classes/36/8h72/7c0/3.class 1 -
+/WEB-INF/classes/1/922l8/646.class 1 -
+/WEB-INF/classes/281/069a1.class 1 -
+/WEB-INF/classes/2/469.class 1 -
+/WEB-INF/classes/8/847.class 1 -
+/WEB-INF/classes/4/372.class 1 -
+/WEB-INF/classes/1/594/629l4/607.class 1 -
+/WEB-INF/classes/79/3L30/4.class 1 -
+/WEB-INF/classes/1/436l.class 1 -
+/WEB-INF/classes/3/11Zm.class 1 -
+/WEB-INF/classes/173/1V87/6h148/5v85/5H75/8z.class 1 -
+/WEB-INF/classes/6/4L147.class 1 -
+/WEB-INF/classes/241/8.class 1 -
+/WEB-INF/classes/4/25.class 1 -
+/WEB-INF/classes/0/8l.class 1 -
+/WEB-INF/classes/20/695.class 1 -
+/WEB-INF/classes/264/5.class 1 -
+/WEB-INF/classes/62/029ZM962/253.class 1 -
+/WEB-INF/classes//851L764/73.class 1 -
+/WEB-INF/classes/14/2.class 1 -
+/WEB-INF/classes/162/773Z.class 1 -
+/WEB-INF/classes/188/133c/267/952/547.class 1 -
+/WEB-INF/classes/96/286.class 1 -
+/WEB-INF/classes/127/2H170V114c0.class 1 -
+/WEB-INF/classes/M28/617.class 1 -
+/WEB-INF/classes/156/015.class 1 -
+/WEB-INF/classes/63/6.class 1 -
+/WEB-INF/classes/11/127.class 1 -
+/WEB-INF/classes/M1/838.class 1 -
+/WEB-INF/classes/16/4.class 1 -
+/WEB-INF/classes/7/691.class 1 -
+/WEB-INF/classes/0/3l0.class 1 -
+/WEB-INF/classes/8/308.class 1 -
+/WEB-INF/classes/16/766.class 1 -
+/WEB-INF/classes/M951/8.class 1 -
+/WEB-INF/classes/0s0/2.class 1 -
+/sitemap.xml 4 -
+/WEB-INF/classes/39/917.class 1 -
+/WEB-INF/classes/92/61.class 1 -
+/WEB-INF/classes/2/291.class 1 -
+/WEB-INF/classes//162/012.class 1 -
+/WEB-INF/classes/64/2L18/4.class 1 -
+/WEB-INF/classes/1/2l1/9.class 1 -
+/WEB-INF/classes/61/144.class 1 -
+/WEB-INF/classes/3/5.class 1 -
+/WEB-INF/classes/1/9/832.class 1 -
+/WEB-INF/classes/2/5a/989/989.class 1 -
+/sitemaps.xml 2 -
+/WEB-INF/classes/1/013.class 1 -
+/WEB-INF/classes/180/34.class 1 -
+/WEB-INF/classes/12/587.class 1 -
+/WEB-INF/classes/56/9C178/3.class 1 -
+/WEB-INF/classes/0/3c0.class 1 -
+/WEB-INF/classes/11/952.class 1 -
+/WEB-INF/classes/1/9/35/031.class 1 -
+/WEB-INF/classes/M176/563.class 1 -
+/WEB-INF/classes/190/032.class 1 -
+/WEB-INF/classes/74/4.class 1 -
+/WEB-INF/classes/16/033l/476.class 1 -
+/WEB-INF/classes/207/2c.class 1 -
+/WEB-INF/classes/2/7l1/387.class 1 -
+/WEB-INF/classes/210/2z.class 1 -
+/WEB-INF/classes/125/268.class 1 -
+/WEB-INF/classes/254/312a1/013.class 1 -
+/WEB-INF/classes/1/6.class 1 -
+/WEB-INF/classes/98/429.class 1 -
+/WEB-INF/classes/1v9C146/3.class 1 -
+/WEB-INF/classes/8/7h20/3c0/6.class 1 -
+/WEB-INF/classes/14l16/6.class 1 -
+/WEB-INF/classes/187/919.class 1 -
+/WEB-INF/classes/9/428L934.class 1 -
+/%7B%7Bmatricula.linkDownloadContrato%7D%7D 10 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/176/563.class 1 -
+/sitemap_index.xml 2 -
+/WEB-INF/classes/250/6z.class 1 -
+/WEB-INF/classes/11/8h55/5L180/5.class 1 -
+/WEB-INF/classes/227/6Z.class 1 -
+/WEB-INF/classes/77/7L116.class 1 -
+/WEB-INF/classes/1/487.class 1 -
+/WEB-INF/classes/25/9.class 1 -
+/WEB-INF/classes/6/75a1.class 1 -
+/WEB-INF/classes/1/649/357Z.class 1 -
+/WEB-INF/classes/10/064.class 1 -
+/WEB-INF/classes/8/668A1.class 1 -
+/WEB-INF/classes/211/531.class 1 -
+/WEB-INF/classes/1/126.class 1 -
+/WEB-INF/classes/315/859Z.class 1 -
+/WEB-INF/classes/260L13/34.class 1 -
+/WEB-INF/classes//79l1/718.class 1 -
+/WEB-INF/classes/7/3c.class 1 -
+/WEB-INF/classes/1/393l6/265.class 1 -
+/WEB-INF/classes/3/106h0a10/012.class 1 -
+/WEB-INF/classes/258/751.class 1 -
+/WEB-INF/classes/27/517a1.class 1 -
+/WEB-INF/classes/23h44/5L177/4.class 1 -
+/WEB-INF/classes/4/7c0.class 1 -
+/WEB-INF/classes/11/2L115/1.class 1 -
+/WEB-INF/classes/1/868/545.class 1 -
+/WEB-INF/classes/2/362.class 1 -
+/WEB-INF/classes/1/961l.class 1 -
+/WEB-INF/classes/M125/268.class 1 -
+/WEB-INF/classes/232/72a1.class 1 -
+/WEB-INF/classes/12/836.class 1 -
+/WEB-INF/classes/32/1z.class 1 -
+/WEB-INF/classes/144/1l.class 1 -
+/WEB-INF/classes/0/1l.class 1 -
+/WEB-INF/classes/0c0/1.class 1 -
+/WEB-INF/classes/2/4L93/4.class 1 -
+/WEB-INF/classes/12/808/331/016/66/043/987/079.class 1 -
+/WEB-INF/classes/42/8.class 1 -
+/WEB-INF/classes/M38/5.class 1 -
+/WEB-INF/classes/8/335a1.class 1 -
+/WEB-INF/classes/8/5l64/1.class 1 -
+/WEB-INF/classes/1/732.class 1 -
+/WEB-INF/classes/146/1.class 1 -
+/WEB-INF/classes/15/5.class 1 -
+/WEB-INF/classes/49/6.class 1 -
+/WEB-INF/classes/221/7.class 1 -
+/WEB-INF/classes/M132/1.class 1 -
+/WEB-INF/classes/M2/024.class 1 -
+/WEB-INF/classes/7/172.class 1 -
+/WEB-INF/classes//049/865.class 1 -
+/WEB-INF/classes/5/8l.class 1 -
+/WEB-INF/classes/1/269L17/8.class 1 -
+/WEB-INF/classes/c0/1.class 1 -
+/WEB-INF/classes/899/315.class 1 -
+/WEB-INF/classes/199/725.class 1 -
+/WEB-INF/classes/13/2C163/2.class 1 -
+/WEB-INF/classes/215/1z.class 1 -
+/WEB-INF/classes/C146/3.class 1 -
+/WEB-INF/classes/1/56l/918.class 1 -
+/WEB-INF/classes/212/509a1/014.class 1 -
+/WEB-INF/classes/M205/7.class 1 -
+/WEB-INF/classes//214/119.class 1 -
+/WEB-INF/classes/0/2s.class 1 -
+/WEB-INF/classes/179/469a6/477.class 1 -
+/WEB-INF/classes/1/436l6/461.class 1 -
+/WEB-INF/classes/1/777.class 1 -
+/WEB-INF/classes/M962/6.class 1 -
+/js/angular.min.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/3/739a39/956.class 1 -
+/WEB-INF/classes/224/8L121/1.class 1 -
+/js/jquery.alphanumeric.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/279/445.class 1 -
+/WEB-INF/classes/2/32.class 1 -
+/WEB-INF/classes/18/6l0.class 1 -
+/WEB-INF/classes/275/027Z.class 1 -
+/WEB-INF/classes/22/139.class 1 -
+/WEB-INF/classes/M168/7.class 1 -
+/WEB-INF/classes/8/3l.class 1 -
+/WEB-INF/classes/1/616l7/827.class 1 -
+/WEB-INF/classes/166/42.class 1 -
+/WEB-INF/classes/281/284.class 1 -
+/WEB-INF/classes/68/2Z.class 1 -
+/WEB-INF/classes/M263/6.class 1 -
+/WEB-INF/classes/2/2c.class 1 -
+/WEB-INF/classes/233/1c.class 1 -
+/WEB-INF/classes/8/042.class 1 -
+/WEB-INF/classes/183/2a1.class 1 -
+/WEB-INF/classes/M877/689.class 1 -
+/WEB-INF/classes/179/469ZM961.class 1 -
+/WEB-INF/classes/1/918/567l2/263.class 1 -
+/cdn-cgi/rum 6 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/233/1.class 1 -
+/WEB-INF/classes/82/6.class 1 -
+/WEB-INF/classes/173/3.class 1 -
+/WEB-INF/classes/268/7.class 1 -
+/WEB-INF/classes/7/013.class 1 -
+/WEB-INF/classes/228/33a1.class 1 -
+/WEB-INF/classes/1/651.class 1 -
+/WEB-INF/classes/6/052a1.class 1 -
+/WEB-INF/classes/41/269.class 1 -
+/WEB-INF/classes/4/5l.class 1 -
+/WEB-INF/classes//432/1.class 1 -
+/WEB-INF/classes/11/65.class 1 -
+/WEB-INF/classes/4/8v50/1.class 1 -
+/WEB-INF/classes/19/3V151/7z.class 1 -
+/WEB-INF/classes//139/011.class 1 -
+/WEB-INF/classes/185/8Z.class 1 -
+/WEB-INF/classes/1/392.class 1 -
+/WEB-INF/classes//126/01/19/01a7/013.class 1 -
+/WEB-INF/classes/130/6.class 1 -
+/WEB-INF/classes/962/794.class 1 -
+/WEB-INF/classes/120c/091.class 1 -
+/WEB-INF/classes/207/2L124/8.class 1 -
+/WEB-INF/classes/M135/541.class 1 -
+/WEB-INF/classes/184/997.class 1 -
+/WEB-INF/classes/0/7l39/1.class 1 -
+/WEB-INF/classes/60/7l2/6.class 1 -
+/WEB-INF/classes/M91/1.class 1 -
+/WEB-INF/classes/156/727.class 1 -
+/WEB-INF/classes/4/655.class 1 -
+/WEB-INF/classes/43/08.class 1 -
+/WEB-INF/classes/63/258.class 1 -
+/WEB-INF/classes/127/2.class 1 -
+/WEB-INF/classes/52/738.class 1 -
+/WEB-INF/classes/34/4l72/9.class 1 -
+/WEB-INF/classes/113/156.class 1 -
+/WEB-INF/classes/299/092.class 1 -
+/WEB-INF/classes/15/2.class 1 -
+/WEB-INF/classes/4/7.class 1 -
+/WEB-INF/classes/38/16/022c0.class 1 -
+/WEB-INF/classes/M279/445.class 1 -
+/WEB-INF/classes/152/5.class 1 -
+/WEB-INF/classes/2/113/929.class 1 -
+/WEB-INF/classes/62/1.class 1 -
+/WEB-INF/classes/161/2h19/3v2/7h.class 1 -
+/WEB-INF/classes/6/266a1.class 1 -
+/WEB-INF/classes/26/14a1.class 1 -
+/WEB-INF/classes/113/154.class 1 -
+/WEB-INF/classes//244a7/008.class 1 -
+/WEB-INF/classes/7/936.class 1 -
+/WEB-INF/classes/1/617l.class 1 -
+/WEB-INF/classes/10/427l.class 1 -
+/WEB-INF/classes/1s0/4.class 1 -
+/WEB-INF/classes/82/5.class 1 -
+/WEB-INF/classes/2/113/007.class 1 -
+/WEB-INF/classes/7/95a1.class 1 -
+/WEB-INF/classes/4/9a1.class 1 -
+/WEB-INF/classes/198/789a6/943.class 1 -
+/WEB-INF/classes/4/4a1.class 1 -
+/WEB-INF/classes/1/837Z.class 1 -
+/WEB-INF/classes//064/982L901/289.class 1 -
+/WEB-INF/classes/14/2l.class 1 -
+/WEB-INF/classes/90/5.class 1 -
+/WEB-INF/classes/63/258l1/838.class 1 -
+/WEB-INF/classes/13/507h0a8.class 1 -
+/WEB-INF/classes/20ZM231/6.class 1 -
+/WEB-INF/classes/213/645.class 1 -
+/WEB-INF/classes/0C26/134.class 1 -
+/WEB-INF/classes/M32/808.class 1 -
+/WEB-INF/classes//417a57/443.class 1 -
+/WEB-INF/classes/242l5/4.class 1 -
+/js/pdfview/pdf.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/0/8l0.class 1 -
+/WEB-INF/classes/22/817.class 1 -
+/WEB-INF/classes/6/265.class 1 -
+/WEB-INF/classes/M277/6.class 1 -
+/WEB-INF/classes/33/3L91/1.class 1 -
+/WEB-INF/classes/80/654l.class 1 -
+/WEB-INF/classes/6/881.class 1 -
+/WEB-INF/classes/1/718Z.class 1 -
+/WEB-INF/classes/123/43.class 1 -
+/WEB-INF/classes/0a9/933.class 1 -
+/WEB-INF/classes/12/216.class 1 -
+/WEB-INF/classes/106/559.class 1 -
+/WEB-INF/classes/1/7/981/981.class 1 -
+/WEB-INF/classes/228/33Zm1/535.class 1 -
+/WEB-INF/classes//09L266/634.class 1 -
+/WEB-INF/classes/1/222.class 1 -
+/WEB-INF/classes/2/51Z.class 1 -
+/WEB-INF/classes/63/1v22/5H75/8V63/1H224/3z.class 1 -
+/WEB-INF/classes/53/353.class 1 -
+/WEB-INF/classes/223/337.class 1 -
+/WEB-INF/classes/1/568.class 1 -
+/WEB-INF/classes/32/1l16/9.class 1 -
+/WEB-INF/classes/2/55.class 1 -
+/WEB-INF/classes/33/7a11/952.class 1 -
+/WEB-INF/classes/79/7l33/2.class 1 -
+/WEB-INF/classes/320/532l.class 1 -
+/WEB-INF/classes/234/896.class 1 -
+/WEB-INF/classes/154/614l1/6.class 1 -
+/WEB-INF/classes/53/8.class 1 -
+/WEB-INF/classes/2/114.class 1 -
+/WEB-INF/classes/1/94/18.class 1 -
+/WEB-INF/classes/8/555A1.class 1 -
+/WEB-INF/classes/0/4c0/1.class 1 -
+/WEB-INF/classes/13/508C901/134.class 1 -
+/WEB-INF/classes/2/235a1/025.class 1 -
+/WEB-INF/classes/37/532.class 1 -
+/js/angular-animate.min.js.map 11 -
+/WEB-INF/classes/40/715.class 1 -
+/WEB-INF/classes/74/8c0/1.class 1 -
+/WEB-INF/classes/435a8/042.class 1 -
+/WEB-INF/classes/77/6z.class 1 -
+/WEB-INF/classes/242/1.class 1 -
+/WEB-INF/classes/11/3l4.class 1 -
+/WEB-INF/classes/3/022.class 1 -
+/WEB-INF/classes/964/1.class 1 -
+/WEB-INF/classes/290/7.class 1 -
+/WEB-INF/classes/26/1.class 1 -
+/WEB-INF/classes/45/7.class 1 -
+/WEB-INF/classes/244/952.class 1 -
+/WEB-INF/classes/7/152.class 1 -
+/WEB-INF/classes/1/9/621l2/8.class 1 -
+/WEB-INF/classes/8/8.class 1 -
+/WEB-INF/classes/52/5v.class 1 -
+/WEB-INF/classes/wrap/cloud.class 1 -
+/WEB-INF/classes/1/436Z.class 1 -
+/WEB-INF/classes/7/007.class 1 -
+/WEB-INF/classes/10/141L245/1.class 1 -
+/WEB-INF/classes/8/4.class 1 -
+/WEB-INF/classes/0l51/4.class 1 -
+/WEB-INF/classes/4/227l1/759.class 1 -
+/WEB-INF/classes/0C168/8.class 1 -
+/WEB-INF/classes/2/011c.class 1 -
+/WEB-INF/classes/2/843l/821.class 1 -
+/WEB-INF/classes/2/492.class 1 -
+/WEB-INF/classes/65/161c/019.class 1 -
+/WEB-INF/classes/1/9/621l2/795.class 1 -
+/www.direitosbc.br/wp-admin/estagio.php 1 -
+/WEB-INF/classes/M84/174.class 1 -
+/apple-touch-icon-120x120-precomposed.png 1 -
+/WEB-INF/classes/24/371.class 1 -
+/WEB-INF/classes//282l6/461.class 1 -
+/WEB-INF/classes/6/052.class 1 -
+/WEB-INF/classes/5/58.class 1 -
+/WEB-INF/classes/1/278.class 1 -
+/WEB-INF/classes/65/5.class 1 -
+/WEB-INF/classes/6/089a16/766.class 1 -
+/WEB-INF/classes/M901/007.class 1 -
+/WEB-INF/classes/113/6.class 1 -
+/WEB-INF/classes/13/509C750/134.class 1 -
+/WEB-INF/classes/82/5c0.class 1 -
+/WEB-INF/classes/143/904.class 1 -
+/WEB-INF/classes/177/5.class 1 -
+/WEB-INF/classes/7/937a1.class 1 -
+/WEB-INF/classes/51/452.class 1 -
+/WEB-INF/classes/8/9.class 1 -
+/WEB-INF/classes/13/065.class 1 -
+/WEB-INF/classes/1/334.class 1 -
+/WEB-INF/classes/294/787Z.class 1 -
+/WEB-INF/classes/14/936.class 1 -
+/WEB-INF/classes/133/703.class 1 -
+/WEB-INF/classes/M269/023.class 1 -
+/WEB-INF/classes/235/2h.class 1 -
+/WEB-INF/classes/2/183.class 1 -
+/WEB-INF/classes//1/023Z.class 1 -
+/apple-touch-icon-precomposed.png 5 -
+/WEB-INF/classes/1/854Z.class 1 -
+/WEB-INF/classes/M773/316.class 1 -
+/WEB-INF/classes/287/88.class 1 -
+/WEB-INF/classes/53/479a40/05.class 1 -
+/WEB-INF/classes/269/328a1.class 1 -
+/WEB-INF/classes/1/9/629l2/372.class 1 -
+/WEB-INF/classes/23/7z.class 1 -
+/WEB-INF/classes/101/344.class 1 -
+/WEB-INF/classes//642/357Z.class 1 -
+/WEB-INF/classes//014l2/576.class 1 -
+/WEB-INF/classes/7/606a1.class 1 -
+/WEB-INF/classes/192/146.class 1 -
+/WEB-INF/classes/8/631a1.class 1 -
+/WEB-INF/classes/3/9a6/988.class 1 -
+/WEB-INF/classes/3/582a7/032.class 1 -
+/WEB-INF/classes/0/2L9/3.class 1 -
+/WEB-INF/classes/217/656.class 1 -
+/WEB-INF/classes/39/646l1/839.class 1 -
+/WEB-INF/classes/248/305a1.class 1 -
+/WEB-INF/classes//012/162.class 1 -
+/WEB-INF/classes/1/327.class 1 -
+/WEB-INF/classes/1/416.class 1 -
+/WEB-INF/classes/94/2Z.class 1 -
+/WEB-INF/classes/168/534.class 1 -
+/WEB-INF/classes/106/03A7.class 1 -
+/WEB-INF/classes/323a6/975.class 1 -
+/WEB-INF/classes/84/592.class 1 -
+/WEB-INF/classes/186/835.class 1 -
+/WEB-INF/classes/12/12c0.class 1 -
+/WEB-INF/classes/M26/007.class 1 -
+/WEB-INF/classes/277/607.class 1 -
+/WEB-INF/classes/86/624.class 1 -
+/WEB-INF/classes/1/427q.class 1 -
+/WEB-INF/classes/993/49.class 1 -
+/WEB-INF/classes/224/8z.class 1 -
+/WEB-INF/classes//54/027l.class 1 -
+/WEB-INF/classes/13/6h220/4L246/7.class 1 -
+/WEB-INF/classes/3/41/379.class 1 -
+/WEB-INF/classes/1/258/055.class 1 -
+/WEB-INF/classes/112/4.class 1 -
+/WEB-INF/classes/74/8L115/1.class 1 -
+/WEB-INF/classes/118/2l.class 1 -
+/WEB-INF/classes/144/1z.class 1 -
+/WEB-INF/classes/27/2L128/1.class 1 -
+/controller/5793983347543520657 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/281a6/984.class 1 -
+/WEB-INF/classes/62/023.class 1 -
+/WEB-INF/classes/157/854.class 1 -
+/WEB-INF/classes/6/242.class 1 -
+/WEB-INF/classes/1/1l.class 1 -
+/WEB-INF/classes/6/3l0.class 1 -
+/WEB-INF/classes/5/825a1.class 1 -
+/WEB-INF/classes/270/315l.class 1 -
+/WEB-INF/classes/40/052.class 1 -
+/WEB-INF/classes/1/617l7/28.class 1 -
+/WEB-INF/classes/1/435l6/259.class 1 -
+/WEB-INF/classes/5/421.class 1 -
+/WEB-INF/classes/1/9.class 1 -
+/WEB-INF/classes/8/785.class 1 -
+/WEB-INF/classes/240/042.class 1 -
+/WEB-INF/classes/13/507Z.class 1 -
+/WEB-INF/classes/61/8a9/971.class 1 -
+/WEB-INF/classes/M273/605.class 1 -
+/WEB-INF/classes/9/481.class 1 -
+/WEB-INF/classes/12/532A1/006.class 1 -
+/WEB-INF/classes/6/977.class 1 -
+/WEB-INF/classes/1/946.class 1 -
+/apple-touch-icon.png 5 -
+/WEB-INF/classes/1/3Z.class 1 -
+/WEB-INF/classes/6/323.class 1 -
+/WEB-INF/classes//278/039.class 1 -
+/WEB-INF/classes/0/1l52/4.class 1 -
+/WEB-INF/classes/1/466.class 1 -
+/WEB-INF/classes/7/793a1.class 1 -
+/WEB-INF/classes/7/879a1.class 1 -
+/WEB-INF/classes/75/739.class 1 -
+/WEB-INF/classes/3/527/964L973/4.class 1 -
+/WEB-INF/classes/3/2l6/006.class 1 -
+/WEB-INF/classes/129/4.class 1 -
+/WEB-INF/classes/1l4/227.class 1 -
+/WEB-INF/classes/9/193.class 1 -
+/WEB-INF/classes/1/436L48/408.class 1 -
+/WEB-INF/classes/255/2a1.class 1 -
+/WEB-INF/classes/127/7.class 1 -
+/WEB-INF/classes/5/646.class 1 -
+/WEB-INF/classes/13/607a1.class 1 -
+/WEB-INF/classes/6/9c.class 1 -
+/WEB-INF/classes/117/814.class 1 -
+/WEB-INF/classes/166/2z.class 1 -
+/WEB-INF/classes/1/534.class 1 -
+/WEB-INF/classes/16/324.class 1 -
+/WEB-INF/classes/1132/73.class 1 -
+/WEB-INF/classes/wrap/white.class 1 -
+/WEB-INF/classes/27/445.class 1 -
+/WEB-INF/classes/2/066.class 1 -
+/WEB-INF/classes/267/185.class 1 -
+/WEB-INF/classes/M12/87.class 1 -
+/WEB-INF/classes/12/542.class 1 -
+/WEB-INF/classes/20/3.class 1 -
+/WEB-INF/classes/23/612.class 1 -
+/WEB-INF/classes/0/3.class 1 -
+/WEB-INF/classes/164/45.class 1 -
+/WEB-INF/classes/5/006.class 1 -
+/WEB-INF/classes/2/113/431/5q1/239/2.class 1 -
+/WEB-INF/classes/0/7l.class 1 -
+/WEB-INF/classes//429/237.class 1 -
+/WEB-INF/classes/M246/7.class 1 -
+/trace.axd 1 https://www.direitosbc.br/alunos-graduacao/inscricoes-abertas-para-o-novo-curso-de-atualizacao-gestao-de-escritorio-aceleracao-de-carreiras-para-advogados/
+/WEB-INF/classes/30/986.class 1 -
+/WEB-INF/classes//875/452.class 1 -
+/WEB-INF/classes/65/5c0.class 1 -
+/WEB-INF/classes/184/1z.class 1 -
+/WEB-INF/classes/339/023a1.class 1 -
+/WEB-INF/classes/1/078.class 1 -
+/WEB-INF/applicationContext.xml 1 -
+/WEB-INF/classes/901/064.class 1 -
+/WEB-INF/classes/168/13.class 1 -
+/js/jquery.min.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/4/883.class 1 -
+/WEB-INF/classes/1/0.class 1 -
+/WEB-INF/classes//082/012.class 1 -
+/WEB-INF/classes/8/1l.class 1 -
+/WEB-INF/classes/64/2z.class 1 -
+/WEB-INF/classes/177/3.class 1 -
+/WEB-INF/classes/292/9L46/7.class 1 -
+/WEB-INF/classes/10/049.class 1 -
+/WEB-INF/classes/121/1.class 1 -
+/WEB-INF/classes/3/106Zm0.class 1 -
+/WEB-INF/classes/M73/9.class 1 -
+/WEB-INF/classes/11/918.class 1 -
+/WEB-INF/classes/1/165Zm.class 1 -
+/WEB-INF/classes/19/3.class 1 -
+/WEB-INF/classes/18c9/9.class 1 -
+/WEB-INF/classes/206/8.class 1 -
+/WEB-INF/classes/144/921.class 1 -
+/WEB-INF/classes/1/7L245/2.class 1 -
+/WEB-INF/classes/61/5.class 1 -
+/WEB-INF/classes/251/6c.class 1 -
+/WEB-INF/classes/12/87.class 1 -
+/WEB-INF/classes/1/067c/7.class 1 -
+/WEB-INF/classes/176/113.class 1 -
+/WEB-INF/classes/2/965l.class 1 -
+/WEB-INF/classes/39/726.class 1 -
+/WEB-INF/classes/0/8.class 1 -
+/WEB-INF/classes/2/268Z.class 1 -
+/WEB-INF/classes/2/163.class 1 -
+/WEB-INF/classes/15/6.class 1 -
+/WEB-INF/classes/1/842.class 1 -
+/WEB-INF/classes/1/187.class 1 -
+/WEB-INF/classes/230/463l7/936.class 1 -
+/actuator/health 2 https://www.direitosbc.br/alunos-graduacao/inscricoes-abertas-para-o-novo-curso-de-atualizacao-gestao-de-escritorio-aceleracao-de-carreiras-para-advogados/
+/WEB-INF/classes/187/309Z.class 1 -
+/WEB-INF/classes/27/84l1/084.class 1 -
+/WEB-INF/classes/2/742.class 1 -
+/WEB-INF/classes/4/227.class 1 -
+/WEB-INF/classes/113a7/012.class 1 -
+/WEB-INF/classes/127/1l23/2.class 1 -
+/WEB-INF/classes/1/809Z.class 1 -
+/WEB-INF/classes/M177/4.class 1 -
+/WEB-INF/classes/168/7.class 1 -
+/WEB-INF/classes/94/448.class 1 -
+/WEB-INF/classes/12/113.class 1 -
+/WEB-INF/classes/274/909A1.class 1 -
+/WEB-INF/classes/1/2l5/109.class 1 -
+/WEB-INF/classes/122/8.class 1 -
+/WEB-INF/classes/7/792A1.class 1 -
+/WEB-INF/classes/3/768a/981/981.class 1 -
+/WEB-INF/classes/238/2.class 1 -
+/WEB-INF/classes/166/42l/6/691c/07.class 1 -
+/WEB-INF/classes/269/1z.class 1 -
+/WEB-INF/classes/2/7V114.class 1 -
+/WEB-INF/classes/7/032.class 1 -
+/WEB-INF/classes/0/1s0.class 1 -
+/WEB-INF/classes/7/66a6/977.class 1 -
+/WEB-INF/classes/1/982c.class 1 -
+/WEB-INF/classes//757/114.class 1 -
+/WEB-INF/classes/956/292.class 1 -
+/WEB-INF/classes/99/5z.class 1 -
+/WEB-INF/classes//959/717.class 1 -
+/WEB-INF/classes/203/952.class 1 -
+/WEB-INF/classes/0/1L112.class 1 -
+/WEB-INF/classes/0/5.class 1 -
+/WEB-INF/classes/44/1l.class 1 -
+/WEB-INF/classes/0/1l30/7.class 1 -
+/WEB-INF/classes/89/212.class 1 -
+/WEB-INF/classes/2/5l16/8.class 1 -
+/WEB-INF/classes/233/1z.class 1 -
+/WEB-INF/classes/10/8.class 1 -
+/WEB-INF/classes/30/6.class 1 -
+/WEB-INF/classes/2/113.class 1 -
+/WEB-INF/classes/4/276A1.class 1 -
+/WEB-INF/classes/287/1z.class 1 -
+/WEB-INF/classes/236/365.class 1 -
+/WEB-INF/classes/64/8.class 1 -
+/WEB-INF/classes/0/1c0.class 1 -
+/WEB-INF/classes/1/9ZM891.class 1 -
+/WEB-INF/classes/C165/7.class 1 -
+/WEB-INF/classes/0/3H52/9c.class 1 -
+/WEB-INF/classes/1/838.class 1 -
+/WEB-INF/classes/6/975.class 1 -
+/WEB-INF/classes/151/7h19/3v2/7h.class 1 -
+/WEB-INF/classes/10/02.class 1 -
+/WEB-INF/classes/27/84.class 1 -
+/WEB-INF/classes/M900/389.class 1 -
+/WEB-INF/classes/M177/2.class 1 -
+/WEB-INF/classes/9/4c0/1.class 1 -
+/WEB-INF/classes/14/763.class 1 -
+/WEB-INF/classes/M166/288.class 1 -
+/WEB-INF/classes/114/885.class 1 -
+/WEB-INF/classes/1/911Z.class 1 -
+/WEB-INF/classes/1/927/537l2/419.class 1 -
+/WEB-INF/classes/1/595Z.class 1 -
+/WEB-INF/classes/8/9c.class 1 -
+/WEB-INF/classes/12/3c.class 1 -
+/WEB-INF/classes/12/2L14/6.class 1 -
+/WEB-INF/classes/8/647.class 1 -
+/WEB-INF/classes/11h7/3h4/7h28/4h4/7h7/3L176/3.class 1 -
+/WEB-INF/classes/23/7l1/9.class 1 -
+/WEB-INF/classes/61/1H74/8c.class 1 -
+/WEB-INF/classes/1/022l/571.class 1 -
+/WEB-INF/classes/28/3z.class 1 -
+/WEB-INF/classes/2/643.class 1 -
+/WEB-INF/classes/6/781.class 1 -
+/WEB-INF/classes/127/3l36.class 1 -
+/WEB-INF/classes/2/39.class 1 -
+/WEB-INF/classes/177/8.class 1 -
+/WEB-INF/classes/138/194.class 1 -
+/WEB-INF/classes/44/7.class 1 -
+/WEB-INF/classes/5/294a1.class 1 -
+/WEB-INF/classes/M739/316.class 1 -
+/WEB-INF/classes/18v13/2h.class 1 -
+/WEB-INF/classes/198/948.class 1 -
+/WEB-INF/classes/8/1a6/972.class 1 -
+/WEB-INF/classes/35/1L187.class 1 -
+/WEB-INF/classes/61/789.class 1 -
+/WEB-INF/classes/2/535.class 1 -
+/WEB-INF/classes/1/641Z.class 1 -
+/WEB-INF/classes/4/252/444.class 1 -
+/WEB-INF/classes/2/7h20/3c0/6.class 1 -
+/WEB-INF/classes/749/994.class 1 -
+/WEB-INF/classes/1002/5.class 1 -
+/WEB-INF/classes/0/1C290/7.class 1 -
+/WEB-INF/classes/145/4l.class 1 -
+/WEB-INF/classes/0/005.class 1 -
+/WEB-INF/classes/39/646.class 1 -
+/resources/css/pdfview.css 759 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/159/545l2/55.class 1 -
+/WEB-INF/classes/1/825.class 1 -
+/WEB-INF/classes/96/316l1/838.class 1 -
+/WEB-INF/classes/6/952.class 1 -
+/WEB-INF/classes//419L871/4.class 1 -
+/WEB-INF/classes/7/609c.class 1 -
+/WEB-INF/classes//009/237.class 1 -
+/WEB-INF/classes/287/3c0/2.class 1 -
+/WEB-INF/classes/1/7.class 1 -
+/WEB-INF/classes/1/882l27/929.class 1 -
+/js/script.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/63/4.class 1 -
+/WEB-INF/classes/2/293c0.class 1 -
+/WEB-INF/classes/178/226.class 1 -
+/WEB-INF/classes/6/988.class 1 -
+/WEB-INF/classes/8/646.class 1 -
+/WEB-INF/classes/M136/509.class 1 -
+/WEB-INF/classes/251/6z.class 1 -
+/WEB-INF/classes/1/021l/571.class 1 -
+/WEB-INF/classes/29/8.class 1 -
+/WEB-INF/classes/6/477.class 1 -
+/WEB-INF/classes/7/617.class 1 -
+/WEB-INF/classes/8/037.class 1 -
+/WEB-INF/classes/166/2v.class 1 -
+/WEB-INF/classes/39/516.class 1 -
+/WEB-INF/classes/1/317l.class 1 -
+/WEB-INF/classes/287/1c.class 1 -
+/WEB-INF/classes/M173/3.class 1 -
+/WEB-INF/classes/11/3v34/4L66/3.class 1 -
+/WEB-INF/classes/0L147/1.class 1 -
+/WEB-INF/classes/53/631.class 1 -
+/WEB-INF/classes/29/9.class 1 -
+/WEB-INF/classes/0/1.class 1 -
+/WEB-INF/classes/250/316.class 1 -
+/WEB-INF/classes/M2034/093.class 1 -
+/WEB-INF/classes/M886/983.class 1 -
+/WEB-INF/classes/174/724.class 1 -
+/WEB-INF/classes/131/734.class 1 -
+/WEB-INF/classes/20v13/2h.class 1 -
+/WEB-INF/classes/57/039a1.class 1 -
+/WEB-INF/classes/M129/751.class 1 -
+/WEB-INF/classes/223A6/952.class 1 -
+/WEB-INF/classes/165/6.class 1 -
+/WEB-INF/classes/3/386l.class 1 -
+/WEB-INF/classes/23/164a14/936.class 1 -
+/WEB-INF/classes/16/939a1.class 1 -
+/WEB-INF/classes/M987/248.class 1 -
+/WEB-INF/classes/1/2c0/5.class 1 -
+/WEB-INF/classes/4/185a1.class 1 -
+/WEB-INF/classes/1/739c.class 1 -
+/WEB-INF/classes/0l1/9.class 1 -
+/WEB-INF/classes/23/3z.class 1 -
+/WEB-INF/classes/4/505.class 1 -
+/WEB-INF/classes/60/7l1.class 1 -
+/WEB-INF/classes/272/428.class 1 -
+/WEB-INF/classes/17/8.class 1 -
+/WEB-INF/classes/211/531l.class 1 -
+/WEB-INF/classes/1/669.class 1 -
+/WEB-INF/classes/30/966.class 1 -
+/WEB-INF/classes/119/928.class 1 -
+/WEB-INF/classes/269/1c.class 1 -
+/WEB-INF/classes/74/8.class 1 -
+/WEB-INF/classes/284/234.class 1 -
+/WEB-INF/classes/1/8.class 1 -
+/WEB-INF/classes/4/227l1/838.class 1 -
+/WEB-INF/classes/129/621.class 1 -
+/WEB-INF/classes/239/123.class 1 -
+/WEB-INF/classes/40/4a1.class 1 -
+/WEB-INF/classes/76/107.class 1 -
+/WEB-INF/classes/22/923h0a11/471.class 1 -
+/WEB-INF/classes/45/7l20/2.class 1 -
+/WEB-INF/classes/5/984.class 1 -
+/WEB-INF/classes/128/2.class 1 -
+/WEB-INF/classes/55/193.class 1 -
+/WEB-INF/classes/197/1c.class 1 -
+/WEB-INF/classes/1/3.class 1 -
+/WEB-INF/classes/s0/9.class 1 -
+/WEB-INF/classes/14/914A1.class 1 -
+/WEB-INF/classes/250/6.class 1 -
+/WEB-INF/classes/2/8.class 1 -
+/WEB-INF/classes/1/2l5/4.class 1 -
+/WEB-INF/classes/0/6c0/5.class 1 -
+/WEB-INF/classes/3/91.class 1 -
+/WEB-INF/classes/1/435L15/2.class 1 -
+/WEB-INF/classes/39/956.class 1 -
+/WEB-INF/classes/9/645.class 1 -
+/WEB-INF/classes/142/3h19/3v2/7h.class 1 -
+/WEB-INF/classes/1c0/5.class 1 -
+/WEB-INF/classes/2/114/384/442c/508.class 1 -
+/WEB-INF/classes/237/01.class 1 -
+/js/angular-animate.min.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/215/759.class 1 -
+/WEB-INF/classes/M53/3.class 1 -
+/WEB-INF/classes/739/316.class 1 -
+/WEB-INF/classes//851l24/356.class 1 -
+/WEB-INF/classes/195/27.class 1 -
+/WEB-INF/classes/162/773a1.class 1 -
+/WEB-INF/classes/21/066L910/9.class 1 -
+/WEB-INF/classes/28/3l32/4.class 1 -
+/WEB-INF/classes/3/046.class 1 -
+/WEB-INF/classes/208/226l.class 1 -
+/WEB-INF/classes/2/483.class 1 -
+/WEB-INF/classes/16/033.class 1 -
+/WEB-INF/classes/1/2.class 1 -
+/WEB-INF/classes/6/972.class 1 -
+/sitemap.txt 4 -
+/WEB-INF/classes/130/656Z.class 1 -
+/WEB-INF/classes/226/092.class 1 -
+/WEB-INF/classes/c0/3.class 1 -
+/WEB-INF/classes//969/764.class 1 -
+/WEB-INF/classes/262/6.class 1 -
+/WEB-INF/classes/114/996.class 1 -
+/WEB-INF/classes/15/5c0/1.class 1 -
+/WEB-INF/classes/3/488.class 1 -
+/js/mask.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/9/995.class 1 -
+/WEB-INF/classes/12/3.class 1 -
+/WEB-INF/classes/1/7L287/2.class 1 -
+/WEB-INF/classes/15/5c0/2.class 1 -
+/WEB-INF/classes/1/68.class 1 -
+/WEB-INF/classes//278/04.class 1 -
+/WEB-INF/classes/270/315.class 1 -
+/WEB-INF/classes/6/461a1.class 1 -
+/WEB-INF/classes/304/486l.class 1 -
+/WEB-INF/classes/99/6l.class 1 -
+/WEB-INF/classes/1/65.class 1 -
+/WEB-INF/classes/M289/718.class 1 -
+/WEB-INF/classes/5/845.class 1 -
+/WEB-INF/classes/30/968.class 1 -
+/WEB-INF/classes/948/879.class 1 -
+/WEB-INF/classes/1/392L143/419.class 1 -
+/WEB-INF/classes/24/2.class 1 -
+/WEB-INF/classes/773/316.class 1 -
+/WEB-INF/classes/7/012.class 1 -
+/WEB-INF/classes/187/309a40/338.class 1 -
+/WEB-INF/classes/1/843q/114.class 1 -
+/WEB-INF/classes/214/7.class 1 -
+/WEB-INF/classes/0/1c.class 1 -
+/WEB-INF/classes/163/2.class 1 -
+/WEB-INF/classes/82/396.class 1 -
+/WEB-INF/classes/12/4L112/4.class 1 -
+/WEB-INF/classes/260/622.class 1 -
+/WEB-INF/classes/215/817.class 1 -
+/WEB-INF/classes/7/793A1.class 1 -
+/WEB-INF/classes/2/6l20/9.class 1 -
+/WEB-INF/classes/0/1l0.class 1 -
+/WEB-INF/classes/5/3l26/2.class 1 -
+/WEB-INF/classes/1/2Z.class 1 -
+/WEB-INF/classes/1/609q1/152/791.class 1 -
+/WEB-INF/classes/25/456.class 1 -
+/WEB-INF/classes/197/1.class 1 -
+/WEB-INF/classes/55/195.class 1 -
+/WEB-INF/classes/4/2l6/07.class 1 -
+/WEB-INF/classes/M137/141.class 1 -
+/WEB-INF/classes/M287/88.class 1 -
+/WEB-INF/classes/82/2.class 1 -
+/WEB-INF/classes/M3/022.class 1 -
+/WEB-INF/classes/74/8z.class 1 -
+/WEB-INF/classes/61/1.class 1 -
+/WEB-INF/classes/1/613.class 1 -
+/WEB-INF/classes/291/006Z.class 1 -
+/WEB-INF/classes/8/8C125/7.class 1 -
+/WEB-INF/classes/133/848.class 1 -
+/WEB-INF/classes/7/073c/744.class 1 -
+/WEB-INF/classes/3/9a1.class 1 -
+/WEB-INF/classes/212/525a1.class 1 -
+/WEB-INF/classes/135/8a1.class 1 -
+/WEB-INF/classes/1/955.class 1 -
+/WEB-INF/classes/277/9.class 1 -
+/WEB-INF/classes/M39/924.class 1 -
+/WEB-INF/classes/M236/365.class 1 -
+/WEB-INF/classes/C290/9.class 1 -
+/WEB-INF/classes/145/3.class 1 -
+/WEB-INF/classes/8/632a1.class 1 -
+/WEB-INF/classes//268l6/739.class 1 -
+/WEB-INF/classes/248/815.class 1 -
+/WEB-INF/classes/M57/217.class 1 -
+/WEB-INF/classes/6/812A6/99.class 1 -
+/WEB-INF/classes/1/037.class 1 -
+/WEB-INF/classes/72/062.class 1 -
+/WEB-INF/classes/22/9C963/24.class 1 -
+/WEB-INF/classes/2/081.class 1 -
+/WEB-INF/classes/20a9/971.class 1 -
+/WEB-INF/classes/178/401.class 1 -
+/WEB-INF/classes/3/893Z.class 1 -
+/WEB-INF/classes/1/192.class 1 -
+/WEB-INF/classes/19/257.class 1 -
+/WEB-INF/classes/152/6l19/6.class 1 -
+/WEB-INF/classes/M115/1.class 1 -
+/WEB-INF/classes/173/4.class 1 -
+/WEB-INF/classes/C226/3.class 1 -
+/WEB-INF/classes/3/9L163/8.class 1 -
+/WEB-INF/classes/10/141L287/1.class 1 -
+/WEB-INF/classes/www/w3/org.class 1 -
+/WEB-INF/classes/207/383.class 1 -
+/WEB-INF/classes/296/068.class 1 -
+/WEB-INF/classes/7/624A7/007.class 1 -
+/WEB-INF/classes/57/445.class 1 -
+/WEB-INF/classes/20/3v.class 1 -
+/WEB-INF/classes/22/815.class 1 -
+/WEB-INF/classes/2/022c.class 1 -
+/js/bootstrap.min.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/274/542.class 1 -
+/WEB-INF/classes/5/5L69/7.class 1 -
+/WEB-INF/classes/8/11.class 1 -
+/js/angular-locale_pt-br.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/6/461.class 1 -
+/WEB-INF/classes/1/745l.class 1 -
+/WEB-INF/classes/1/134.class 1 -
+/WEB-INF/classes/184/1L176/3.class 1 -
+/WEB-INF/classes/M165/5.class 1 -
+/WEB-INF/classes/1/033.class 1 -
+/WEB-INF/classes/130/656l.class 1 -
+/WEB-INF/classes/1/922ZM107.class 1 -
+/WEB-INF/classes/5/038c.class 1 -
+/WEB-INF/classes/l14/1.class 1 -
+/WEB-INF/classes/206/3.class 1 -
+/WEB-INF/classes/187/2.class 1 -
+/WEB-INF/classes/130/9.class 1 -
+/WEB-INF/classes/231/605.class 1 -
+/WEB-INF/classes/M177/3.class 1 -
+/WEB-INF/classes/1/393l.class 1 -
+/WEB-INF/classes/0l46/5.class 1 -
+/WEB-INF/classes/M90/765.class 1 -
+/WEB-INF/classes/57/431.class 1 -
+/WEB-INF/classes/225/3.class 1 -
+/WEB-INF/classes/3/106h0A10/012.class 1 -
+/WEB-INF/classes/238/203.class 1 -
+/WEB-INF/classes/1/5l26/128.class 1 -
+/WEB-INF/classes/0l0/1.class 1 -
+/WEB-INF/classes/4/227l1/839.class 1 -
+/WEB-INF/classes/1/215Z.class 1 -
+/WEB-INF/classes/2/62.class 1 -
+/WEB-INF/classes/223/337l.class 1 -
+/WEB-INF/classes/6/228a7/691.class 1 -
+/WEB-INF/classes/1/02.class 1 -
+/WEB-INF/classes//67/768c/547/125.class 1 -
+/WEB-INF/classes/V147h20/3c0/6.class 1 -
+/WEB-INF/classes/32/4.class 1 -
+/WEB-INF/classes/226/4a1.class 1 -
+/WEB-INF/classes/7A7/008.class 1 -
+/js/qrcode.min.js/ 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/7/255.class 1 -
+/WEB-INF/classes/61/1z.class 1 -
+/WEB-INF/classes/1/961ZM25.class 1 -
+/WEB-INF/classes/6/259a1.class 1 -
+/WEB-INF/classes//012l2/219.class 1 -
+/WEB-INF/classes/167/5.class 1 -
+/WEB-INF/classes/250/6c.class 1 -
+/WEB-INF/classes/1/029.class 1 -
+/WEB-INF/classes/8/9c0/1.class 1 -
+/WEB-INF/classes/15/2c.class 1 -
+/WEB-INF/classes/16/033l1/753.class 1 -
+/WEB-INF/classes/10/386.class 1 -
+/WEB-INF/classes/6/978.class 1 -
+/WEB-INF/classes/170/5a4/5.class 1 -
+/WEB-INF/classes/1/634.class 1 -
+/WEB-INF/classes/8/028a1.class 1 -
+/WEB-INF/classes/246/636.class 1 -
+/WEB-INF/classes/7/9L116.class 1 -
+/WEB-INF/classes/34/646.class 1 -
+/WEB-INF/classes/207/2.class 1 -
+/WEB-INF/classes/35/2l1/9.class 1 -
+/WEB-INF/classes/1/745l7/853.class 1 -
+/WEB-INF/classes/64/3z.class 1 -
+/WEB-INF/classes/M180/5.class 1 -
+/WEB-INF/classes/42/022.class 1 -
+/2486799673958781711.php 1 https://www.direitosbc.br/alunos-graduacao/inscricoes-abertas-para-o-novo-curso-de-atualizacao-gestao-de-escritorio-aceleracao-de-carreiras-para-advogados/
+/WEB-INF/classes/2/332.class 1 -
+/WEB-INF/classes/234/9l.class 1 -
+/WEB-INF/classes/4/721.class 1 -
+/js/6450387717498722126 1 https://matriculaonline.direitosbc.br/index.php
+/WEB-INF/classes/171/8.class 1 -
+/WEB-INF/classes/2/486/379l/76.class 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 575
+172.104.26.169 310 608 1839825 20240330213640
+201.63.196.26 267 1149 17518540 20240328204404
+45.183.83.2 52 74 486023 20240331122723
+201.75.149.169 23 23 26871 20240324040715
+2804:1b3:a400:b1bc:68b3:450f:e065:39d5 22 22 37774 20240326182251
+187.56.115.239 20 20 21918 20240308163716
+177.9.97.115 14 14 30950 20240315201909
+187.51.2.74 14 14 18791 20240305165623
+187.73.183.66 14 14 11660 20240306200234
+2804:14d:78c4:4cfe:8db8:3cea:8b3c:15da 13 13 14427 20240321001801
+2a03:2880:ff:15::face:b00c 0 6 250689 
+2804:14d:78a6:9264:6490:36a0:f038:5c65 3 3 1701 20240322210325
+2804:14c:101:9267:51bf:e88a:64e7:3cfc 2 2 1396 20240326144921
+34.239.120.15 2 2 1412 20240327111320
+2804:14d:7840:842a:3ba9:7944:2e56:34f3 2 2 1396 20240314003758
+201.56.167.71 3 3 1701 20240302001128
+191.23.67.176 8 8 6116 20240305015443
+2804:14d:78d6:832c:c509:b5cc:fe53:fd6f 3 3 1701 20240313211043
+2804:14d:78c3:8e1d:5c83:3962:542c:3d2e 6 6 9501 20240313193557
+2804:14d:7833:83e0:89c9:86a4:ab31:df6a 2 2 1396 20240314013602
+2804:1b3:a982:27a0:ce1:cc5:9fe9:824e 3 3 1700 20240304222626
+2804:14c:115:8105:8013:874a:3755:a0b6 2 3 51403 20240321185039
+2804:14d:7893:8d3c:80f8:ff03:beba:7d73 6 6 9501 20240326210506
+2804:14d:7897:9427:5dc3:3154:25cc:46c4 11 11 26670 20240328200801
+123.6.49.9 2 24 416629 20240307232355
+2804:14d:78a0:8818:c246:1db4:8c0:1d41 3 3 1701 20240314103305
+2804:14d:7893:908f:d5:1248:b92:328c 3 3 1700 20240302213841
+187.51.40.250 2 2 1396 20240325171445
+2a03:2880:ff:16::face:b00c 1 1 706 20240314132342
+2804:7f0:bec1:9be7:85fb:6832:c964:64ff 10 10 6226 20240310215543
+185.180.143.15 2 2 1398 20240303054902
+179.113.63.137 3 3 1701 20240329051803
+201.1.36.31 3 3 1701 20240311165125
+95.95.99.252 3 25 417325 20240321203010
+2804:37c4:81f7:430:1a5f:8a1f:eb59:5659 9 9 8133 20240306201612
+2804:14c:150:84db:6dbe:4427:5545:422a 3 3 1701 20240327123312
+2804:3d90:802e:bd01:3df4:91b8:3d9d:1ac5 2 3 2745 20240320113623
+3.235.89.250 2 2 1412 20240325181935
+87.236.176.129 1 1 699 20240318123839
+2804:7f0:9bc0:129a:b89b:ed6:58d3:e35 1 1 917 20240301124107
+170.79.74.4 3 25 417326 20240309113022
+187.3.148.99 3 4 3048 20240305194716
+2804:18:15b:5d65:cfd:ed6e:1c28:9817 3 3 1701 20240304143949
+40.94.102.22 2 24 417019 20240302011720
+2804:14d:789d:8697:78e3:f463:a97f:e4d7 4 5 10412 20240327095713
+66.102.6.9 0 8 195855 
+104.165.199.138 1 1 706 20240313193042
+2804:14d:8e8f:5ce3:349c:4870:bb98:405 3 3 1701 20240328222044
+177.170.30.13 2 2 1396 20240315150745
+177.102.188.236 4 4 3891 20240328193345
+189.29.145.130 6 6 3803 20240326192704
+2804:7f0:bec2:f46:dca5:e799:87a0:e64d 5 5 7310 20240312143827
+2804:388:c2ac:f93f:2c83:f31:2501:55fa 1 1 706 20240318014429
+167.100.105.120 1 1 706 20240313184529
+189.126.205.59 12 12 8942 20240308121842
+201.55.50.73 3 3 1701 20240301163806
+2804:14d:789d:8697:5975:bd09:5c39:753e 3 3 1701 20240313204443
+190.171.75.251 2 2 1154 20240302014711
+2804:18:1140:9cef:8cc1:f400:3839:48a8 2 2 1004 20240320152835
+147.161.128.187 5 17 299502 20240302012305
+179.111.105.101 3 4 3050 20240312213923
+2804:7f0:b301:2f8b:b0ce:48c9:3dfc:a4ab 5 6 55912 20240316133057
+2804:14d:783d:211b:a86c:8aa5:1488:297e 4 4 3714 20240307160247
+200.158.81.59 3 4 11038 20240327192102
+34.95.146.177 2 2 995 20240322193924
+2804:14d:789d:4fee:39ff:8d19:69b7:f0e2 1 1 705 20240324175707
+199.45.154.51 1 1 699 20240314031337
+2804:388:e079:eda0:688a:d363:8f81:b54b 3 3 1701 20240318145359
+186.193.232.124 9 9 11202 20240327134222
+191.182.180.194 3 3 1701 20240325214446
+199.45.154.67 2 2 1398 20240314010627
+23.22.128.184 1 1 706 20240322215637
+2804:1b3:a982:6fd7:ad99:3206:e383:b294 2 2 1396 20240315011050
+2804:388:c2ce:dd35:447e:c770:3fd:d2ae 3 3 1700 20240323225841
+3.88.148.124 1 1 706 20240327174720
+2a03:2880:20ff:74::face:b00c 0 2 13086 
+44.208.23.219 2 2 1412 20240327201653
+189.29.180.235 12 12 30635 20240325185923
+2804:14d:7848:8aba::9f70 5 5 4421 20240327201811
+2804:7f0:bac3:ebd5:212f:3fbe:b375:27a4 1 1 704 20240322173902
+2804:14d:783d:c821:2c8e:fba0:c06f:91ea 5 5 4421 20240326132930
+2804:1b3:a580:ce03:9197:c576:b90:7e73 6 6 9501 20240321131644
+136.226.63.10 5 9 148095 20240325190603
+177.181.6.241 2 2 995 20240328214613
+2804:14c:111:92ba:7093:9f14:9f03:3dbc 10 10 12325 20240319002425
+170.0.59.68 3 3 1701 20240325231104
+45.225.57.92 3 3 1701 20240313181548
+2804:14d:7830:4619:a1c:50c5:3013:486a 10 10 6226 20240310235057
+2804:7f0:b0c3:af67:f108:862f:52e4:9ba4 3 3 1701 20240328215555
+2804:14d:7830:83c1:e9fe:7925:1340:e2a0 8 8 10784 20240311234633
+2a03:2880:ff:7::face:b00c 0 2 10571 
+2804:18:df:86da:1:0:5f7d:f28c 2 2 1396 20240313190855
+104.192.142.244 1 1 706 20240322105706
+2804:431:cff5:eb2e:319c:74c2:1746:b4e8 5 7 114665 20240326171745
+177.45.223.94 4 4 3715 20240327232057
+177.181.7.85 3 3 1701 20240304190958
+40.94.27.74 2 5 21315 20240315193534
+2804:14c:4a2:4555:4808:676:2a6d:e66e 3 25 417325 20240312115550
+2804:14d:7834:81e1:9c64:c35:6359:d767 2 2 1396 20240314012550
+107.174.237.221 1 1 706 20240313184825
+2804:14d:7833:4db6::1001 7 7 10207 20240311232748
+2804:14d:7897:9427:4178:523c:f7a7:67f1 6 6 9501 20240327180451
+2804:14d:7890:62ba:d884:624a:83f5:8384 2 2 1396 20240315231811
+40.94.103.88 2 2 1394 20240302011727
+2804:7f0:bec3:5173:110d:a550:d896:72d 5 5 3109 20240326215500
+2804:7f0:bec2:e6d1:ec30:831d:594d:cfd1 2 2 1396 20240325221352
+2a03:2880:11ff:9::face:b00c 1 4 45941 20240306204145
+3.236.232.64 1 1 706 20240320184340
+2804:7f0:bec2:36c0:2dac:8ee5:a785:af37 4 4 3715 20240312154854
+2804:388:c337:3ac5:109a:a89d:b8b3:5a 3 3 2102 20240313185609
+191.255.227.230 3 3 1701 20240326182256
+179.48.209.184 2 2 1396 20240328112700
+2804:14d:7839:a1b4:d010:8dd8:e9e4:1783 5 5 4421 20240324145115
+200.144.28.50 7 7 4910 20240322131433
+201.64.116.202 3 3 2047 20240301091713
+18.207.110.172 1 1 706 20240321210051
+2804:431:c7e3:20a6:5d34:8a38:8fd6:526d 5 5 4421 20240306145810
+66.249.85.11 1 1 706 20240320123718
+2804:e94:1089:d700:a419:2940:91a4:e6aa 3 25 417326 20240326131231
+47.128.33.96 1 23 416330 20240329080006
+189.29.144.55 3 3 2109 20240301091655
+189.91.97.242 3 3 1701 20240326144754
+2804:14d:7830:8098:a02d:cf95:5058:52a9 3 3 1701 20240307190009
+2a03:2880:11ff:75::face:b00c 0 3 8571 
+2804:14c:4a2:4555:b443:7268:147e:c8da 1 1 705 20240313094642
+47.128.115.219 1 1 705 20240329203126
+2804:431:c7e4:4d67:1c09:4c55:3faa:ea4b 5 5 7310 20240312145452
+201.42.192.173 4 4 3715 20240311183829
+54.242.57.161 2 2 1412 20240325192558
+163.116.233.51 4 4 4116 20240301113821
+2804:14d:7841:4bf1::d99 7 7 4509 20240322002328
+199.45.154.50 1 1 699 20240325091552
+170.0.56.102 3 3 1700 20240311131101
+2804:388:c2cf:b42:fdec:5d6e:7b94:7164 3 3 1701 20240313200415
+18.234.216.190 1 1 706 20240318132813
+2804:7f0:bec2:6721:6427:28bc:f9f:669b 3 3 1701 20240319152014
+188.35.142.9 2 24 416629 20240321000715
+2804:14c:126:9784:fdb8:4cd8:47f0:d250 2 2 1396 20240329010419
+2804:3d90:802e:bd01:84ce:5a25:137b:88c0 4 4 3714 20240314131908
+2804:388:c34e:20dc:5c85:6bce:79e6:c79b 2 2 1396 20240320134103
+163.116.233.77 3 3 6493 20240301131917
+200.153.16.190 3 3 2102 20240313191335
+2804:14d:7840:8fff:1c51:3586:92fe:7308 3 3 1701 20240315180729
+2804:214:8115:a077:7924:c0c8:187e:490e 4 4 3712 20240304164746
+2804:14d:7848:84ee:196b:d57c:8140:41e3 2 2 1396 20240315171351
+2a03:2880:20ff:78::face:b00c 0 7 30443 
+177.16.172.38 2 2 1412 20240314000248
+35.188.91.129 0 1 154919 
+2804:14c:63:294c:e9f0:3122:c4dc:ae72 3 4 19719 20240306051239
+179.130.106.40 3 3 1701 20240327130552
+165.225.214.117 5 5 4421 20240326190744
+2a03:2880:30ff:75::face:b00c 0 7 196807 
+2804:7f0:b981:eaf7:a008:d344:4ad2:1fd3 3 3 1701 20240322141411
+187.72.192.200 2 3 4086 20240307154136
+2804:214:8118:78ac:58f5:aeff:fe24:89f8 3 5 32477 20240329000850
+177.36.170.152 3 3 1701 20240328225059
+3.92.209.166 2 2 1412 20240326124705
+2804:7f0:bec1:7367:b130:15d5:a2d:a0e0 1 1 705 20240306124100
+199.45.155.48 1 1 699 20240311203240
+2804:431:d7ff:302:c463:f535:17e5:8c00 5 5 5902 20240304212543
+2804:18:905:3def:64c4:29a1:f2f4:9c7c 1 1 706 20240326145556
+2804:14d:78d4:893a:5bd1:d2c2:b677:f1dc 6 6 9501 20240313195616
+2804:431:cfcb:f427:29c6:10e0:c4:3065 7 7 10207 20240322171050
+2804:14d:7834:81e1:7d17:1e7d:6684:7a1a 3 21 360912 20240317162654
+18.206.177.255 1 1 706 20240325130855
+191.23.8.11 1 1 705 20240305192504
+184.72.117.131 2 2 1412 20240325213238
+2804:18:158:8a5a:17c1:2167:9d07:7766 3 3 1701 20240329115334
+2804:14d:78a6:8944:a8c6:9b1f:a9ab:2bb8 4 4 3715 20240330150550
+2804:14d:7890:605c:89e6:b3cd:c673:b86e 7 7 4509 20240308021455
+2804:14d:783d:c14b:fb62:fd25:3e35:f5a4 4 4 3715 20240327213749
+179.98.132.250 6 6 9501 20240328135708
+2a03:2880:11ff:76::face:b00c 2 14 197820 20240306204147
+66.249.85.5 1 1 706 20240310232922
+2804:14d:78b1:59df:c47e:2c80:7b3e:1085 1 1 705 20240328214611
+3.235.198.109 1 1 706 20240322144721
+2804:14d:7839:95fd:91c:cb84:fcc1:130b 3 3 1700 20240304155758
+40.94.30.221 3 8 28659 20240315133413
+2804:7f0:bac3:e70f:cd11:658a:93bb:aaaf 3 3 2102 20240322123655
+2a03:2880:20ff:5::face:b00c 0 2 7211 
+138.36.59.218 3 21 367584 20240322125903
+179.209.71.12 6 6 9501 20240313213315
+87.236.176.112 1 1 699 20240329121020
+2804:214:82dd:c233:440e:dc8e:6ba9:9b15 5 5 3095 20240305231248
+87.236.176.75 1 1 699 20240309223747
+2804:ebc:b21c:c800:a2e2:b08d:1f62:edc6 3 3 1699 20240306224809
+145.220.91.19 1 1 699 20240330041957
+44.213.123.159 4 4 2824 20240328122336
+2804:14c:4e4:8ed2:1471:8eb:8d15:e199 4 26 418028 20240307082243
+66.102.6.1 1 6 35756 20240320123721
+2804:7f0:b7c1:1cfd:eccd:aab7:e0e4:e2ab 6 6 3819 20240315142248
+2804:1e68:800c:6b4d:50fa:6a4:d26:e830 7 7 4102 20240319004106
+2804:1b3:a581:6aba:2017:dc04:7743:297b 4 4 3715 20240326183324
+2804:14c:110:826c:b1a7:fce2:cbc7:12d1 4 4 3715 20240311135655
+27.115.124.101 2 24 416629 20240307232458
+3.237.7.233 3 3 2118 20240328192413
+200.173.81.225 3 3 1701 20240302234914
+2804:14d:78b0:9505:144a:6c31:8cf:b19 5 5 4418 20240317191542
+38.132.193.89 2 21 389451 20240313193047
+34.229.64.162 1 1 706 20240326224123
+2804:14d:7835:8bd2:1d41:5f32:a94b:4e2d 2 2 1396 20240314200807
+2804:14d:7893:a027:acf0:aab5:c866:f925 1 1 705 20240325113030
+189.69.135.236 7 7 10207 20240328003757
+52.164.206.229 3 25 417326 20240327192953
+2804:18:84a:d624:9d9d:4df9:8d82:e4b2 2 2 1396 20240313192225
+2804:41d0:2500:292a:b594:33a0:4e9:9d91 13 13 18218 20240302014658
+44.210.109.48 1 1 706 20240318184014
+2804:14d:78d6:832c:c5ad:7836:e768:6e9a 1 1 706 20240314205517
+177.115.152.24 4 4 2407 20240308173323
+2804:7f0:9bc0:129a:5475:2d8:adb:348f 7 7 13015 20240301132131
+2804:18:1002:23b4:f041:86b4:e740:cf58 1 1 0 20240302224843
+2804:14d:78a6:99b0:c4e7:98c9:ec5:a5ac 2 2 1396 20240317001004
+2804:431:c7e5:dcb3:4db0:5f8b:a27f:471e 3 3 1701 20240313200841
+2804:14d:7899:8f9a::78b5 6 6 9501 20240327181614
+2804:7f0:9e81:d30c:1ac:d2e3:993:84e8 2 2 1396 20240314065735
+2804:1b3:aa80:ed45:2466:b640:c1:e752 2 2 1396 20240319124248
+2804:18:1050:7a57:89a0:df47:2203:5a62 6 6 9501 20240327125014
+187.74.198.16 3 3 1701 20240327141410
+2804:431:c7f2:49b2:d118:d8a:fa99:9646 4 4 2407 20240309113000
+3.236.95.8 1 1 706 20240320153325
+143.198.134.81 1 1 699 20240330105025
+2804:18:90f:de99:17bc:700c:c873:1405 2 2 1396 20240313213641
+2804:e94:1089:d700:4060:e5b6:aec3:5828 5 27 418738 20240322133650
+2a03:2880:20ff:4::face:b00c 1 3 107534 20240313190614
+2804:41d0:1400:591d:2cf4:ca54:88f2:d192 8 8 7426 20240302220949
+201.1.35.231 3 3 1700 20240321213205
+164.85.98.209 11 11 14098 20240325031520
+2804:14d:7839:8e69:6926:e5ae:de1a:75d3 1 1 706 20240326215319
+187.35.21.86 2 2 1396 20240314124924
+2804:14d:8e8f:5ce3:88bb:726d:2b2:1ca1 4 4 3715 20240328221425
+2804:14d:7839:904a:f483:7e30:f8f5:9078 7 9 58493 20240306220803
+186.215.208.8 3 3 1701 20240315231829
+2804:388:c329:5b3c:4969:c7ce:627b:d8a2 1 1 2013 20240302180809
+2804:14d:7830:4619:d504:5f9:8467:693c 3 3 1701 20240310234723
+66.102.6.8 3 11 31502 20240320123721
+189.47.112.218 4 4 2808 20240313210200
+2804:14d:7892:8199:c1e0:10c4:f330:ba8 2 2 1396 20240319191117
+3.88.225.145 1 1 706 20240322125041
+2a09:bac2:c1f:3cd::61:2af 2 2 1396 20240321193005
+2804:1b3:af41:bfd3:e427:8056:36e4:27fb 3 3 2107 20240301003004
+2804:18:1055:c893:1:2:f1d6:9778 1 1 706 20240327170136
+2804:18:903:8dea:3142:b689:2d22:1699 5 5 4421 20240308173050
+34.226.219.131 1 1 706 20240314125153
+2804:431:cfcb:5f80:6963:47a0:96f5:7504 5 5 4421 20240308184542
+187.57.18.8 3 3 1700 20240309104043
+2804:14d:7894:8398:9d3a:fc6f:6faf:187f 5 5 4421 20240328230747
+2a03:2880:20ff:6::face:b00c 0 3 27197 
+2804:388:c2c5:cefb:efd4:c8d7:224e:8862 3 3 1701 20240308094104
+2804:7f0:bec1:9be7:61dd:8fec:c0:b5b3 1 1 706 20240310221136
+2804:18:18b6:acaa:e5c8:6ce3:d088:7f21 7 7 10075 20240302172401
+2804:18:150:3e2b:e9a7:da02:b6ba:ed4f 3 3 1701 20240314111508
+2804:3d90:802e:bd01:9798:3119:926e:c9b9 3 17 233026 20240313184021
+2804:14d:78ca:84f5:b0e7:749:8723:f20 4 4 3715 20240313123813
+2804:14d:7839:95af:7049:d3c4:f142:9d15 7 8 5858 20240322111414
+2a03:2880:ff:8::face:b00c 2 8 38360 20240314132253
+2804:14d:78d5:35f4:7dea:7839:8801:2a12 2 2 1410 20240304155330
+2804:14d:7835:9982:6171:d905:5d45:b550 3 3 1700 20240303061445
+2804:38a:a164:b2b5:64aa:90db:cffb:cd52 4 4 3715 20240315203604
+2804:1468:803:b000:e4e9:a312:516c:453 3 3 1701 20240322112647
+2804:38a:a326:ce4f:d40a:a579:2ab0:47f6 1 1 706 20240313190820
+201.57.60.72 3 5 12272 20240303233437
+2804:14d:7839:a4bb:d2:7d77:f2f4:ae7c 3 3 2102 20240322114140
+2804:e94:a3e:e200:86c:4dbd:7d39:8dee 2 20 323366 20240307151046
+18.209.18.55 1 1 706 20240326224117
+2804:e94:1089:d700:8471:f960:2715:14d 6 28 419444 20240313165649
+2804:1b3:a581:6b92:ddc2:1b81:d7b1:f60f 3 3 1701 20240327211311
+2804:18:15d:486b:17bb:5cea:d4ee:99da 4 4 3715 20240310134951
+2a03:2880:20ff:76::face:b00c 2 7 110737 20240314132257
+2804:14d:7848:5333::1000 6 6 9501 20240326193102
+2804:1b3:a400:b1bc:c485:b0b5:2174:fad2 10 10 6627 20240326154135
+2804:14d:7899:91fb:ad28:dac8:143:be26 1 1 705 20240311010952
+2804:7f0:ba80:794b:8db6:f1fd:560f:8966 6 6 9501 20240319184947
+2804:38a:a11f:9b95:88ef:c74:9156:213a 2 2 1396 20240313234648
+199.45.154.70 2 2 1398 20240330083713
+2804:14d:7833:8f10:19e7:672a:dd43:f873 3 3 1701 20240323173630
+2a03:2880:32ff::face:b00c 0 1 154919 
+34.232.63.45 2 2 1412 20240325210621
+2a02:26f7:e514:5808:0:2dee:895b:3fee 3 3 2102 20240326234423
+177.25.207.237 2 2 1396 20240321165753
+2804:388:c2c0:72e5:5821:523c:499b:d0f6 6 6 9918 20240325135403
+2a03:2880:20ff::face:b00c 0 3 31104 
+2804:14d:8e8f:5ce3:8c81:83fe:4570:98d 1 1 2014 20240328222202
+2804:14d:7834:81e1:1d2a:b63e:3581:25cc 3 3 1700 20240318234333
+2804:14c:e8:80de:d1c4:6e89:7115:6902 3 3 1701 20240323004410
+2804:42d4:f2a3:4800:b8b7:5a4d:ad0e:94ab 4 22 362927 20240320123915
+189.46.75.154 12 13 38995 20240311121757
+45.225.57.22 7 7 10077 20240302124225
+2804:14d:7833:80b4:6d16:a148:b70b:33e6 3 3 1701 20240307185351
+2804:388:c34b:2ca5:3124:4901:2876:cfcc 2 2 1396 20240326123027
+2804:14d:7841:4bf1::f0e2 2 2 1412 20240313174717
+2804:1b3:a583:c57f:8041:f6c2:8c02:46cc 1 1 706 20240314145257
+2804:14c:e8:80de:dd53:69e:b6eb:7441 4 4 3891 20240323231731
+189.29.149.96 9 10 12551 20240313170008
+2a03:2880:31ff:75::face:b00c 0 1 154919 
+2804:14d:789c:9147:dcae:d372:82fd:d295 1 1 699 20240302221513
+181.191.60.196 3 14 142590 20240323230205
+2804:28f8:4101:fabd:a879:3ec5:9ee:af3 6 7 90858 20240326185233
+2804:7f0:bec1:af99:4759:32d0:81ef:ae4f 2 2 1396 20240314013348
+34.95.146.82 1 1 706 20240322193922
+47.128.25.221 1 1 705 20240330022341
+2804:14d:7841:584c:758e:5980:6d01:fac8 3 3 1701 20240314213848
+2804:14d:783d:4ad0:3c8a:afcf:b614:bc59 4 4 2808 20240313192737
+3.83.85.250 1 1 706 20240328152758
+2804:7f0:bec3:2469:dd5a:213b:4323:aa9b 4 4 3715 20240326184252
+2804:14c:192:96f0:e9ed:4c2d:9f28:45dd 3 3 1701 20240313212953
+2804:7f0:bd40:945a:cd80:daeb:1e85:d062 6 6 9501 20240322194030
+2804:7f0:bec2:324:59b8:bd55:3634:c0b7 1 1 706 20240314003036
+2804:7f0:bd43:97b7:acd7:cbd5:541e:c023 7 7 13043 20240301003427
+177.40.52.216 6 6 3402 20240327214745
+2804:38a:a319:b1db:a4ff:c7c5:c43a:e4b 4 22 362927 20240325232447
+189.126.205.58 6 7 7138 20240314193250
+2804:431:cfd4:42e9:4882:55db:9938:205b 4 4 3715 20240326193055
+2804:14d:7891:4458:a4cf:b052:4efb:c646 2 2 1396 20240314012055
+2804:214:82ac:e5fb:1947:683d:6853:c1af 7 12 145377 20240319101844
+177.20.208.196 3 3 1701 20240304153732
+2804:14d:7841:4a5d:4561:33f2:31d1:6a42 7 7 10207 20240327135440
+2804:7f0:b7c1:447:e072:3e51:b2bf:d3fa 3 3 2098 20240301195228
+87.236.176.59 1 1 699 20240330013802
+2804:14c:110:826c:a5d0:5988:65f:b4fc 3 3 1701 20240324083300
+187.108.229.76 4 4 3715 20240308053907
+2804:14d:7840:57f1:64cd:c637:78d9:5080 2 2 1396 20240313190932
+52.27.125.198 1 1 706 20240313184440
+177.45.13.71 2 2 1396 20240322203921
+2804:14d:78d5:35f4:bd68:8f0c:4e06:b353 1 1 705 20240312150814
+2804:18:18bb:2261:d8ed:36a9:1c9:31e9 4 4 3714 20240313023617
+2804:14d:7833:4db6::1003 6 6 9501 20240311231818
+189.126.205.57 3 3 1701 20240304153706
+2804:1b3:a581:55e7:6c02:1c33:6085:6d98 5 5 4421 20240327191711
+2804:18:8de:6d27:b1d3:131a:5588:3965 4 4 2407 20240320142403
+34.228.198.51 2 2 1412 20240327190640
+3.85.135.20 2 2 1412 20240327180517
+2a03:2880:20ff:75::face:b00c 1 5 181236 20240313190617
+2804:431:cfcb:f427:3999:aa28:4be4:6b3e 2 2 1412 20240322165818
+2804:431:e7d5:4966:2568:59e6:d644:ba39 5 5 7311 20240328192428
+64.227.99.44 1 1 699 20240316143905
+2804:14d:7841:4bf1::6cf0 1 1 706 20240325210519
+2804:14d:7841:4bf1::75b2 4 4 2407 20240325211716
+2804:388:c355:d9b5:c48d:7d66:1f52:a408 4 4 2808 20240315232141
+199.45.154.16 2 2 1398 20240325063100
+2804:1b3:a583:fc78:4005:11b2:8e1a:ae30 4 4 3715 20240312131747
+2804:14c:e8:80de:18ca:a51a:1e12:79bc 3 3 7800 20240323005210
+2a03:2880:2ff:9::face:b00c 0 1 154919 
+2804:7f0:79c2:7cec:65c6:c57e:610a:b6e2 5 6 16648 20240321200101
+2804:14d:78b1:5bf5:2016:c380:d79e:6173 6 8 60506 20240307232536
+66.249.85.6 1 1 706 20240310232845
+2804:388:c351:ba21:b966:93f1:203d:e68c 2 2 1412 20240322114453
+40.94.25.228 3 21 386683 20240311215523
+2804:14d:7835:9982:452c:ba3:595e:33e6 8 8 10781 20240304164140
+2a03:2880:11ff:3::face:b00c 0 4 164994 
+104.210.15.106 1 1 699 20240321223258
+2804:388:c34e:db56:59bd:fcfc:f251:aad9 7 7 4108 20240313220351
+3.230.148.112 2 2 1412 20240322125041
+2804:14d:789d:4e2f:8d4c:2133:e585:e1e4 2 2 1396 20240313211547
+20.121.133.83 3 3 2123 20240329161454
+2804:214:82bf:8c18:6f31:96fa:c3ca:1caf 1 1 706 20240319150702
+2804:14c:6587:5537:e174:dcf1:3245:1875 3 25 417324 20240315120936
+34.238.123.119 1 1 706 20240327211510
+2804:388:c341:a42c:b58a:e7b1:1f27:27c1 1 1 706 20240324232441
+177.80.124.52 2 2 1396 20240328185640
+104.237.171.19 3 3 1701 20240301212605
+3.236.150.49 1 1 706 20240312204124
+189.29.174.203 1 1 706 20240325185206
+2804:18:1148:d8af:972:f050:d836:ba1f 3 3 1700 20240305003653
+2804:7f0:bac3:e70f:2572:9572:f062:f83a 3 3 1701 20240322123400
+2804:431:b711:a4ca:f0dc:2984:5b82:1147 3 3 1701 20240307185441
+2804:14c:4e4:8ed2:847:8c5:9f1c:c4da 1 5 312458 20240309174430
+87.236.176.134 1 1 699 20240309154111
+18.215.183.84 1 1 706 20240321185420
+189.29.174.243 4 4 3715 20240313201307
+2804:431:c7e3:87ac:195c:86a8:68ef:c98f 5 5 7311 20240307235151
+2804:7f0:bac0:2d02:44e6:63d3:99bc:6ed0 1 1 706 20240327211633
+2804:1b3:a580:57ca:4418:6ea4:3048:8eb3 1 1 706 20240316195321
+2804:1b3:a583:4b46:4c8c:c84b:3b7e:f7f3 7 7 10076 20240304154718
+2804:14d:78a6:9264:8469:5bef:e29f:8eba 1 1 706 20240326185644
+2804:14c:58:939d:9da:9b42:56a9:8478 2 2 1396 20240326213957
+52.3.236.251 1 1 706 20240319182350
+45.176.81.23 1 18 233289 20240305003918
+2804:18:18c1:7cf9:1:0:bd0:583c 4 4 3715 20240322134654
+2804:14d:7893:8d3c:641b:279a:3f56:9396 1 1 706 20240325190637
+2804:14c:192:943f:c57:b309:c755:5e4f 1 1 699 20240308220516
+2804:14d:7839:904a:9407:4398:5b01:b68a 4 5 53720 20240311205248
+52.202.179.160 1 1 699 20240301021713
+2804:431:c7e3:20a6:ac8f:dbb3:2ffb:b980 5 5 7311 20240308170621
+186.204.161.219 3 3 1701 20240326141837
+191.39.157.13 3 3 1701 20240302180631
+3.236.73.124 1 1 922 20240301005223
+3.94.90.129 2 2 1412 20240327124830
+2804:14d:7839:9e7e:7515:278b:bf64:5466 10 10 13392 20240325171139
+2804:431:cfd4:feec:a886:8493:e3f1:632d 6 6 5124 20240307182614
+177.26.244.123 6 6 8017 20240314134238
+2804:14d:7897:a2b0::7e9f 1 1 706 20240315012947
+2804:7f0:7b00:ccf:90b2:f6cd:74d6:ad03 3 4 19718 20240309042020
+2804:18:140:e885:e4a4:510d:16c5:7ef0 1 1 706 20240328213409
+2804:431:e7d4:32c0:6085:6f4:6d6:706f 2 2 1396 20240315144521
+200.144.30.101 3 3 1700 20240301192040
+2804:14c:95:8b7b:f863:b1e5:27e4:451f 3 3 1701 20240311125640
+167.94.138.126 1 1 699 20240325045730
+199.45.154.18 1 1 699 20240325075001
+2804:14d:7890:605c:5549:27bf:2444:e967 5 6 35033 20240327224736
+23.92.20.155 2 2 1412 20240330204442
+177.170.167.235 7 7 8722 20240305160330
+186.251.10.6 3 3 1701 20240307190022
+2804:7f0:bec3:6e3:4d8c:9052:6426:9fb0 2 2 1396 20240323011203
+2804:14d:7897:9ab6:5de3:779b:fba5:24da 1 1 706 20240318193338
+201.55.45.61 3 3 1701 20240310121553
+2804:18:114e:f310:17bf:f902:c919:d091 3 3 1701 20240325102012
+2804:7f0:bec1:7187:69f8:c81f:526a:730b 7 7 10077 20240305114249
+2804:7f0:bec2:660e:7c0d:18b7:2168:d11e 7 7 4525 20240320165414
+2804:1b3:a583:c57f:c19f:f88e:ff6c:63a7 7 7 5833 20240314010209
+2804:e94:1089:d700:a4dc:26e0:27bb:1fa1 5 27 436095 20240331005602
+2804:7f0:bac0:2d02:dcc5:5ac5:7d2:6d7f 4 4 3715 20240327170218
+2600:1f18:fde:7203:3546:30ef:13c8:ce55 1 1 706 20240305150032
+2804:18:1145:3ef4:974:f1c6:b46e:eb3e 3 3 1701 20240313224244
+131.255.212.164 3 3 1701 20240304191017
+2804:18:18ca:98cd:4db1:e5e7:c8c2:6bd1 9 9 7245 20240326234247
+186.251.16.228 3 3 1701 20240302234929
+2804:1250:f103:df4e:fd2f:afbe:d69b:a657 3 3 1701 20240309050231
+87.236.176.143 1 1 699 20240318190630
+201.77.112.133 3 3 1701 20240302235800
+167.248.133.185 1 1 699 20240314000048
+2804:14d:7841:48f7:9d17:9913:ff2d:433c 6 6 9501 20240326200227
+2804:1b3:a581:6aba:ddcd:1fb6:354a:f9da 1 1 706 20240328153151
+87.236.176.71 1 1 699 20240329143350
+2a02:26f7:e514:5808:0:4076:9178:dd29 3 3 1701 20240303233420
+2804:14d:7890:605c:4dd7:e0d6:ef13:1831 3 3 1701 20240310223022
+2804:14d:7835:971e:5542:5d4b:7c82:e3b 3 3 1701 20240301212549
+2804:7f0:7c80:923:7152:222:d5de:ca1b 6 6 9501 20240314000404
+187.34.24.249 11 11 13921 20240314142549
+2804:7f0:b011:bbde:dd41:5ebf:ee78:adae 2 2 1396 20240314161134
+2804:14d:7840:5b81:d5ba:a647:ddbc:c30f 3 3 1701 20240314150703
+2804:7f0:bec1:7524:a142:6ce:c9ed:9437 3 6 74998 20240307150649
+201.63.27.242 2 2 1396 20240320114030
+87.236.176.251 1 1 699 20240329142121
+189.120.77.124 2 2 1396 20240314180334
+177.138.162.17 4 4 2407 20240312114449
+2804:7f0:b442:50fc:ad41:c4cb:9321:d951 6 6 9501 20240327192639
+2804:18:18c1:679c:58d1:4105:38ed:de27 1 1 706 20240311212527
+2804:18:114a:bc30:17c0:76b3:d2ab:39f0 3 3 1700 20240327024949
+2a03:2880:25ff:1::face:b00c 0 1 154919 
+177.190.199.17 2 2 1396 20240313192356
+2804:214:8106:8849:201e:1642:d61c:5761 1 1 2013 20240305195104
+44.192.75.143 1 1 706 20240322114328
+217.182.175.162 1 1 0 20240314223443
+2804:7f0:b7c0:f62b:8c50:c40:b1aa:58b2 6 6 9501 20240325195327
+92.46.47.5 3 25 417326 20240305190546
+2804:388:c334:604d:85e9:b5de:9a16:cefc 3 18 252029 20240326000717
+31.13.115.119 0 4 17820 
+2804:1b3:a580:49c:b082:58a3:3c09:159c 6 6 9501 20240311150253
+136.226.62.250 6 15 173417 20240315183800
+54.227.49.254 1 1 706 20240326130406
+2804:18:153:c4a8:17bb:8af7:ff0b:3458 1 1 706 20240311145631
+2804:38a:a13e:f77f:1091:aaf8:d77:cf86 3 3 1701 20240313125703
+2804:18:869:f978:d836:e88d:11e6:7b35 1 1 706 20240313191403
+44.220.62.229 2 2 1412 20240325191319
+2804:14d:7839:9d66:8cb5:4f40:7072:52f7 3 3 1701 20240311015036
+201.93.105.65 3 3 1700 20240325201105
+2804:18:1857:d2de:4d27:c48b:85a5:635d 3 3 1701 20240322111809
+2804:14d:7839:8e69:e1ed:633:a53e:de3 7 7 10207 20240308161732
+189.56.51.58 3 3 1701 20240305131741
+2804:431:c7f5:3f8:b553:3b8c:b7b8:c45a 3 3 1700 20240305033459
+2804:14d:78b0:9505:6400:e8cb:2f2c:a333 4 4 3713 20240318141453
+2804:14c:144:8e79:a056:533b:6220:27c5 3 3 1699 20240311011508
+2804:7f0:bec1:9be7:f2ac:b8f1:9e3e:5973 2 2 1412 20240310221411
+2804:14d:7835:9982:207d:495d:2c94:9be5 1 1 706 20240313223655
+163.116.224.113 6 6 9501 20240324041325
+199.45.155.32 1 1 699 20240311205239
+2804:14d:7893:81d0:c000:6549:dda8:3ba7 8 8 10781 20240303194552
+2804:7f0:bec2:67a7:cd79:d9c5:aff3:2092 2 2 1396 20240318152551
+191.39.137.109 2 2 1396 20240322114243
+177.115.13.25 2 2 1408 20240323151310
+2804:388:d042:a2c5:9d6b:9357:d575:eb0c 2 2 1396 20240313204903
+189.54.11.248 1 1 699 20240323172519
+2804:7f0:b301:2f8b:4be:d42e:7427:63fd 1 1 706 20240313204648
+201.182.193.76 2 2 1010 20240318145422
+2804:14d:7840:5b81:dc9:ae32:9af:d400 4 7 25562 20240306223025
+83.99.151.67 1 1 699 20240320213703
+187.16.4.46 2 2 1396 20240313190339
+2804:14d:7840:8e49:44a7:515a:9856:1899 6 6 6611 20240321210832
+34.224.97.54 1 1 706 20240326173729
+75.101.198.97 2 2 1412 20240327210947
+34.203.233.32 2 2 1412 20240322114328
+2804:7f0:b849:3b00:d562:765:ce43:1ccb 3 3 1701 20240308180119
+2804:14d:7840:894c:1942:fc60:371:bf87 2 2 1412 20240323021556
+104.237.189.19 3 3 1701 20240309113012
+2804:214:8618:faf9:3b9c:3747:4ea8:f026 5 5 4421 20240325123928
+2804:431:c7e3:10c5:9056:7aeb:d008:f927 3 3 1701 20240306152059
+2804:7f0:b849:3b00:38ab:6c1b:3356:9f5d 3 3 1701 20240301184224
+2804:7f0:bac0:2d02:a1d9:2eef:5945:96cb 2 2 1412 20240327211636
+40.94.227.81 3 25 417326 20240329153010
+2804:14d:78b1:60ef:a840:3e3b:d60b:bfe1 7 7 4108 20240322143506
+2804:7f0:bec2:c5b6:9742:b00e:a4ce:9b1e 3 3 1700 20240321191110
+2804:14d:7841:4cfb:8514:1982:ec75:9f8c 3 3 2109 20240301062227
+2804:431:d7ff:6402:69aa:4052:a961:35b9 2 2 1396 20240317180628
+200.170.188.197 4 4 3715 20240321142743
+2804:7f0:b301:2f8b:f538:9ee7:49c:b415 9 9 28927 20240313201022
+2804:1b3:a982:699a:2d17:1716:5e36:928 7 7 4108 20240313194119
+201.42.38.74 2 2 1396 20240313191236
+185.180.143.147 2 2 1824 20240301065043
+2804:18:1142:933b:78cd:571f:a93b:8cff 4 4 3715 20240308001913
+2804:1b3:a583:c57f:8dd:ee53:b159:e148 1 1 706 20240314005827
+2804:3d90:802e:bd01:4982:4107:1d5e:c81a 5 5 8811 20240320145852
+123.6.49.47 2 2 1004 20240307232451
+2804:14d:7897:9ab6:444f:c479:f21e:adc0 3 3 1701 20240308022711
+44.206.238.207 3 3 2118 20240328182548
+200.153.16.133 5 5 5905 20240322161843
+2a02:26f7:e514:4000:72b0:c707:6df7:8c9e 2 2 1396 20240321091045
+2804:18:1019:bc57:9ca:59a0:ad23:80d0 1 1 706 20240328170713
+2804:431:cfd4:feec:b03c:ec3a:fbfd:8b8c 4 5 88425 20240308124919
+199.45.154.66 1 1 699 20240314054236
+192.99.38.24 3 3 2118 20240313185219
+2804:18:86d:d7e8:9497:a153:4ffd:c53f 4 4 3891 20240328002702
+177.138.164.195 12 12 14628 20240328191102
+179.212.218.34 6 6 9501 20240318131742
+2804:7f0:bec1:7367:89aa:ab04:4554:95fc 1 1 705 20240307135911
+2a02:26f7:e520:5808:0:be89:6b20:51b3 5 5 7311 20240327192407
+2804:e94:1016:1800:8820:16e6:472e:5b08 8 30 423070 20240305195345
+2804:7f0:b7c1:322:dffa:ac52:7c07:53ad 1 1 706 20240302001107
+177.80.12.98 3 3 1700 20240310231423
+189.38.23.145 4 4 2404 20240304231956
+2804:14d:789c:90d9:ed3f:4ce6:dd54:7654 3 3 1701 20240301175116
+2804:18:114d:d84c:17be:77ba:f7b8:4fd1 4 4 3715 20240320142530
+47.128.56.217 1 1 705 20240330031143
+2804:14d:78d5:35f4:95a3:cafd:cdcc:fab4 1 1 705 20240304231900
+2804:14d:7841:48f7:68dc:8f9f:bd9b:f055 2 2 1011 20240326195824
+2804:431:cff5:eb2e:9c29:958b:8b75:9d2 4 4 3715 20240325231740
+186.215.208.4 2 2 1396 20240313191346
+2804:18:db:a08f:1:0:a24e:2a63 3 3 1701 20240326212429
+2804:431:c7d5:ee90:c6d:aa04:75ec:c770 4 4 3715 20240330190746
+2804:18:10c1:f88c:f42e:5857:7e01:bfa8 4 4 2407 20240322131831
+191.17.106.197 7 7 10078 20240312171615
+2a03:2880:22ff:77::face:b00c 0 1 154919 
+2804:431:c7e3:20a6:419e:a626:287f:20c7 7 7 10077 20240304153319
+2804:7f0:b0c3:af67:981a:6691:27af:ff4c 5 5 4421 20240328220415
+3.236.73.32 1 1 706 20240328152758
+2804:1b3:a580:5a1c:9102:88a6:c9c1:bb77 3 3 1701 20240322141418
+2804:14d:7842:9209:1cdc:3cd1:17b8:988d 6 6 8017 20240325161303
+40.94.34.55 3 8 97613 20240307184356
+2a03:2880:20ff:3::face:b00c 0 4 60082 
+2804:7f0:bec2:36c0:19ec:fb56:fd4e:5b01 4 4 3715 20240312154539
+2a03:2880:ff:1::face:b00c 1 1 690 20240314132343
+200.219.246.34 10 10 11779 20240311132718
+189.47.30.147 3 3 1701 20240326233011
+185.180.143.146 2 2 1398 20240302081147
+189.57.182.114 4 4 4346 20240301162728
+191.13.252.242 7 7 10207 20240313150924
+2804:7f0:bec1:7367:e101:9717:f66c:f083 9 9 8131 20240304173459
+201.26.40.43 6 8 92375 20240307195634
+199.45.155.23 1 1 699 20240330061547
+201.57.89.198 3 3 1701 20240315232933
+2804:14d:7830:8098:78cf:b569:3240:2d8b 2 2 1396 20240320142544
+189.29.150.6 3 3 1701 20240307190242
+2804:14d:7848:4552:3932:4b1e:37b2:ee1e 2 2 1396 20240313154550
+2804:214:82b8:c13f:e0ab:56fd:69fb:b55a 1 1 706 20240326134830
+2804:14d:78b0:9505:5d9:3454:5490:84e1 3 3 1699 20240310011615
+2804:14d:7839:a1b4:d01e:1614:843f:a9e1 1 1 706 20240324151951
+139.59.9.2 1 1 699 20240302071442
+189.29.183.68 7 7 10207 20240321204602
+191.7.136.68 2 2 1396 20240322132943
+2a03:2880:30ff::face:b00c 3 14 202698 20240323192341
+2804:14d:783d:3176:e022:1e1b:7fcf:453d 3 3 1700 20240324170306
+54.89.229.39 1 1 706 20240322002337
+2804:14d:7899:8f9a::978c 2 2 1396 20240313192858
+177.115.11.61 9 10 33775 20240327202432
+2804:214:82d0:26ef:64c8:863a:8b7d:8bc7 4 4 8506 20240327230536
+3.237.14.11 1 1 706 20240326141633
+177.170.89.50 6 6 6479 20240305000610
+2804:14d:7840:8e49:5126:266c:b22e:892e 1 1 706 20240321210406
+2804:14d:7893:a027:1c46:2f1a:caac:b82c 1 1 705 20240324033122
+104.237.168.6 2 2 1396 20240314021158
+2804:14d:7894:872c:b978:2df7:f85:6b07 7 7 5832 20240311215905
+2804:388:c32b:929e:bd73:d1f6:823b:8b4c 2 2 1396 20240314123536
+47.128.60.209 1 1 705 20240331132048
+2804:14d:78c4:4cfe:514a:7b00:c39f:88a6 2 2 1396 20240321000715
+2804:14d:7897:9ab6:a0d9:1668:218b:59f9 6 6 9501 20240314222108
+3.237.172.193 2 2 1412 20240326153018
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 31
+20240301 81 82 89583 25
+20240302 67 101 776872 20
+20240303 23 25 31565 6
+20240304 77 77 74815 21
+20240305 80 186 1969414 19
+20240306 70 99 718836 17
+20240307 90 253 3198347 26
+20240308 86 111 586439 18
+20240309 31 105 1732132 10
+20240310 47 47 29900 14
+20240311 95 139 1286240 26
+20240312 45 68 463751 12
+20240313 219 449 4569216 61
+20240314 102 156 1414841 41
+20240315 58 100 810508 19
+20240316 7 8 57317 3
+20240317 17 35 375433 5
+20240318 33 55 445278 15
+20240319 37 69 768252 14
+20240320 83 237 2901659 21
+20240321 79 150 1517911 26
+20240322 145 305 3208238 44
+20240323 40 74 750466 13
+20240324 24 24 21846 9
+20240325 110 184 1737591 36
+20240326 168 296 2688820 48
+20240327 138 213 1599573 40
+20240328 94 94 110589 30
+20240329 22 68 875856 11
+20240330 328 626 1854271 12
+20240331 58 102 922823 4
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 6
+2mn-5mn 39
+0s-30s 436
+30mn-1h 18
+15mn-30mn 26
+5mn-15mn 71
+30s-2mn 70
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 10
+/index.php 1249 888979 606 240
+/views/preInscricao.html 457 316240 2 229
+/views/cursos.html 375 114747 4 14
+/views/matricula.html 173 350289 5 62
+/views/realizarPagamento.html 93 204918 2 69
+/views/entregaDocumento.html 92 333130 5 13
+/ 87 61239 41 37
+/views/contratoMatriculaExterna.html 19 11223 1 1
+/fonts/glyphicons-halflings-regular.woff2 8 144224 0 1
+/index.php/ 1 699 0 0
+END_SIDER

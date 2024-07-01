@@ -1,0 +1,506 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202209 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.matriculaonline.direitosbc.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2686                
+POS_VISITOR 8530                
+POS_DAY 14105               
+POS_DOMAIN 3447                
+POS_LOGIN 3773                
+POS_ROBOT 3928                
+POS_WORMS 4633                
+POS_EMAILSENDER 4764                
+POS_EMAILRECEIVER 4907                
+POS_SESSION 14829               
+POS_SIDER 15030               
+POS_FILETYPES 5042                
+POS_DOWNLOADS 5308                
+POS_OS 5356                
+POS_BROWSER 5521                
+POS_SCREENSIZE 6091                
+POS_UNKNOWNREFERER 6165                
+POS_UNKNOWNREFERERBROWSER 6424                
+POS_ORIGIN 6592                
+POS_SEREFERRALS 6732                
+POS_PAGEREFS 6895                
+POS_SEARCHWORDS 7310                
+POS_KEYWORDS 7462                
+POS_MISC 2350                
+POS_ERRORS 7521                
+POS_CLUSTER 3629                
+POS_SIDER_404 7648                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221001021015 1731 588939 14993275971035
+FirstTime 0
+LastTime 20220930211732
+LastUpdate 20221001044745 1731 1699 31 0 0
+TotalVisits 128                 
+TotalUnique 109                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 110                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 10 41 489998 3 8 1212
+1 13 27 228837 17 40 472120
+2 19 47 484568 9 17 86508
+3 0 0 0 6 19 262774
+4 10 35 424673 16 44 387893
+5 5 5 5070 7 21 85290
+6 6 6 6025 6 10 22629
+7 0 0 0 11 60 484791
+8 5 5 4150 16 47 19036
+9 9 24 224583 3 34 159654
+10 10 63 905480 10 15 84641
+11 39 54 242567 3 5 91546
+12 29 48 238943 17 28 43399
+13 7 22 243622 7 12 44866
+14 11 26 245584 8 42 284421
+15 6 14 210352 9 36 121604
+16 14 45 519456 2 19 82836
+17 2 17 235543 5 35 303333
+18 15 91 1266680 13 25 179344
+19 36 124 1799307 22 95 737590
+20 5 22 290564 10 26 210511
+21 16 47 566935 4 24 231422
+22 25 118 1580782 6 16 184124
+23 19 82 1204857 13 37 128607
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 8
+unknown 119 498 6648187
+br 107 380 4722884
+us 77 77 42155
+de 4 4 3139
+it 1 1 96
+cn 1 1 1001
+ro 1 1 1001
+vn 1 1 113
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 16
+bingbot/ 244 1078020 20220930234852 14
+AhrefsBot/ 100 1162172 20220927131448 10
+Googlebot/ 76 317842 20220930225634 6
+BLEXBot/ 27 17659 20220928071534 10
+motor 27 296311 20220901195529 0
+oBot/ 19 17253 20220930125858 2
+SemrushBot/ 13 2227 20220928200106 5
+core 10 177807 20220905205146 0
+seek 10 9134 20220925125950 1
+facebookexternalhit/ 7 7052 20220928221702 0
+Googlebot\-Image/ 1 154919 20220901033934 0
+python 2 2020 20220905121853 0
+no_user_agent 1 1001 20220905034742 0
+java 6 6055 20220903022244 0
+bingpreview 2 2002 20220903080046 0
+unknown 2 100 20220930185705 2
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 12
+css 218 1301035 0 0
+png 54 7703568 0 0
+yml 2 192 0 0
+ini 2 192 0 0
+old 1 96 0 0
+json 2 192 0 0
+php 146 127443 0 0
+bak 2 192 0 0
+html 146 177063 0 0
+js 380 2107643 0 0
+Unknown 9 864 0 0
+config 1 96 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 7
+macosx 26 11
+linuxandroid 116 62
+ios_iphone 298 73
+win10 481 123
+Unknown 10 10
+linux 1 1
+win7 31 31
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 26
+chrome98.0.4758.102 10 10
+safari15.6.1 45 19
+chrome99.0.4844.88 6 4
+chrome76.0.3809.132 33 33
+chrome92.0.4515.131 2 2
+safari14.0 18 3
+firefox104.0 18 3
+firefox95.0 1 1
+iphone 138 23
+chrome105.0.5195.79 17 2
+firefox96 4 4
+chrome63.0.3239.108 1 1
+chrome98.0.4758.101 8 8
+mozilla 8 8
+chrome104.0.0.0 158 40
+safari15.6 21 5
+safari14.0.3 17 2
+chrome105.0.0.0 333 80
+chrome74.0.3729.169 2 2
+chrome105.0.5195.136 11 2
+chrome84.0.4147.105 1 1
+msie9.0 31 31
+safari15.5 19 4
+opera89.0.4447.104 4 4
+safari14.1.2 55 17
+Unknown 2 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220914123440
+Turnitin_(https://bit.ly/2UvnfoQ) 20220930185705
+WhatsApp/2.22.16.77_i 20220905144849
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 2
+Turnitin_(https://bit.ly/2UvnfoQ) 20220930185705
+WhatsApp/2.22.16.77_i 20220905144849
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 107 107
+From1 0 0
+From2 0 1
+From3 76 76
+From4 128 779
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 0 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 5
+https://www.direitosbc.br 52 52
+https://l.instagram.com 14 14
+https://www.direitosbc.br/pratica-em-contratos-tecnicas-de-estruturacao-redacao-e-analise/ 8 8
+https://www.direitosbc.br/especializacao-em-direito-e-relacoes-do-trabalho-2/ 1 1
+https://l.instagram.com 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+503 8 716832
+302 26 3588
+400 8 90054
+404 48 648103
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 23
+/apple-touch-icon-precomposed.png 2 -
+/sitemap.xml 2 -
+/apple-touch-icon.png 2 -
+/.well-known/captcha/js/loading-bar.js 1 -
+/bk 1 -
+/.well-known/captcha/js/mask.js 1 -
+/sitemap.txt 8 -
+/apple-touch-icon-120x120.png 2 -
+/old 1 -
+/wp 1 -
+/sitemap 6 -
+/main 1 -
+/apple-touch-icon-120x120-precomposed.png 2 -
+/home 1 -
+/wordpress 1 -
+/bc 1 -
+/wp-login.php 7 http://matriculaonline.direitosbc.br/wp-login.php
+/products.json 1 -
+/cdn-cgi/rum 2 https://matriculaonline.direitosbc.br/index.php
+/adminer.php 2 -
+/.well-known/captcha/js/jquery.maskMoney.js 1 -
+/new 1 -
+/backup 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 110
+20.213.237.233 33 33 3168 20220913113859
+179.100.99.211 18 18 20100 20220905121941
+201.63.196.26 10 41 522689 20220922225526
+2804:431:cff5:7f6a:399d:e9b0:b1c1:46d0 8 23 243920 20220903193342
+201.26.218.104 6 30 465717 20220902160301
+207.46.13.200 5 5 5085 20220924224614
+2001:8a0:ff9a:0:1d2d:3756:110:9afe 5 21 322479 20220904232514
+2804:14c:120:876a:b944:830c:6613:3a87 5 21 322479 20220905191046
+207.46.13.202 5 5 5079 20220927111825
+177.46.136.165 5 14 290934 20220905122126
+2804:431:c7c5:5c7b:6487:3a38:3117:9d33 1 1 1010 20220912020601
+45.4.71.20 3 18 237266 20220905191533
+2804:431:c7eb:87a6:4462:10b9:b960:43c2 2 17 235543 20220905000713
+35.209.96.24 1 1 1001 20220911214705
+2804:431:cff5:7f6a:a016:7767:b69c:8c1c 3 3 3510 20220903192747
+137.184.140.67 1 1 96 20220901194814
+2804:868:d049:2580:e40b:6d35:789d:9282 2 11 65707 20220921200419
+2804:14d:78b3:89c1:c554:ccdb:7a17:73ca 3 3 3510 20220903023822
+2804:14d:7890:8fb6:41e:3eca:a893:ef02 4 6 94284 20220901225622
+179.250.178.157 2 3 13567 20220910190745
+2804:14d:7e23:8517:560:426a:7737:1ab4 2 17 235544 20220916224718
+138.118.100.14 0 1 154919 
+152.250.232.227 2 17 235544 20220923185738
+2804:14c:50:a465:ec46:a987:51d5:ff7d 2 17 235543 20220925183633
+138.219.168.141 3 3 2798 20220904012206
+2804:14c:57:8ca8:4558:9417:e501:3669 2 17 235544 20220921105258
+2804:431:c7e5:b7d8:6df7:fa28:eb04:e19d 3 14 231340 20220907023528
+2804:18:18b1:5f20:dda3:e44f:e577:4605 1 1 1001 20220926165115
+162.219.250.15 1 1 113 20220922015542
+212.38.40.215 1 1 96 20220907163600
+2804:431:cfd5:4fbb:85a7:9127:71d7:a3e8 2 17 235544 20220917102344
+2804:431:d7ff:24b0:40be:97dc:26b2:152b 1 1 1001 20220924142847
+2804:38a:a109:7278:b59f:df2b:30e5:34dc 3 3 3510 20220905094851
+189.110.185.129 4 4 4520 20220917143458
+157.55.39.38 1 1 1017 20220904184101
+152.250.215.54 2 17 235544 20220926192525
+177.103.24.162 1 1 1001 20220924215651
+2804:14d:78a5:4d06:1061:168b:db92:96ae 2 2 1788 20220904233253
+40.77.167.33 2 2 2034 20220905062300
+2804:18:845:85a7:a578:796f:b44:203 1 1 1010 20220921185651
+2804:14d:7848:891d:bc3f:3b:18d3:3ce3 2 2 1788 20220907020919
+179.184.234.178 2 17 235543 20220909184909
+65.108.217.46 1 1 1007 20220928064908
+2804:7f0:bd43:5f0f:ed74:32c:d1f:9e31 2 10 223856 20220915205923
+189.122.195.204 2 2 1788 20220905160254
+2804:14c:88:201c:9804:80d9:8825:567b 2 17 235544 20220925234524
+207.46.13.95 1 1 1015 20220921235657
+189.54.31.165 2 2 1788 20220902143843
+2001:8a0:ff9a:0:cc6:9703:8e3e:3b8 1 1 1010 20220905144849
+2804:14d:7848:8e1d:217e:4928:1a7:582b 2 2 1788 20220927013835
+157.55.39.196 3 3 3049 20220927110642
+2804:18:18d6:d294:b43a:e7d1:af14:c4ee 1 1 1001 20220928123530
+179.228.181.66 4 11 64093 20220906000401
+177.170.251.123 3 18 237265 20220920141047
+65.108.251.150 1 1 1010 20220928050621
+183.129.153.157 1 1 1001 20220924085225
+2804:1b3:aa80:7582:d971:f2cd:e62b:67f2 3 17 236562 20220913232308
+2001:8a0:ff9a:0:6195:805d:c719:f01d 1 8 40183 20220906102811
+2804:14d:789c:4a8f:50b:1907:e89c:8085 2 2 1787 20220911011411
+2804:14c:156:9c1b:a849:4736:92ff:63bb 2 17 235544 20220928221703
+207.46.13.201 1 1 1019 20220913092320
+177.45.160.182 3 14 78824 20220924024331
+78.47.110.220 1 1 1009 20220928050728
+179.228.69.251 3 18 237266 20220908220853
+187.35.17.94 3 18 237265 20220923111447
+2804:18:1074:c655:dcc0:75fc:4f8b:d7d 3 18 235544 20220905021554
+2.57.122.155 1 1 1001 20220922205305
+179.208.151.254 2 17 235543 20220909045746
+2804:2978:a:a200:7039:ed54:aaa8:398 2 10 203996 20220924154910
+194.59.165.88 1 1 113 20220918211415
+207.46.13.84 1 1 1014 20220921213754
+2804:14d:7835:8484:4914:7acc:96b4:3d10 3 13 185208 20220909043303
+162.142.125.7 4 4 4004 20220912064837
+191.182.224.64 3 3 3510 20220905020530
+157.55.39.26 1 1 1013 20220921235157
+157.55.39.201 1 1 1019 20220905084914
+191.180.19.124 3 18 237266 20220907131323
+2804:14c:126:8c74:192f:fd58:963e:7e7c 2 17 235543 20220918221009
+189.54.139.41 4 4 6356 20220905150949
+2804:214:860b:36da:5d51:aedb:a7ba:ecbd 2 17 235544 20220930181746
+157.55.39.203 1 1 1016 20220913093911
+103.90.235.70 1 1 113 20220928223207
+179.212.111.246 3 18 237266 20220926210710
+2804:7efc:44c:4d01:8e0:bef8:c5e9:8ace 2 17 235541 20220918222640
+2804:431:c7cc:845:35a8:5cfd:c76:c807 4 20 321469 20220905181322
+40.77.167.49 3 3 288 20220905111829
+157.55.39.208 1 1 1021 20220912215053
+45.236.209.66 4 13 263732 20220902191326
+191.250.14.178 2 16 219550 20220927014846
+2804:14d:7897:9af7:60:a0d2:f787:71d9 2 5 169190 20220906230029
+2804:14c:7782:8420:64c2:4c2f:f89d:eab7 2 17 235544 20220928163347
+157.55.39.159 3 3 3056 20220925055004
+2804:18:18d2:4a02:3581:e4c4:adf6:8e57 1 1 1001 20220923165215
+2804:18:1856:30aa:7501:f960:45b5:d4cd 2 2 1788 20220903013537
+2804:431:d7ff:5577:ec17:9d2c:ffe3:5ba2 4 19 238276 20220910100231
+2804:431:c7e4:2e71:44c3:5fd2:50ca:1170 4 5 87713 20220905192404
+152.249.11.224 2 9 49080 20220925161632
+2804:14d:7839:84d1:3c09:a112:7122:e745 2 4 6865 20220910023639
+2804:14c:50:a465:e0ae:b46e:30b5:7b74 1 1 1722 20220926231436
+2804:14d:7897:8d9d:69a6:10ee:b8a1:36c8 4 4 6356 20220905133757
+168.205.50.204 4 13 190362 20220920001247
+199.47.82.21 1 1 1010 20220930185705
+2804:14d:7833:51fb:349d:14b3:ed1d:4e9e 4 20 321469 20220904214301
+20.163.0.214 1 1 0 20220928194027
+2804:38a:a037:d161:9c72:9134:e912:3f1e 2 17 235544 20220919232456
+2804:7f0:b082:1fcb:4583:11fa:edec:4893 2 17 235543 20220906170204
+40.77.167.75 2 2 2034 20220905085036
+170.231.235.216 2 2 1788 20220903040112
+2804:18:10c1:7a60:693a:e118:3d38:245a 1 1 1001 20220930211732
+162.142.125.211 4 4 4004 20220914123440
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 29
+20220901 11 44 631651 4
+20220902 10 28 495693 3
+20220903 18 33 254516 5
+20220904 16 48 650571 6
+20220905 71 172 1841036 22
+20220906 9 41 509009 4
+20220907 9 35 470490 4
+20220908 3 19 392185 1
+20220909 7 47 656294 3
+20220910 8 26 258708 3
+20220911 3 3 2788 2
+20220912 8 8 8064 5
+20220913 41 55 244573 7
+20220914 4 4 4004 1
+20220915 2 10 223856 1
+20220916 2 17 235544 1
+20220917 6 21 240064 2
+20220918 5 35 471197 3
+20220919 2 17 235544 1
+20220920 7 31 427627 2
+20220921 10 34 307340 8
+20220922 5 5 4300 4
+20220923 7 48 551633 4
+20220924 9 17 210033 7
+20220925 10 47 524231 6
+20220926 7 37 475533 4
+20220927 7 21 224390 4
+20220928 10 41 630147 8
+20220930 4 19 237555 3
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 6
+5mn-15mn 6
+0s-30s 98
+2mn-5mn 5
+30s-2mn 17
+15mn-30mn 1
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 37
+/index.php 130 125856 107 46
+/views/preInscricao.html 72 55776 0 36
+/views/matricula.html 37 62730 1 15
+/ 22 19115 15 14
+/views/realizarPagamento.html 14 39346 0 11
+/wp-login.php 5 531 5 5
+/config/aws.yml 1 96 0 0
+/info 1 96 0 0
+/configs/s3_config.json 1 96 0 0
+/php-info.php 1 96 0 0
+/configs/application.ini 1 96 0 0
+/src/phpinfo.php 1 96 0 0
+/debug/default/view.html 1 96 0 0
+/s3cmd.ini 1 96 0 0
+/temp.php 1 96 0 0
+/info.php 1 96 0 0
+/phpinfo/phpinfo.php 1 96 0 0
+/infos.php 1 96 0 0
+/frontend_dev.php/$ 1 96 0 0
+/.circleci/config.yml 1 96 0 1
+/_profiler/phpinfo 1 96 0 0
+/tmp/phpinfo.php 1 96 0 0
+/settings.php.bak 1 96 0 0
+/frontend/web/debug/default/view 1 96 0 0
+/php_info.php 1 96 0 0
+/pinfo.php 1 96 0 0
+/.config 1 96 0 0
+/config.json 1 96 0 0
+/web/debug/default/view 1 96 0 0
+/app_dev.php/_profiler/phpinfo 1 96 0 0
+/.env.bak 1 96 0 0
+/phpinfo.php 1 96 0 0
+/.env.old 1 96 0 0
+/_profiler/phpinfo.php 1 96 0 0
+/.aws/credentials 1 96 0 0
+/debug/default/view 1 96 0 0
+/phpinfo 1 96 0 0
+END_SIDER

@@ -1,0 +1,445 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202210 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.matriculaonline.direitosbc.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2686                
+POS_VISITOR 8708                
+POS_DAY 12485               
+POS_DOMAIN 3408                
+POS_LOGIN 3773                
+POS_ROBOT 3928                
+POS_WORMS 4520                
+POS_EMAILSENDER 4651                
+POS_EMAILRECEIVER 4794                
+POS_SESSION 13153               
+POS_SIDER 13338               
+POS_FILETYPES 4929                
+POS_DOWNLOADS 5104                
+POS_OS 5152                
+POS_BROWSER 5371                
+POS_SCREENSIZE 5952                
+POS_UNKNOWNREFERER 6026                
+POS_UNKNOWNREFERERBROWSER 6351                
+POS_ORIGIN 6482                
+POS_SEREFERRALS 6619                
+POS_PAGEREFS 6782                
+POS_SEARCHWORDS 7022                
+POS_KEYWORDS 7174                
+POS_MISC 2350                
+POS_ERRORS 7233                
+POS_CLUSTER 3629                
+POS_SIDER_404 7360                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20221101021111 1408 475958 13493940023637
+FirstTime 0
+LastTime 20221031131533
+LastUpdate 20221101045039 1408 1366 41 0 0
+TotalVisits 88                  
+TotalUnique 75                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 75                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 12 61 604991 9 12 7385
+1 2 17 235544 8 15 134876
+2 4 19 237568 16 21 45710
+3 10 61 894490 8 16 244418
+4 3 3 365 9 13 65256
+5 5 5 4177 9 34 194181
+6 0 0 0 12 30 237996
+7 2 2 1131 7 37 165321
+8 0 0 0 1 2 1051
+9 0 0 0 10 27 88145
+10 4 19 218648 21 26 46924
+11 0 0 0 5 22 84001
+12 21 75 874346 5 32 83969
+13 29 172 2116200 7 61 313139
+14 13 46 466520 4 8 4113
+15 10 10 6478 33 37 1061836
+16 12 42 478265 4 8 22535
+17 13 78 1093077 2 21 235826
+18 9 55 793577 6 42 330621
+19 22 129 1786625 11 24 28966
+20 7 26 414814 5 10 61177
+21 5 35 472080 3 5 3109
+22 2 2 252 9 17 9449
+23 6 21 236972 9 13 26715
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 11
+br 77 449 5481439
+unknown 65 350 4944519
+us 32 47 264879
+se 4 4 4004
+lb 4 4 504
+fr 3 3 3003
+pl 2 17 235544
+ru 1 1 1001
+au 1 1 1001
+sg 1 1 113
+vn 1 1 113
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+bingbot/ 230 808085 20221031233949 28
+AhrefsBot/ 83 717752 20221031221645 17
+Googlebot/ 26 86231 20221022182735 4
+bingpreview 16 80245 20221028182711 0
+oBot/ 15 13222 20221026070231 2
+BLEXBot/ 10 2419 20221026204043 8
+SemrushBot/ 9 1117 20221030023611 2
+unknown 5 250 20221025082632 5
+curl 4 2270 20221021065928 0
+facebookexternalhit/ 4 4040 20221021154133 0
+CCBot/ 2 1051 20221005092310 1
+python 3 1228 20221008051716 0
+no_user_agent 2 1001 20221018094609 0
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 231 1356562 0 0
+php 88 76504 0 0
+png 49 7296783 0 0
+html 99 94669 0 0
+js 407 2111130 0 0
+Unknown 4 472 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 12
+linuxandroid 102 12
+ios_iphone 220 36
+winnt 1 1
+linux 3 3
+os/2 1 1
+win7 87 21
+macosx 17 3
+macosx9 1 1
+win8.1 17 2
+Unknown 24 24
+win10 404 86
+macosx8 1 1
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 28
+firefox50.0 6 6
+safari15.6.1 19 5
+chrome37.0.2049.0 1 1
+chrome49.0.2656.18 1 1
+chrome85.0.4183.102 17 2
+firefox58.0 3 3
+firefox106.0 20 4
+chrome102.0.0.0 17 2
+chrome107.0.0.0 24 4
+firefox105.0 32 5
+firefox31.0 1 1
+iphone 165 23
+chrome52.0.2762.73 1 1
+firefox96 4 4
+mozilla 16 16
+chrome104.0.0.0 90 14
+firefox59.0 1 1
+safari16.0 20 5
+safari15.6 19 4
+chrome105.0.0.0 41 13
+chrome105.0.5195.136 34 4
+chrome84.0.4147.105 1 1
+opera89.0.4447.104 17 2
+msie9.0 9 9
+chrome106.0.0.0 280 48
+chrome106.0.5249.126 17 2
+Unknown 8 8
+safari 14 2
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_Let's_Encrypt_validation_server;__https://www.letsencrypt.org) 20221018150901
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20221029122939
+Turnitin_(https://bit.ly/2UvnfoQ) 20221013214800
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+Turnitin_(https://bit.ly/2UvnfoQ) 20221013214800
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 55 55
+From1 0 0
+From2 1 1
+From3 49 49
+From4 86 773
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 1
+www_google_com 1 1
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 3
+https://www.direitosbc.br 34 34
+https://l.instagram.com 14 14
+https://www.direitosbc.br 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 4
+503 5 220548
+405 1 220
+400 24 627754
+404 49 929286
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 30
+/wp-content/plugins/wp-mail-smtp-pro/ 1 -
+/manager/controllers/default/resource/tvs.php 1 -
+/sitemap.xml 3 -
+/backup/auto.php 1 -
+/manage/fileDownloader 1 -
+/search/ 1 -
+/wp/wp-admin/setup-config.php 1 -
+/2Gg7aDLxXV6Vi6lUiS3mjQqpZCG.txt 2 -
+/sitemap.txt 6 -
+/module/smartblog/archive 1 -
+/setup/install.php 1 -
+/php/query.php 1 -
+/e/ViewImg/index.html 1 -
+/upload/setup/install.php 1 -
+/webapi/v1/system/accountmanage/account 1 -
+/bonita/portal/themeResource 2 -
+/cgi-bin/ExportAllSettings.sh 1 -
+/css_parser.php 1 -
+/sitemap 5 -
+/cu.html 1 -
+/app_dev.php/_profiler/empty/search/results 1 -
+/wp-content/plugins/easy-wp-smtp/ 1 -
+/api/v1/user/login 1 -
+/api/sms_check.php 1 -
+/webGui/images/green-on.png/ 1 -
+/AccessAnywhere/%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255c%252e%252e%255cwindows%255cwin.ini 1 -
+/wp-login.php 7 http://matriculaonline.direitosbc.br/wp-login.php
+/backupsettings.dat 1 -
+/storfs-asup 1 -
+/apisix/admin/migrate/export 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 75
+201.63.196.26 31 195 2382897 20221027001848
+199.47.82.19 7 7 7064 20221009163454
+147.78.47.249 4 4 504 20221030044625
+2804:14d:789c:529a:ad35:7382:9b67:bdd1 4 20 321469 20221027182117
+80.78.27.38 4 4 4004 20221026155908
+179.34.1.213 4 18 319286 20221031131533
+162.142.125.213 4 4 4004 20221022122931
+157.55.39.161 4 4 4069 20221018073653
+187.38.46.160 4 20 321469 20221024192822
+167.94.138.62 4 4 4004 20221029122939
+2600:1f14:804:fd00:7d3b:2864:b33d:3444 1 1 118 20221018150901
+104.219.251.247 1 1 113 20221023053749
+2804:18:67:aff4:2db2:b5c4:375e:693e 2 17 235544 20221015004954
+177.45.80.79 2 17 235544 20221024195302
+2804:431:e7cd:6f86:1d8a:8e36:3d52:3d4b 2 14 206022 20221031130718
+2804:431:cfc2:3e44:2910:16e2:6ef9:5360 2 17 235544 20221010190605
+45.119.213.225 1 1 113 20221010165141
+2804:e94:1047:6c00:c590:22a7:4273:5498 2 17 235544 20221021185548
+2804:14c:2a:9b9f:124:e01d:c377:8287 2 17 235544 20221004193229
+177.91.160.132 2 13 70797 20221006133736
+207.46.13.200 2 2 2034 20221018051445
+201.0.238.198 2 10 67000 20221006133740
+2600:3000:2710:200::1d 1 1 118 20221018150901
+189.89.179.114 2 17 235544 20221004213154
+20.206.106.25 3 3 409 20221013145126
+2804:18:dc:667c:5b20:9ee8:9fb2:1ac4 2 17 235543 20221010134639
+188.165.87.100 1 1 1001 20221019153602
+2804:388:e068:b838:d1f6:c7a0:c755:f604 2 17 235544 20221024164125
+2600:1f16:269:da01:17a8:b74a:8355:e1d5 1 1 118 20221018150901
+2804:18:802:c8b2:6ce5:a62e:2999:3713 2 17 235544 20221021165743
+201.16.134.72 2 10 71990 20221006133740
+2804:14d:7840:82fe:962:3b43:4e34:90f4 2 6 175760 20221028200008
+2804:1b3:a581:8d68:bc52:efe9:ff4:7082 2 15 216221 20221007033332
+201.57.89.197 2 17 235544 20221014192506
+2804:431:cfd5:4b2d:d47b:2450:fcf4:1a54 3 11 207182 20221018030600
+207.46.13.84 1 1 1020 20221017184010
+2403:6a40:0:120:cc2a:d773:3d27:4391 1 1 113 20221030043908
+2804:14d:78d5:87ae:a07a:4b2:558:8b0d 2 9 43854 20221007000815
+2804:14c:138:6199:3df7:2bb1:d26f:d149 2 17 235544 20221030183021
+177.66.115.132 2 15 234217 20221006141802
+187.3.163.46 2 17 235544 20221001231443
+2804:14c:121:8097:cc0f:3c72:8d82:ecf9 2 17 235544 20221028173934
+201.68.173.55 1 1 1001 20221009152601
+2804:431:c7c5:5c02:5561:d9b:9cd0:e567 2 17 235543 20221004034523
+207.46.13.198 1 1 1012 20221018050529
+191.7.51.164 2 17 235544 20221006133440
+2804:18:18cb:cd0f:f904:279d:1a46:acfc 1 1 0 20221002030058
+2804:14d:7841:4771:a5e1:f2a0:5229:a15f 2 17 235541 20221007132325
+79.104.53.14 1 1 1001 20221018151901
+2804:14c:50:8417:99bc:75dd:5f88:6021 1 1 1010 20221028193353
+52.90.41.76 2 17 235535 20221018210400
+51.254.49.111 1 1 1001 20221019170933
+51.255.62.10 1 1 1001 20221019140612
+2804:431:c7e2:9142:f009:491f:60eb:7972 2 11 211792 20221028123710
+189.29.145.178 2 17 235544 20221009030627
+189.29.184.84 3 15 105783 20221011000614
+191.234.201.91 3 3 409 20221028233951
+168.90.226.6 2 8 20041 20221006141808
+2804:431:d77e:5e0d:10c8:8208:69c0:6290 2 7 167270 20221028174407
+2a05:d014:3ad:700:bb69:25f6:3400:4cd1 1 1 118 20221018150901
+179.212.96.5 2 17 235544 20221025203133
+2804:14d:7848:57b1:142:4efd:8f82:990b 2 2 1788 20221017135954
+2804:14c:155:8f08:8450:8ec9:1d26:1891 2 17 235544 20221015011211
+199.47.82.21 1 1 1001 20221013214800
+51.79.144.41 1 1 113 20221028071057
+189.29.147.147 2 17 235544 20221024174406
+2804:14d:7848:57b1:e45b:6a69:817d:fdfd 3 3 3510 20221017205157
+2804:431:cfe8:588e:c39:bf62:8d85:4300 3 18 236554 20221012023616
+207.46.13.151 1 1 1019 20221018103856
+35.213.223.219 1 1 1001 20221023100941
+2804:388:e07f:d856:a941:851:fc:a21d 3 18 237266 20221017135727
+2804:431:c7d8:ae73:e9e7:c578:405b:8218 4 5 87713 20221026191209
+88.156.99.4 2 17 235544 20221017174838
+186.220.39.14 2 2 1788 20221016000833
+162.142.125.211 4 4 4004 20221015123112
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 27
+20221001 2 17 235544 1
+20221002 1 1 0 1
+20221004 6 51 706631 3
+20221006 13 74 700362 7
+20221007 6 41 495616 3
+20221009 10 25 243609 3
+20221010 5 35 471200 3
+20221011 3 15 105783 1
+20221012 3 18 236554 1
+20221013 6 21 218038 3
+20221014 4 34 452172 2
+20221015 9 39 476111 4
+20221016 2 2 1788 1
+20221017 29 148 1776060 8
+20221018 17 40 451305 13
+20221019 3 3 3003 3
+20221021 4 34 471088 2
+20221022 4 4 4004 1
+20221023 3 3 2115 3
+20221024 14 90 1244981 6
+20221025 2 17 235544 1
+20221026 10 26 308002 3
+20221027 7 38 539491 2
+20221028 13 46 791898 7
+20221029 4 4 4004 1
+20221030 5 20 235909 3
+20221031 6 32 525308 2
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+1h+ 1
+15mn-30mn 2
+30s-2mn 8
+0s-30s 73
+2mn-5mn 4
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 9
+/index.php 84 76052 65 16
+/views/preInscricao.html 56 42128 0 41
+/ 24 23023 13 12
+/views/matricula.html 11 17630 0 5
+/views/realizarPagamento.html 4 11384 0 4
+/.well-known/acme-challenge/RLUVUUinJCNCuesoULDCyEnI70js7xtB458bm9cbhf4 4 472 4 4
+/wp-login.php 4 452 4 4
+/_ignition/health-check/ 2 248 1 1
+/public/_ignition/health-check/ 2 256 1 1
+END_SIDER

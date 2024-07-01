@@ -1,0 +1,339 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202205 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.matriculaonline.direitosbc.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2695                
+POS_VISITOR 7128                
+POS_DAY 8644                
+POS_DOMAIN 3350                
+POS_LOGIN 3640                
+POS_ROBOT 3795                
+POS_WORMS 4378                
+POS_EMAILSENDER 4509                
+POS_EMAILRECEIVER 4652                
+POS_SESSION 9033                
+POS_SIDER 9221                
+POS_FILETYPES 4787                
+POS_DOWNLOADS 4957                
+POS_OS 5005                
+POS_BROWSER 5185                
+POS_SCREENSIZE 5594                
+POS_UNKNOWNREFERER 5668                
+POS_UNKNOWNREFERERBROWSER 5841                
+POS_ORIGIN 5923                
+POS_SEREFERRALS 6060                
+POS_PAGEREFS 6204                
+POS_SEARCHWORDS 6461                
+POS_KEYWORDS 6613                
+POS_MISC 2359                
+POS_ERRORS 6672                
+POS_CLUSTER 3496                
+POS_SIDER_404 6772                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20220601112105 580 189812 17981895563438
+FirstTime 20220501012517
+LastTime 20220530194657
+LastUpdate 20220602045228 580 579 0 0 0
+TotalVisits 37                  
+TotalUnique 31                  
+MonthHostsKnown 0                   
+MonthHostsUnknown 31                  
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 5 30 441347 2 4 2002
+1 7 23 324510 1 2 1010
+2 3 18 237266 4 44 214573
+3 0 0 0 1 1 1001
+4 3 3 3045 4 5 4071
+5 0 0 0 4 31 147187
+6 0 0 0 3 19 81725
+7 1 1 1014 1 2 1051
+8 0 0 0 1 2 1051
+9 0 0 0 1 2 1051
+10 2 17 235544 0 1 0
+11 4 20 321469 3 18 81635
+12 10 40 477261 3 8 3111
+13 1 1 1013 3 5 3119
+14 2 17 216628 6 8 6079
+15 23 98 1163725 5 10 23586
+16 13 43 462437 3 8 3021
+17 1 2 84203 3 6 3162
+18 12 12 2002 3 21 235955
+19 2 17 235544 2 17 3934
+20 0 0 0 1 2 1051
+21 4 9 120738 2 24 104612
+22 2 2 2012 4 7 4181
+23 0 0 0 2 5 2161
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 5
+br 39 205 2713243
+unknown 24 116 1594377
+us 18 18 18134
+de 10 10 0
+ro 4 4 4004
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 12
+bingbot/ 120 443783 20220530072004 18
+Googlebot/ 33 161299 20220525111316 1
+AhrefsBot/ 29 242133 20220529221046 6
+CCBot/ 11 8197 20220522150710 3
+oBot/ 7 5149 20220521041936 2
+netEstate[\x20]NE[\x20]Crawler 5 3103 20220528054651 2
+bingpreview 4 3410 20220521023936 0
+(firefox/)([0-9]\.|[0-1][0]\.) 1 1001 20220509231913 0
+BLEXBot/ 1 50 20220501024245 1
+no_user_agent 1 1001 20220518161012 0
+java 1 1009 20220523043934 0
+unknown 1 50 20220501221032 1
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 6
+css 79 453823 0 0
+php 40 37815 0 0
+png 21 2959051 0 0
+html 46 51546 0 0
+js 158 827523 0 0
+Unknown 9 0 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxandroid 44 13
+macosx11 1 1
+unix 2 2
+ios_iphone 34 4
+win7 25 10
+macosx 1 1
+win10 229 54
+win8.1 9 2
+Unknown 8 8
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 17
+firefox99.0 12 2
+chrome88.0.4324.150 17 2
+chrome51.0.2704.64 2 2
+chrome80.0.3987.163 2 2
+chrome101.0.4951.54 17 2
+safari15.4 18 3
+firefox100.0 17 2
+chrome100.0.4896.127 134 27
+safari14.1.1 17 2
+mozilla 8 8
+chrome101.0.4951.67 84 19
+chrome47.0.2526.111 1 1
+chrome74.0.3729.169 10 10
+chrome84.0.4147.105 1 1
+msie9.0 7 7
+chrome101.0.4951.41 5 4
+safari9.0.2 1 1
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 1
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20220521152105
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 0
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 43 43
+From1 0 0
+From2 0 0
+From3 19 19
+From4 33 291
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 2
+https://www.direitosbc.br 18 18
+https://www.direitosbc.br/processo-previdenciario-questoes-fundamentais/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+302 15 2070
+404 3 58074
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 3
+/sitemap.txt 1 -
+/sitemap.xml 1 -
+/sitemap 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 31
+201.63.196.26 15 60 657464 20220523160040
+161.97.103.248 10 10 0 20220520185936
+167.248.133.119 4 4 4004 20220521152105
+2804:14d:7839:8595:5d30:ce4b:d3b2:be 4 20 321469 20220503112129
+45.168.250.61 4 20 321469 20220521173004
+167.94.138.60 4 4 4004 20220515123805
+2804:1b3:6900:2cb6:10ce:7726:60a6:6220 4 5 87713 20220501012929
+2804:1b3:a580:d8a6:81fa:b2d0:1882:f0ee 4 4 4520 20220503161217
+177.80.200.146 4 9 120738 20220523211923
+40.77.167.60 3 3 3041 20220530131823
+2.57.122.155 2 2 2002 20220517161442
+40.77.167.3 2 2 2030 20220530072013
+186.215.208.9 2 17 235543 20220523151604
+177.22.32.133 2 16 233795 20220523151604
+189.54.221.3 2 17 235544 20220507104814
+2804:431:cfd5:5172:a475:754d:500d:41f7 2 17 235544 20220503123505
+2804:14d:7835:9ba0:8d3b:afcd:931f:ac3 2 17 235544 20220514125958
+177.10.57.228 2 13 48264 20220523151605
+20.226.123.16 2 2 2021 20220505164258
+186.193.238.108 2 17 235544 20220530194657
+207.46.13.205 1 1 1021 20220530013006
+40.77.167.69 1 1 1012 20220530043908
+138.97.127.229 2 15 234403 20220523151604
+2.57.122.23 2 2 2002 20220516182318
+2804:431:cfd5:7b5a:e191:52e3:d37f:ba 1 1 1001 20220503004530
+18.188.81.87 1 1 1001 20220501221032
+200.187.85.4 2 9 185677 20220523153005
+187.3.219.181 2 12 204802 20220502000125
+2804:431:f708:58a9:c504:cee1:9cd:f917 2 17 235544 20220519000158
+2001:1284:f034:76bd:6946:4dc:486c:47c9 2 17 235776 20220521012559
+2804:14d:78ca:8432:c4d4:63cb:4d47:6b04 3 18 237266 20220507023820
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 15
+20220501 5 6 88714 2
+20220502 2 12 204802 1
+20220503 13 44 564703 5
+20220505 2 2 2021 1
+20220507 5 35 472810 2
+20220514 2 17 235544 1
+20220515 4 4 4004 1
+20220516 2 2 2002 1
+20220517 4 19 218630 2
+20220519 2 17 235544 1
+20220520 10 10 0 1
+20220521 10 41 561249 4
+20220523 25 120 1497087 7
+20220529 1 1 1011 1
+20220530 8 23 241637 7
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 5
+5mn-15mn 1
+2mn-5mn 3
+30s-2mn 3
+0s-30s 29
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 14
+/index.php 40 37815 29 9
+/views/preInscricao.html 20 14422 0 13
+/ 15 14014 6 6
+/views/matricula.html 7 11726 0 4
+/views/realizarPagamento.html 4 11384 1 4
+/wp 1 0 0 0
+/main 1 0 0 0
+/bk 1 0 0 0
+/home 1 0 0 1
+/wordpress 1 0 1 0
+/bc 1 0 0 0
+/new 1 0 0 0
+/old 1 0 0 0
+/backup 1 0 0 0
+END_SIDER

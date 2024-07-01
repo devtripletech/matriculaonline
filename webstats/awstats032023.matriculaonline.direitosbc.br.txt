@@ -1,0 +1,680 @@
+AWSTATS DATA FILE 7.7 (build 20161204)
+# If you remove this file, all statistics for date 202303 will be lost/reset.
+# Last config file used to build this data file was /etc/awstats/awstats.matriculaonline.direitosbc.br.conf.
+
+# Position (offset in bytes) in this file for beginning of each section for
+# direct I/O access. If you made changes somewhere in this file, you should
+# also remove completely the MAP section (AWStats will rewrite it at next
+# update).
+BEGIN_MAP 28
+POS_GENERAL 2012                
+POS_TIME 2686                
+POS_VISITOR 11541               
+POS_DAY 23712               
+POS_DOMAIN 3469                
+POS_LOGIN 3864                
+POS_ROBOT 4019                
+POS_WORMS 4625                
+POS_EMAILSENDER 4756                
+POS_EMAILRECEIVER 4899                
+POS_SESSION 24488               
+POS_SIDER 24698               
+POS_FILETYPES 5034                
+POS_DOWNLOADS 5196                
+POS_OS 5244                
+POS_BROWSER 5432                
+POS_SCREENSIZE 6379                
+POS_UNKNOWNREFERER 6453                
+POS_UNKNOWNREFERERBROWSER 6763                
+POS_ORIGIN 6881                
+POS_SEREFERRALS 7022                
+POS_PAGEREFS 7166                
+POS_SEARCHWORDS 7564                
+POS_KEYWORDS 7716                
+POS_MISC 2350                
+POS_ERRORS 7775                
+POS_CLUSTER 3720                
+POS_SIDER_404 7880                
+END_MAP
+
+# LastLine    = Date of last record processed - Last record line number in last log - Last record offset in last log - Last record signature value
+# FirstTime   = Date of first visit for history file
+# LastTime    = Date of last visit for history file
+# LastUpdate  = Date of last update - Nb of parsed records - Nb of parsed old records - Nb of parsed new records - Nb of parsed corrupted - Nb of parsed dropped
+# TotalVisits = Number of visits
+# TotalUnique = Number of unique visitors
+# MonthHostsKnown   = Number of hosts known
+# MonthHostsUnKnown = Number of hosts unknown
+BEGIN_GENERAL 8
+LastLine 20230401020314 2464 876037 19895287523637
+FirstTime 0
+LastTime 20230331223803
+LastUpdate 20230401044253 2464 2394 69 0 0
+TotalVisits 250                 
+TotalUnique 231                 
+MonthHostsKnown 0                   
+MonthHostsUnknown 238                 
+END_GENERAL
+
+# Misc ID - Pages - Hits - Bandwidth
+BEGIN_MISC 10
+QuickTimeSupport 0 0 0
+JavaEnabled 0 0 0
+JavascriptDisabled 0 0 0
+PDFSupport 0 0 0
+WindowsMediaPlayerSupport 0 0 0
+AddToFavourites 0 0 0
+RealPlayerSupport 0 0 0
+TotalMisc 0 0 0
+DirectorSupport 0 0 0
+FlashSupport 0 0 0
+END_MISC
+
+# Hour - Pages - Hits - Bandwidth - Not viewed Pages - Not viewed Hits - Not viewed Bandwidth
+BEGIN_TIME 24
+0 37 85 991918 2 16 40786
+1 24 33 71401 8 33 255022
+2 63 170 1784386 16 42 273170
+3 23 71 701838 10 35 112246
+4 1 1 1009 4 41 405682
+5 7 8 90731 10 16 198621
+6 4 4 4020 20 28 384093
+7 3 3 2789 6 72 521020
+8 3 3 3003 5 28 278306
+9 4 30 605602 10 28 107748
+10 10 23 202527 13 60 733274
+11 20 35 259967 6 37 153101
+12 24 44 586350 2 15 40785
+13 58 171 1820862 1 26 97849
+14 50 109 1630883 3 55 570166
+15 41 105 1243460 5 37 309752
+16 26 75 961889 26 67 817278
+17 29 72 679010 3 18 60076
+18 49 153 1903976 11 69 413206
+19 35 78 733194 2 20 65126
+20 39 85 830595 3 31 94524
+21 28 48 368367 4 30 250685
+22 43 91 1001189 33 77 735600
+23 33 48 614909 15 44 284144
+END_TIME
+
+# Domain - Pages - Hits - Bandwidth
+# The 10 first Pages must be first (order not required for others)
+BEGIN_DOMAIN 12
+unknown 371 770 7821907
+br 209 502 6148908
+us 46 176 2113438
+be 8 8 8008
+ca 4 19 237314
+pl 4 13 51653
+fr 3 3 3022
+tr 2 2 2002
+kr 2 17 235543
+ro 2 17 235535
+ru 1 1 1001
+gb 2 17 235544
+END_DOMAIN
+
+# Cluster ID - Pages - Hits - Bandwidth
+BEGIN_CLUSTER 0
+END_CLUSTER
+
+# Login - Pages - Hits - Bandwidth - Last visit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_LOGIN 0
+END_LOGIN
+
+# Robot ID - Hits - Bandwidth - Last visit - Hits on robots.txt
+# The 10 first Hits must be first (order not required for others)
+BEGIN_ROBOT 13
+AhrefsBot/ 230 2995719 20230331234341 18
+bingbot/ 185 792849 20230331142504 16
+Googlebot/ 66 269058 20230327061903 7
+Applebot/ 32 154234 20230323231713 2
+bingpreview 29 167185 20230313223205 0
+motor 23 241850 20230321164134 0
+BLEXBot/ 21 18323 20230321065223 3
+facebookexternalhit/ 15 169041 20230331081438 0
+no_user_agent 9 8008 20230331204409 0
+CCBot/ 6 4121 20230326031814 2
+oBot/ 2 1060 20230322062403 1
+curl 1 1001 20230328091136 0
+SemrushBot/ 6 3177 20230323072128 3
+END_ROBOT
+
+# Worm ID - Hits - Bandwidth - Last visit
+# The 5 first Hits must be first (order not required for others)
+BEGIN_WORMS 0
+END_WORMS
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first Hits must be first (order not required for others)
+BEGIN_EMAILSENDER 0
+END_EMAILSENDER
+
+# EMail - Hits - Bandwidth - Last visit
+# The 20 first hits must be first (order not required for others)
+BEGIN_EMAILRECEIVER 0
+END_EMAILRECEIVER
+
+# Files type - Hits - Bandwidth - Bandwidth without compression - Bandwidth after compression
+BEGIN_FILETYPES 5
+css 265 1538268 0 0
+php 269 266332 0 0
+png 91 11989470 0 0
+html 385 500445 0 0
+js 535 2799360 0 0
+END_FILETYPES
+
+# Downloads - Hits - Bandwidth
+BEGIN_DOWNLOADS 0
+END_DOWNLOADS
+
+# OS ID - Hits
+BEGIN_OS ID - Hits - Pages 9
+linuxandroid 183 84
+macosx11 1 1
+ios_iphone 495 173
+linux 22 4
+win7 28 4
+macosx 5 2
+win8.1 3 3
+win10 787 362
+Unknown 21 21
+END_OS
+
+# Browser ID - Hits - Pages
+BEGIN_BROWSER 44
+chrome111.0.5563.58 19 4
+chrome110.0.5481.77 17 2
+chrome80.0.3987.163 2 2
+chrome79.0.3945.79 8 2
+firefox110.0 50 28
+chrome96.0.4664.61 8 1
+firefox98.0 2 2
+chrome101.0.4951.64 5 2
+chrome100.0.4896.127 1 1
+iphone 162 54
+firefox109.0 17 2
+safari9.1.1 1 1
+chrome83.0.4103.61 11 2
+chrome74.0.3729.169 1 1
+chrome96.0.4664.55 8 7
+chrome101.0.0.0 4 2
+chrome106.0.5249.126 7 6
+safari14.1.2 22 6
+chrome110.0.5481.154 8 8
+Unknown 1 1
+chrome59.0.3029.83 1 0
+chrome108.0.0.0 3 2
+chrome111.0.0.0 267 138
+edge18 1 1
+safari15.6.1 17 2
+safari16.2 15 2
+firefox111.0 17 2
+firefox72.0 1 0
+opera65.0.3467.48 1 1
+chrome85.0.4183.102 2 2
+chrome110.0.0.0 443 193
+chrome110.0.5481.153 57 26
+chrome109.0.0.0 16 12
+safari16.3 69 36
+chrome99.0.3809.100 11 2
+mozilla 20 20
+chrome104.0.0.0 17 2
+safari16.0 64 22
+chrome105.0.0.0 1 1
+chrome99.0.4844.84 3 3
+chrome111.0.5563.67 17 2
+safari16.1 42 26
+safari15.5 2 0
+safari 104 25
+END_BROWSER
+
+# Screen size - Hits
+BEGIN_SCREENSIZE 0
+END_SCREENSIZE
+
+# Unknown referer OS - Last visit date
+BEGIN_UNKNOWNREFERER 3
+Mozilla/5.0_(compatible;_InternetMeasurement/1.0;__https://internet-measurement.com/) 20230330083526
+WhatsApp/2.23.3.77_i 20230309150314
+Mozilla/5.0_(compatible;_CensysInspect/1.1;__https://about.censys.io/) 20230331022053
+END_UNKNOWNREFERER
+
+# Unknown referer Browser - Last visit date
+BEGIN_UNKNOWNREFERERBROWSER 1
+WhatsApp/2.23.3.77_i 20230309150314
+END_UNKNOWNREFERERBROWSER
+
+# Origin - Pages - Hits 
+BEGIN_ORIGIN 6
+From0 67 68
+From1 0 0
+From2 0 0
+From3 243 243
+From4 344 1234
+From5 0 0
+END_ORIGIN
+
+# Search engine referers ID - Pages - Hits
+BEGIN_SEREFERRALS 0
+END_SEREFERRALS
+
+# External page referers - Pages - Hits
+# The 10 first Pages must be first (order not required for others)
+BEGIN_PAGEREFS 7
+https://www.direitosbc.br 184 184
+https://l.instagram.com 19 19
+https://lm.facebook.com 18 18
+http://m.facebook.com 15 15
+https://www.direitosbc.br 5 5
+https://www.direitosbc.br/curso-inscricao-6/ 1 1
+https://www.direitosbc.br/curso-inscricao-5/ 1 1
+END_PAGEREFS
+
+# Search keyphrases - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_SEARCHWORDS 0
+END_SEARCHWORDS
+
+# Search keywords - Number of search
+# The 10 first number of search must be first (order not required for others)
+BEGIN_KEYWORDS 0
+END_KEYWORDS
+
+# Errors - Hits - Bandwidth
+BEGIN_ERRORS 2
+503 6 537624
+404 104 1839010
+END_ERRORS
+
+# URL with 404 errors - Hits - Last URL referrer
+BEGIN_SIDER_404 86
+/sitemap.xml 1 -
+/sftp-config.json 1 -
+/wp-content/plugins/limolabs-icabbi/sftp-config.json 1 -
+/logs/oitoo_cielo.log 1 -
+//wp-content/uploads/wc-logs/system.log 1 -
+/sitemap.txt 1 -
+/catalog/controller/payment/cielo_lib/logs/log.log 1 -
+/wp-content/plugins/awsr-manager/sftp-config.json 1 -
+/catalog/controller/payment/cielo_lib/logs/xml.log 1 -
+/mooc/main/auth/inscription.php 1 -
+/wp-content/plugins/ImgNotes/sftp-config.json 1 -
+//wc-logs/rede.log 1 -
+//wc-logs/cielo.log 1 -
+/wordpress 1 http://matriculaonline.direitosbc.br/wordpress
+/online/main/auth/inscription.php 1 -
+/bc 1 http://matriculaonline.direitosbc.br/bc
+/campus/main/auth/inscription.php 1 -
+/mta/main/auth/inscription.php 1 -
+/cgi-bin/loja/cielo/log/cielo.log 1 -
+//wp-content/uploads/wc-logs/MOIP_Transparente.log 1 -
+//wc-logs/cron.log 1 -
+//wc-logs/redecard.log 1 -
+/site/main/auth/inscription.php 1 -
+/static/js/sftp-config.json 1 -
+/sistema/sftp-config.json 1 -
+/logs/cielo_xml.log 1 -
+/vendor/htmlawed/htmlawed/htmLawedTest.php 2 -
+/loja/cielo/log/cielo.log 1 -
+//wc-logs/payment.log 1 -
+/apple-touch-icon-120x120.png 3 -
+/old 1 http://matriculaonline.direitosbc.br/old
+/platform/main/auth/inscription.php 1 -
+/cielo.log 1 -
+/main 1 http://matriculaonline.direitosbc.br/main
+/apple-touch-icon-120x120-precomposed.png 3 -
+/.vscode/sftp.json 1 -
+/home 1 http://matriculaonline.direitosbc.br/home
+//wp-content/uploads/wc-logs/MOIP_Oauth.log 1 -
+/assets/sftp-config.json 1 -
+/wp-login.php 2 http://matriculaonline.direitosbc.br/wp-login.php
+/lms/main/auth/inscription.php 1 -
+/academy/main/auth/inscription.php 1 -
+/cielo/log/cielo.log 1 -
+/aula/main/auth/inscription.php 1 -
+/wp-content/plugins/wpstore/includes/functions/payment/Cielo/includes/log.log 1 -
+/app/sftp-config.json 1 -
+/modulos/gateway/cielo/logs/log.log 1 -
+/sftp.json 1 -
+/apple-touch-icon.png 5 -
+/students/main/auth/inscription.php 1 -
+/elearning/main/auth/inscription.php 1 -
+/support//vendor/htmlawed/htmlawed/htmLawedTest.php 2 -
+/pagamento/logs/log.log 1 -
+/wp-content/plugins/booked/sftp-config.json 1 -
+/distribuidor/admin/logs/cielo.log 1 -
+/ticket/vendor/htmlawed/htmlawed/htmLawedTest.php 2 -
+/sitemap 1 -
+/logs/cielo.log 1 -
+/plugins/genkan-api/sftp-config.json 1 -
+/cielo/logs/log.log 1 -
+/portal/sftp-config.json 1 -
+/helpdesk//vendor/htmlawed/htmlawed/htmLawedTest.php 2 -
+/new 1 http://matriculaonline.direitosbc.br/new
+/edu/main/auth/inscription.php 1 -
+/apple-touch-icon-precomposed.png 5 -
+/wp-content/plugins/wpstore/includes/functions/payment/Cielo/pages/log.log 1 -
+/wp-content/plugins/zoom-booking/sftp-config.json 1 -
+/bk 1 http://matriculaonline.direitosbc.br/bk
+/chamilo/main/auth/inscription.php 1 -
+/educa/main/auth/inscription.php 1 -
+/laravel/sftp-config.json 1 -
+/config.json 1 -
+/course/main/auth/inscription.php 1 -
+//var/log/braspag.log 1 -
+/wp 1 http://matriculaonline.direitosbc.br/wp
+/modulos/gateway/cielo/fontes/antigo/logs/log.log 1 -
+/demo/sftp-config.json 1 -
+/wp-content/plugins/wpstore/includes/functions/payment/Cielo/logs/xml.log 1 -
+/tbee/main/auth/inscription.php 1 -
+/modulos/gateway/cielo/fontes/antigo/logs/xml.log 1 -
+/e-learning/main/auth/inscription.php 1 -
+/glpi/vendor/htmlawed/htmlawed/htmLawedTest.php 2 -
+//wc-logs/moip.log 1 -
+/backup 1 http://matriculaonline.direitosbc.br/backup
+/main/auth/inscription.php 1 -
+/courses/main/auth/inscription.php 1 -
+END_SIDER_404
+
+# Host - Pages - Hits - Bandwidth - Last visit date - [Start date of last visit] - [Last page of last visit]
+# [Start date of last visit] and [Last page of last visit] are saved only if session is not finished
+# The 10 first Hits must be first (order not required for others)
+BEGIN_VISITOR 238
+2804:7f0:bec1:dcb9:e4c5:c354:dc70:9cae 16 16 17454 20230307030001
+201.63.196.26 15 71 1104133 20230324134025
+2804:1b3:a581:18f8:e8a2:c7b2:3a65:aada 9 10 94355 20230309150406
+152.250.114.243 9 9 11169 20230309235056
+2804:388:c29f:9841:61f1:10cf:228c:39ec 9 26 409476 20230329043533
+2804:14d:7891:861f:1d08:e519:9ef8:cd03 9 10 92526 20230313005726
+165.225.214.82 8 24 325504 20230316024516
+2804:14d:7840:54ad:bd25:52d7:3402:5ad5 8 9 91748 20230315060125
+187.34.24.249 7 7 9864 20230309150315
+152.249.11.177 6 6 8373 20230314200004
+2804:14d:78d0:814c:842d:871c:268d:95d0 5 6 88721 20230306103304
+31.61.175.80 0 2 12903 
+2804:1b3:a581:4959:fdb2:183f:b194:8f11 3 16 224851 20230309195213
+2804:14d:7897:9999:34ac:7922:7798:31b5 2 17 235543 20230327134151
+2804:42d4:f284:5a01:d074:eed4:2809:5b2a 3 11 178817 20230329193533
+2804:14d:8c83:8559:7939:efd8:3321:72cc 2 2 1788 20230314164739
+2804:7f0:ba00:e62c:ddd7:b477:df31:1d6c 2 2 1788 20230304131504
+94.176.83.95 2 2 1779 20230328025113
+2804:1b3:a582:36c5:cc:575:4e8d:8c4a 4 10 52313 20230329191328
+2804:14d:7841:8af5:594b:b74b:55b3:ec96 4 5 87712 20230302214509
+2804:431:c7e3:135:b111:4b77:cb7:487e 2 3 2493 20230301142649
+2804:14d:72b3:8371:6586:5fbb:1627:c743 2 2 1790 20230310014607
+167.248.133.185 1 1 1001 20230331004903
+201.182.193.125 4 20 321468 20230329122906
+167.94.138.125 1 1 1001 20230324071850
+2804:14d:7841:4ea3:91d5:f257:d548:e737 2 2 1788 20230306162846
+37.225.77.227 2 4 18458 20230330031948
+2804:214:82be:45e9:e08a:ad2b:84a4:7cb3 1 1 1010 20230305012530
+87.236.176.69 1 1 1001 20230330023807
+2804:14d:789d:857a:7d5f:95b9:3853:c943 2 2 1787 20230316130310
+2804:14d:7840:47b3:ccf1:6902:9e84:a90f 3 3 3509 20230307002618
+2804:431:cfd5:1445:38ef:cbf9:6a70:fd48 4 4 6355 20230315191708
+2804:214:82d5:6905:8c57:8eb6:da3:8c09 1 1 1001 20230323190006
+2804:1b3:a1c0:a5f0:d8ba:fd87:f270:1c97 1 1 1009 20230315215448
+87.236.176.6 1 1 1001 20230319232852
+163.116.224.115 2 3 17782 20230303195204
+191.9.194.15 1 1 1010 20230302232610
+2804:7f0:bec2:db81:555d:4be7:10f7:d163 3 8 167680 20230323230355
+2804:14d:7842:9732:6448:48df:b37f:fa86 3 3 2796 20230312133929
+191.254.70.129 1 1 1010 20230306193016
+38.100.114.204 2 17 235535 20230328024828
+35.203.252.153 2 2 1001 20230328015934
+195.85.216.240 1 1 1001 20230307064441
+2804:14d:783d:8e2f:d047:acf8:f643:43fa 4 5 87713 20230314233103
+18.191.225.49 1 1 1001 20230328015935
+79.185.175.29 1 1 0 20230330031940
+167.248.133.189 1 1 1001 20230330232026
+87.236.176.137 1 1 1001 20230303063331
+2804:4c5c:f7aa:100:89f4:2667:6ad0:7ce7 2 7 28357 20230301135204
+2804:388:4119:4899:a0b5:ee01:1f3a:ab6 2 2 1788 20230311033638
+170.81.153.238 2 2 1788 20230306024418
+189.47.238.108 2 2 1787 20230304154552
+2804:14c:4a2:8bb1:dcbc:13d7:5a86:ad41 2 12 215148 20230310094206
+201.72.58.163 4 4 6355 20230303132623
+189.29.147.2 4 4 6355 20230307012748
+2804:7f0:b7c0:6eef:cd7a:c2ea:ee59:a35c 4 5 87712 20230321203444
+191.193.71.217 2 2 1788 20230305121622
+177.26.244.122 2 2 1790 20230309220839
+2804:14d:7833:8b84:74b4:467d:658b:d565 6 22 323486 20230321185108
+2804:7f0:ba80:db88:1cf9:be40:b26d:80f0 2 2 1001 20230305225212
+2804:431:c7e3:2c8d:4824:3a4a:5673:b6b 2 9 59525 20230304133357
+8.243.152.234 6 37 557011 20230314182319
+2804:14d:7e85:8196:3818:9579:7bb3:68ca 2 2 1788 20230304154251
+2804:14d:7899:990e:45ac:9420:24a8:3572 3 18 236552 20230322004215
+189.69.128.243 2 6 40922 20230324030751
+2804:1468:803:b000:ec8a:559b:f0dd:51a4 4 5 6428 20230315123915
+2804:14d:789d:857a:ed70:e9ca:f1d:8162 3 3 3509 20230315233915
+191.255.227.230 6 6 8142 20230330111036
+2804:7f0:bac3:fb1d:b101:4362:b76:5560 2 6 18916 20230301184346
+2804:7f0:bec1:dcb9:1929:b6d2:8fe4:447b 2 2 1787 20230308015051
+187.75.161.92 5 5 6355 20230316004430
+177.124.155.162 5 5 7366 20230314223512
+2804:14d:78d4:4651:b121:f5cb:6cd2:1602 3 3 3509 20230307025722
+186.230.122.17 6 6 8142 20230307140239
+2804:431:cfce:23aa:41f9:5006:4be3:662e 2 2 1788 20230304233540
+201.56.30.158 1 1 2846 20230301171515
+2804:18:869:80f5:ad5b:84fc:ac3:dab6 2 8 40136 20230310182418
+177.115.90.172 3 4 157713 20230315231755
+167.94.138.51 1 1 1001 20230324082557
+97.100.246.152 2 17 235544 20230304194935
+201.93.210.250 4 5 87712 20230302144052
+191.5.225.107 3 3 2796 20230309183313
+185.66.137.42 2 17 235535 20230328024840
+143.0.59.146 3 18 237267 20230301133342
+2804:1b3:a581:18f8:e197:568d:4c49:92b1 2 2 1785 20230309115237
+2804:14d:7840:40fb:e4f6:eecc:3e71:803b 3 18 237263 20230309201752
+167.94.138.36 1 1 1001 20230327130827
+2804:14d:7890:5f81:a06c:51b:146f:4f45 6 13 29473 20230315175912
+2804:1b3:a581:6972:5589:3ce0:f2c2:4a78 4 4 6355 20230315204355
+69.167.22.74 1 1 0 20230319025302
+201.68.34.11 4 5 87714 20230303002700
+2804:214:8115:10ce:1333:b349:a551:e71e 2 10 177807 20230303162434
+2804:18:10cf:41da:1:0:8772:df7e 4 5 87712 20230314182203
+2804:14d:78d5:4e02::fa5d 2 3 156704 20230315144716
+2804:431:e7da:46f1:9bc:2df9:7550:9fff 2 2 1787 20230309200034
+2804:431:cfd5:5f98:7d1f:c084:6558:22b1 4 4 6357 20230301220516
+2804:7f0:b080:70c:c92d:cb7c:eedd:7147 2 2 1790 20230306192508
+191.162.205.11 4 5 87712 20230313181307
+2804:7f0:bec1:dcb9:8878:f50b:4f4f:7d0c 2 2 1787 20230307020818
+189.120.73.67 2 2 1790 20230310011329
+2804:4e18:809:cf30:8c6b:ecd:341d:2ee7 2 2 1788 20230306020305
+167.248.133.186 1 1 1001 20230324012351
+54.212.241.115 2 17 235535 20230328091134
+2804:7f0:bec2:46ea:2c39:a506:368d:312d 2 2 1787 20230312030837
+185.80.116.85 2 17 235544 20230310224215
+54.186.128.105 3 3 3003 20230328020107
+167.249.152.130 1 1 778 20230301165347
+2804:14d:7839:97a0:35a1:6eda:b9ec:6a05 2 2 1787 20230314144935
+2804:14d:78c4:4347:801d:471d:8f71:8d5e 3 3 3509 20230329201743
+161.129.175.92 2 17 235535 20230328025918
+45.6.64.47 2 2 1788 20230311202926
+179.228.113.243 4 9 274971 20230301142916
+189.9.17.204 1 2 82135 20230301141522
+2804:14d:7841:8d52:659d:79c:591e:9660 2 2 1787 20230314204009
+188.147.0.70 0 2 3750 
+201.23.75.26 1 1 1010 20230301165346
+2804:431:b710:a45e:1579:119a:5450:d6bb 4 5 87710 20230307124639
+2804:431:c7df:826d:393f:9603:4032:4f28 2 2 1788 20230304134934
+2804:7f0:b801:569f:d189:f507:4241:dd0 2 2 1789 20230308215210
+2804:7f0:bfc2:b85f:cc88:49e3:360a:aa50 4 4 6355 20230308180108
+2804:14c:4a2:8bb1:9482:76c6:8245:dec8 2 17 235543 20230309003831
+2804:431:d7fe:4ef1:59b9:33d0:dc97:fe41 6 6 6540 20230306004008
+2804:214:8124:cea5:f034:77b5:7879:dfbc 2 17 189189 20230315143416
+177.190.202.178 2 2 1787 20230310170601
+2804:431:e7db:d717:2095:f688:7f2f:1a7e 3 3 2798 20230304135700
+191.177.184.254 2 17 235544 20230305204653
+162.142.125.11 1 1 1001 20230327104234
+2804:7f0:b7c0:6eef:1126:fb31:66f0:e65c 3 3 3509 20230316155457
+185.147.212.34 2 2 2021 20230308131842
+206.204.6.35 2 17 235535 20230328025445
+107.178.231.242 2 2 1001 20230328014028
+87.236.176.201 1 1 1001 20230318083632
+179.111.9.86 2 15 194215 20230304104142
+167.248.133.184 1 1 1001 20230324020507
+177.94.227.214 1 1 1009 20230302144255
+205.169.39.111 4 19 237314 20230328024159
+179.209.140.228 4 4 3578 20230322192821
+2804:14d:7839:904a:dc8d:11cc:1c88:6179 3 16 219873 20230309154725
+2804:d45:b001:a400:e831:77e2:ee77:3316 2 13 189818 20230324183622
+186.204.181.252 2 17 235543 20230302183102
+2804:14d:58a0:84d7:69e8:5044:b92:8501 2 17 235543 20230310162005
+2804:14d:7842:87a1::cf4f 2 12 186525 20230325034746
+2804:14d:78d4:8008:3c87:cac5:2714:11c9 2 2 1788 20230305202357
+35.203.255.103 0 5 38329 
+177.80.180.112 4 4 6353 20230315220243
+2804:7388:1020:cf00:fd8a:5ac8:f23a:27bf 2 12 178038 20230318035653
+167.94.138.52 1 1 1001 20230327200929
+186.193.232.124 2 17 235543 20230310115658
+2804:431:d738:b36c:c0d0:1237:dcac:4ae7 2 17 235543 20230331141333
+2804:14d:7891:8277:b8c2:cbbd:7981:5b3 2 2 1788 20230306031639
+2804:7f0:bec2:db81:5087:7d77:42fa:a151 4 5 87712 20230321220401
+2804:2fa4:9081:5e00:71da:65b3:2426:2564 4 20 321468 20230322151946
+2804:71d4:a081:bf30:4462:55f9:4a6a:7ec 3 18 237266 20230306000152
+2804:1b3:a581:6972:9151:ad6c:9a1a:c583 4 4 6355 20230314212312
+107.178.231.247 0 4 10544 
+162.142.125.224 1 1 1001 20230331022053
+2804:431:e7d4:d422:450b:f8db:bedc:371b 1 1 1009 20230328143537
+2804:14d:7894:921e:cd50:62d3:9ebf:35f5 3 3 3509 20230306113909
+167.248.133.124 1 1 1001 20230330210652
+35.202.155.169 0 1 154919 
+2804:14d:7839:8844::1002 3 4 4213 20230322174427
+40.94.227.18 2 17 235543 20230308175947
+72.44.21.255 4 7 165500 20230317144414
+143.0.19.78 4 20 321468 20230303160600
+2804:1468:803:b000:b09c:8189:dc03:6fce 2 2 1787 20230316111407
+45.160.0.15 2 2 1788 20230304200312
+188.147.4.36 0 1 3328 
+2804:14c:58:8743:cc30:a2bb:c00d:c1cd 2 2 1789 20230306161251
+107.178.236.14 2 2 1001 20230328014018
+195.88.253.86 1 1 1001 20230328024700
+170.80.153.249 2 2 1788 20230305105805
+79.185.175.53 0 2 12213 
+2804:14d:7891:4866:7943:656a:6988:3617 2 2 1788 20230304145148
+177.181.2.47 2 17 235544 20230329184639
+200.168.13.185 5 5 5050 20230301172935
+2804:431:c7e3:19f5:98f0:65dd:2f64:5347 2 2 1788 20230305140842
+2804:14d:7840:54ad:59c1:a4e7:6f10:3e1b 1 1 0 20230316030037
+2804:14c:1c2:91a2:159a:fc9d:b328:d45e 2 2 1788 20230305070813
+167.94.138.33 1 1 1001 20230327160629
+2600:1009:b1c3:d3a5:1140:5c5f:536f:5017 2 17 235544 20230304202749
+2804:14d:7830:8787:7001:60e:d27:a2d5 4 4 4287 20230310142438
+2804:14d:78a0:408b:ddf1:c654:7d02:11a3 3 3 3507 20230307001539
+65.154.226.171 2 17 235535 20230308131718
+189.126.205.53 3 3 3507 20230303154027
+188.147.134.237 1 1 1001 20230330031941
+2804:1b3:af00:91cb:7519:e304:6386:4623 3 3 2798 20230304200028
+2804:14d:7842:a4cc:4516:d939:eeb7:ad3a 5 5 5527 20230304124800
+201.44.110.226 1 1 1722 20230301171418
+2804:7f0:b180:d811:4059:adbb:6e99:e196 6 14 148184 20230313180744
+168.151.167.67 2 2 1779 20230328025057
+2804:14d:7842:96b7:d163:3832:d388:28e3 1 1 1001 20230312195612
+2.56.154.94 1 1 1001 20230314053831
+177.181.7.21 2 2 1788 20230304135857
+199.244.57.253 2 2 1779 20230328025329
+2804:1b3:a580:cc65:2859:38b1:5e8d:a6d9 4 4 6356 20230305183344
+2804:14d:7842:8d3b:e4aa:dd22:a589:9bef 3 15 195251 20230302211653
+87.236.176.186 1 1 1001 20230323032336
+2804:14d:7842:9ad7:8c4:bf86:a098:9d5e 2 2 1785 20230309162412
+2804:4c5c:f799:d000:6cf8:18de:2351:dd28 2 2 1789 20230304180119
+200.186.56.157 3 19 319744 20230309150336
+189.78.176.206 4 4 6355 20230309114327
+2804:431:c7ea:296c:edda:8e2e:9d4b:ac58 1 1 1009 20230302174729
+2600:1f14:b62:9e03:f831:bf00:7398:872 1 1 1001 20230328024308
+2804:14c:132:89f2:f4e3:b4bb:d459:4060 4 5 87712 20230309220307
+2804:388:d006:8e19:9d0:4d1b:392f:d3b4 2 2 1788 20230304150442
+2804:431:c7e3:135:ec58:d330:c96f:eb88 2 2 1789 20230302133608
+2804:14d:789d:857a:607f:6d2c:2101:1123 6 22 323486 20230331223803
+2804:1b3:a1c0:a5f0:8d0f:c80:e344:463 4 8 43652 20230310164247
+2804:14d:7893:95ba::a23e 4 5 7249 20230307025428
+2804:14c:118:8718:b8db:f8a1:ddc8:f9c4 1 8 58747 20230305210144
+2804:14c:121:21be:2d72:e733:8725:c25a 3 3 2798 20230304141325
+87.236.176.21 1 1 1001 20230330083526
+191.8.183.206 2 5 31725 20230320151117
+189.9.62.225 3 18 239333 20230301141701
+168.151.96.211 2 17 235535 20230328025701
+201.43.38.219 4 4 6355 20230331204241
+187.56.117.216 4 4 6355 20230311143835
+2804:431:c7f4:92d0:589d:5cd8:f310:b33c 2 2 1788 20230305012322
+179.110.4.46 5 5 7360 20230313214555
+216.19.202.145 2 17 235535 20230328024625
+2804:18:862:fb9f:1:0:35c6:b917 1 1 0 20230322195256
+2804:1b3:a581:18f8:441a:2200:9b95:1daf 5 5 4581 20230309032133
+2804:7f0:bd83:b446:a55c:612d:e571:9ae3 3 3 4633 20230302115628
+2804:1b3:a580:e081:8409:c19e:2f5b:7406 3 3 3510 20230304133656
+189.111.97.163 2 17 235542 20230306032954
+201.95.69.46 2 5 163711 20230310120615
+2804:14d:7830:8c55:f15c:7460:d103:c571 4 4 6586 20230301170859
+2804:14c:110:b06f:294b:e390:f08c:87cb 4 4 4514 20230306105505
+18.220.115.84 1 1 1001 20230328014018
+2804:214:8613:3796:e44f:8e73:d24a:c5b3 5 5 5302 20230314125138
+2804:431:e7e3:23ff:d94:f4f6:cb4a:dacf 4 19 237561 20230313155105
+2804:1b3:a580:f301:19d9:9076:79f6:988e 4 4 6355 20230310201437
+2804:14d:78a5:4901:8cfb:c275:b251:5e77 2 8 172470 20230323160906
+87.236.176.147 1 1 1001 20230325213954
+87.236.176.145 1 1 1001 20230304182257
+2804:14d:7893:8372:4d5c:bfa2:7513:59c0 2 10 177807 20230306235927
+15.228.229.119 4 4 6355 20230312213149
+196.244.71.30 1 1 1001 20230328025025
+END_VISITOR
+
+# Date - Pages - Hits - Bandwidth - Visits
+BEGIN_DAY 30
+20230301 37 83 911330 16
+20230302 25 54 620186 10
+20230303 20 46 615634 7
+20230304 42 92 756622 20
+20230305 26 48 317906 12
+20230306 36 75 762908 16
+20230307 46 48 140223 10
+20230308 19 59 681141 8
+20230309 56 130 1453939 17
+20230310 32 110 1380984 13
+20230311 8 8 9931 3
+20230312 15 15 16522 5
+20230313 28 69 809953 7
+20230314 46 89 964077 15
+20230315 39 64 650195 11
+20230316 26 38 385659 7
+20230317 2 5 163712 1
+20230318 3 13 179039 2
+20230319 2 2 1001 2
+20230320 2 6 186644 1
+20230321 14 32 498910 3
+20230322 13 45 564022 5
+20230323 7 18 342152 4
+20230324 11 41 471298 7
+20230325 3 13 187526 2
+20230327 6 21 239547 5
+20230328 47 193 2360756 22
+20230329 17 62 792660 6
+20230330 12 21 62012 8
+20230331 14 45 567386 5
+END_DAY
+
+# Session range - Number of visits
+BEGIN_SESSION 7
+1h+ 1
+5mn-15mn 18
+15mn-30mn 3
+30s-2mn 37
+2mn-5mn 24
+0s-30s 166
+30mn-1h 1
+END_SESSION
+
+# URL - Pages - Bandwidth - Entry - Exit
+# The 10 first Pages must be first (order not required for others)
+BEGIN_SIDER 6
+/index.php 267 264330 195 42
+/views/preInscricao.html 191 148598 2 101
+/views/matricula.html 79 135382 1 24
+/views/realizarPagamento.html 59 167416 1 45
+/ 56 49049 49 36
+/index.php/vendor/htmlawed/htmlawed/htmLawedTest.php 2 2002 2 2
+END_SIDER
