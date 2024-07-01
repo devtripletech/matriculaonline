@@ -1,0 +1,167 @@
+						<h2>Dados Obrigat&oacute;rios</h2>
+						<div class="form-group">
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon" id="sizing-addon2">Nome  *</span> 
+									<input id="nomePreInscricao" class="form-control" placeholder="Nome *" ng-model="pessoaObject.nome" aria-describedby="sizing-addon2" required="" autofocus="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon">Utilizar Documento Estrangeiro</span> 
+									<input type="checkbox" id="utilizarDocumentoEstrangeiro" ng-model="pessoaObject.utilizarDocumentoEstrangeiro" style="margin-left: 5px;">
+								</div>
+							</div>
+							<div class="form-group" ng-if="pessoaObject.utilizarDocumentoEstrangeiro == true || pessoaObject.utilizarDocumentoEstrangeiro == 'true'">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon">Tipo de Documento Estrangeiro  *</span> 
+									<select id="tipoDocumentoEstrangeiro" class="form-control"  name="singleSelect" ng-model="pessoaObject.tipoDocumentoEstrangeiro">
+									  	<option value="PASSAPORTE">Passaporte</option>
+									  	<option value="REGISTRO_NACIONAL_ESTRANGEIRO">RNE - Registro Nacional de Estrangeiros</option>
+									  	<option value="REGISTRO_NACIONAL_MIGRATORIO">RNM - Registro Nacional Migrat&oacute;rio</option>
+									  	<option value="DOCUMENTO_IDENTIFICACAO_ESTRANGEIRO">Documento Identifica&ccedil;&atilde;o de Estrangeiro</option>
+								    </select>
+									<span class="input-group-addon">N&uacute;mero do Documento  *</span> 
+									<input type="text" maxlength="30" id="numeroDocumentoEstrangeiro" ng-model="pessoaObject.numeroDocumentoEstrangeiro" class="form-control">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span ng-if="pessoaObject.utilizarDocumentoEstrangeiro == false || pessoaObject.utilizarDocumentoEstrangeiro == 'false'" class="input-group-addon">CPF  *</span> 
+									<span ng-if="pessoaObject.utilizarDocumentoEstrangeiro == true || pessoaObject.utilizarDocumentoEstrangeiro == 'true'" class="input-group-addon">CPF</span> 
+									<input id="cpfPreInscricao" maxlength="14" class="form-control" ng-model="pessoaObject.cpf" required="" autofocus="" ui-mask="999.999.999.99" >
+									<span ng-if="pessoaObject.utilizarDocumentoEstrangeiro == false || pessoaObject.utilizarDocumentoEstrangeiro == 'false'" class="input-group-addon">RG  *</span> 
+									<span ng-if="pessoaObject.utilizarDocumentoEstrangeiro == true || pessoaObject.utilizarDocumentoEstrangeiro == 'true'" class="input-group-addon">RG</span> 
+									<input id="rgPreInscricao" maxlength="30" class="form-control" ng-model="pessoaObject.rg" required="" autofocus="" ui-mask="99.999.999.999" >
+									<span class="input-group-addon">E-mail  *</span> 
+									<input id="emailPreInscricao" class="form-control" placeholder="E-Mail *" ng-model="pessoaObject.email" ng-pattern="/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/" required="" autofocus="" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon" id="sizing-addon2">D.Nasc. *</span> 
+									<input id="dataNasc" class="form-control" ui-mask="99/99/9999" aria-describedby="sizing-addon2" ng-model="pessoaObject.dataNasc" required="" autofocus="">
+									
+									<span class="input-group-addon" id="sizing-addon2">Tel. Resid. *</span> 
+									<input id="telefoneResidencialPreInscricao" class="form-control" ui-mask="(99) 9999-9999" aria-describedby="sizing-addon2" ng-model="pessoaObject.telefoneResidencial" required="" autofocus=""> 
+									<span class="input-group-addon" id="sizing-addon2">Celular  *</span> 
+									<input id="celularPreInscricao" class="form-control" ng-model="pessoaObject.celular" ui-mask="(99) 99999-9999" aria-describedby="sizing-addon2" required="" autofocus="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon" id="sizing-addon2">CEP *</span> 
+									<input type="text" id="cep" size="12" maxlength="10" class="form-control" aria-describedby="sizing-addon2" ui-mask="99.999-999" ng-model="pessoaObject.cep" ng-blur="consultarEndereco()" required="" autofocus=""> 
+									<span class="input-group-addon" id="sizing-addon2">Endere&ccedil;o *</span> 
+									<input id="endereco" class="form-control" placeholder="Endere&ccedil;o *" aria-describedby="sizing-addon2" ng-model="pessoaObject.endereco" required="" autofocus=""> 
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon" id="sizing-addon2">Bairro/Setor *</span> 
+									<input id="bairro" class="form-control" placeholder="Bairro/Setor *" aria-describedby="sizing-addon2" ng-model="pessoaObject.setor" required="" autofocus=""> 
+									<span class="input-group-addon" id="sizing-addon2">N&uacute;mero *</span> 
+									<input id="numero" size="12" class="form-control" placeholder="N&uacute;mero *" ng-model="pessoaObject.numero" aria-describedby="sizing-addon2" required="" autofocus="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon" id="sizing-addon2">Estado *</span> 
+									<select id="estadoAluno" name="singleSelect" class="form-control" ng-model="pessoaObject.cidade.estado.codigo" ng-change="consultarCidade()">
+										<option ng-repeat="estado in estados" value="{{estado.codigo}}">{{estado.sigla}}</option>										
+									</select>
+									<span class="input-group-addon" id="sizing-addon2">Cidade *</span> 
+									<select id="cidadeAluno" name="singleSelect" class="form-control" ng-model="pessoaObject.cidade.codigo">
+										<option ng-repeat="cidade in cidades" value="{{cidade.codigo}}">{{cidade.nome}}</option>										
+									</select>
+								</div>
+							</div>
+							
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon" id="sizing-addon2">Complemento *</span> 
+									<input id="complemento" class="form-control" placeholder="Complemento *" aria-describedby="sizing-addon2" ng-model="pessoaObject.complemento" required="" autofocus="">
+								</div>
+							</div>
+						</div>
+						<br></br>
+						<h2>Informa&ccedil;&otilde;es do Curso</h2>
+						<div class="form-group">
+							<div class="form-group">
+																
+								<div class="form-group">
+									<div class="input-group input-group-sm">
+										<span  class="input-group-addon" >Curso</span> 
+									    <input id="cursoId"  disabled="true" class="form-control"  ng-model="curso.nome" required="" autofocus="">
+									</div>						
+							   </div>	
+							   
+							   <div class="form-group">
+									<div class="input-group input-group-sm">
+										<span  class="input-group-addon"  ng-if="matricula.possuiMaisDeUmaUnidadeEnsino == 'true'">Unidade de Ensino</span> 
+                                        <select  class="form-control"  ng-if="matricula.possuiMaisDeUmaUnidadeEnsino == 'true'" name="singleSelect" ng-model="matricula.codigoUnidadeEnsino" ng-change="atualizarDadosQuandoUnidadeEnsinoAlterado()">
+										  <option ng-if="matricula.possuiMaisDeUmaUnidadeEnsino == 'true'" ng-repeat="unidadeensino in matricula.unidadeEnsinos" value="{{unidadeensino.codigo}}">{{unidadeensino.nome}}</option>
+										  <option ng-if="matricula.possuiMaisDeUmaUnidadeEnsino == 'false'" value="{{matricula.unidadeEnsinos.codigo}}">{{matricula.unidadeEnsinos.nome}}</option>
+									    </select>									
+									</div>						
+							   </div>							   					
+								<div class="form-group">
+									<div class="input-group input-group-sm">
+										<span ng-if="matricula.possuiMaisDeUmTurno == 'true'"  class="input-group-addon" >Turno</span> 
+											<select class="form-control"  ng-if="matricula.possuiMaisDeUmTurno == 'true'" name="singleSelect" ng-model="matricula.codigoTurno" ng-change="atualizarDadosQuandoTurnoAlterado()">
+											<option ng-if="matricula.possuiMaisDeUmTurno == 'true'" ng-repeat="turno in matricula.turnos" value="{{turno.codigo}}">{{turno.nome}}</option>
+											<option ng-if="matricula.possuiMaisDeUmTurno == 'false'" value="{{matricula.turnos.codigo}}">{{matricula.turnos.nome}}</option>
+										</select>										
+									</div>
+								</div>							
+								<div class="form-group">
+									<div class="input-group input-group-sm">
+										<span  ng-if="matricula.possuiMaisDeUmProcessoMatricula == 'true'"  class="input-group-addon" >Calend&aacute;rio de Matr&iacute;cula</span> 
+										<select class="form-control" ng-if="matricula.possuiMaisDeUmProcessoMatricula == 'true'" name="singleSelect" ng-model="matricula.codigoProcessoMatricula">
+											<option ng-if="matricula.possuiMaisDeUmProcessoMatricula == 'true'" ng-repeat="processomatricula in matricula.processoMatriculas" value="{{processomatricula.codigo}}">{{processomatricula.nome}}</option>
+											<option ng-if="matricula.possuiMaisDeUmProcessoMatricula == 'false'" value="{{matricula.processoMatriculas.codigo}}">{{matricula.processoMatriculas.nome}}</option>
+										</select>										
+									</div>
+								</div>							
+								<div class="form-group">
+									<div class="input-group input-group-sm">
+										<span  ng-if="matricula.possuiMaisDeUmPeriodoLetivo == 'true'"  class="input-group-addon" >Periodo Letivo</span> 
+										<select class="form-control" ng-if="matricula.possuiMaisDeUmPeriodoLetivo == 'true'" name="singleSelect" ng-model="matricula.periodoLetivo.periodoLetivo" ng-change="carregarDadosPeriodoLetivo()">
+											<option ng-if="matricula.possuiMaisDeUmPeriodoLetivo == 'true'" ng-repeat="periodo in matricula.periodoLetivos" value="{{periodo.periodoLetivo}}">{{periodo.nome}}</option>
+											<option ng-if="matricula.possuiMaisDeUmPeriodoLetivo == 'false'" value="{{matricula.periodoLetivos.periodoLetivo}}">{{matricula.periodoLetivos.nome}}</option>
+										</select>										
+									</div>
+								</div>					
+								<div class="form-group">
+									<div class="input-group input-group-sm">
+										<span  ng-if="matricula.possuiMaisDeUmaTurma == 'true' || (matricula.possuiMaisDeUmPeriodoLetivo == 'true' && matricula.turmas.codigo )"  class="input-group-addon" >Turma</span> 
+										 <span  ng-if="matricula.possuiMaisDeUmaTurma == 'false' && matricula.possuiMaisDeUmPeriodoLetivo == 'true' && matricula.turmas.codigo"  class="input-group-addon" >{{matricula.turmas.nome}}</span>
+										<select class="form-control"  ng-if="matricula.possuiMaisDeUmaTurma == 'true'  " name="singleSelect" ng-model="matricula.codigoTurma" ng-change="atualizarDadosQuandoTurmaAlterado()">
+											<option ng-if="matricula.possuiMaisDeUmaTurma == 'true'" ng-repeat="turma in matricula.turmas" value="{{turma.codigo}}">{{turma.nome}}</option>
+											<option ng-if="matricula.possuiMaisDeUmaTurma == 'false'"  value="{{matricula.turmas.codigo}}">{{matricula.turmas.nome}}</option>
+										</select>
+									</div>
+									<div class="input-group input-group-sm">
+										<span  ng-if="matricula.possuiMaisDeUmaTurma == 'false' && matricula.possuiMaisDeUmPeriodoLetivo == 'true' && !matricula.turmas.codigo"  class="input-group-addon" >Não foram encontrados turma para esse Periodo Letivo.</span> 
+									</div>
+								</div>						
+								<div class="form-group">
+									<div class="input-group input-group-sm">
+										<span ng-if="matricula.possuiMaisDeUmaCondicaoDePagamento == 'true'"  class="input-group-addon" >Condi&ccedil;&otilde;es de Pagamento</span> 
+										<select  class="form-control" ng-if="matricula.possuiMaisDeUmaCondicaoDePagamento == 'true'" name="singleSelect" ng-model="matricula.codigoCondicaoPagamento" ng-change="consultarCondicaoPagamento()">
+									    	<option ng-if="matricula.possuiMaisDeUmaCondicaoDePagamento == 'true'" ng-repeat="condicaoPagamento in matricula.condicaoPagamentos" value="{{condicaoPagamento.codigo}}">{{condicaoPagamento.nome}}</option>
+										    <option ng-if="matricula.possuiMaisDeUmaCondicaoDePagamento == 'false'" value="{{matricula.condicaoPagamentos.codigo}}">{{matricula.condicaoPagamentos.nome}}</option>
+									    </select>
+										</div>
+									<div class="input-group input-group-sm">
+										<span class="input-group-addon"  ng-if="condicaoPagamento.codigo">Valor da Matr&iacute;cula: {{condicaoPagamento.valorMatricula | currency: "R$ " : 2}}</span>
+										<span class="input-group-addon"  ng-if="condicaoPagamento.codigo">Valor da Mensalidade: {{condicaoPagamento.parcelas}} x {{condicaoPagamento.valorMensalidade | currency: "R$ " : 2}}</span>
+										<span class="input-group-addon"  ng-if="!condicaoPagamento.codigo">Não foram encontrados condições de pagamento para essa turma.</span>
+										<span class="input-group-addon"  ng-if="condicaoPagamento.categoria">Desconto: {{condicaoPagamento.categoria}}</span>									
+									</div>
+								</div>					
+							</div>
+							<div class="btn-group right" role="group" aria-label="...">
+								<button type="button" ng-click="realizarMatricula()" ng-disabled="loading" class="btn btn-default">Matricular</button>
+							</div>
+						</div>

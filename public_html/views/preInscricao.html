@@ -1,0 +1,50 @@
+
+						<h2>Pr&eacute;-Inscri&ccedil;&atildeo</h2>
+						<div class="form-group">
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon" id="sizing-addon2">Nome *</span> 
+									<input id="nomePreInscricao" class="form-control" placeholder="Nome" ng-model="pessoaObject.nome" aria-describedby="sizing-addon2" required autofocus="">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+									<span class="input-group-addon">E-mail *</span> 
+									<input id="emailPreInscricao" class="form-control" placeholder="E-Mail" ng-model="pessoaObject.email" ng-pattern="/^[A-Za-z0-9._%+-]+@[A-Za-z0-9.-]+\.[A-Za-z]{2,4}$/" required autofocus="" type="email">
+								</div>
+							</div>
+							<div class="form-group">
+								<div class="input-group input-group-sm">
+											<span class="input-group-addon" id="sizing-addon2">D.Nasc.</span> 
+									<input id="dataNasc" class="form-control" ui-mask="99/99/9999" aria-describedby="sizing-addon2" ng-model="pessoaObject.dataNasc" required autofocus="">
+									
+									<span class="input-group-addon" id="sizing-addon2">Tel. Resid.</span> 
+									<input id="telefoneResidencialPreInscricao" class="form-control" ui-mask="(99) 9999-9999" aria-describedby="sizing-addon2" ng-model="pessoaObject.telefoneResidencial" required="" autofocus=""> 
+									<span class="input-group-addon" id="sizing-addon2">Celular</span> 
+									<input id="celularPreInscricao" class="form-control" ui-mask="(99) 99999-9999" ng-model="pessoaObject.celular" aria-describedby="sizing-addon2" required="" autofocus="">
+								</div>
+							</div>
+							<div class="btn-group right" role="group" aria-label="...">
+								<button type="button" ng-click="voltarTelaInicial()" class="btn btn-default">Voltar</button>
+								<button type="button" ng-click="cadastrarPreInscricao()" class="btn btn-default">Pr&eacute;-Inscri&ccedil;&atilde;o/Matr&iacute;cula</button>
+							</div>
+						</div>
+						<br></br>
+						<h2>Informa&ccedil;&otilde;es do Curso</h2>
+						<div class="form-group">
+							<div class="form-group">
+								<div>
+									<h4>Nome: <span>{{curso.nome}}</span> </h4>
+								</div>
+								<div>
+									<h4>Grade Curricular</h4>
+									<div style="overflow: auto;min-height: 150px;max-height: 300px;">
+									<ul class="list-group">
+										<div ng-repeat="disciplina in curso.gradeDisciplina.disciplinas">
+										<li class="list-group-item">{{disciplina.nome}}: {{disciplina.cargaHoraria}} H</li>
+										</div ng-repeat-end>
+									</ul>
+									</div>
+								</div>
+							</div>
+						</div>

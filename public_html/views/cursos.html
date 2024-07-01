@@ -1,0 +1,15 @@
+					<h2>Cursos</h2>
+					<div id="slides_control">
+						<div>
+							<carousel interval="myInterval">
+								<slide ng-repeat="banner in banners" active="slide.active">
+									<a href="" ng-click="consultarCurso(banner.curso.codigo, banner.codigoBanner)">
+										<img ng-src="{{banner.caminhoWebImagem}}" alt="Clique aqui para realizar sua Inscri&ccedil;&atilde;o.">
+										<div class="carousel-caption" style="position:relative;right:0px;left:0px;padding:8px;">
+											<h4>{{banner.descricao}}</h4>
+										</div>
+									</a>
+								</slide>							
+							</carousel>
+						</div>
+					</div>			

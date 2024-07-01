@@ -1,0 +1,233 @@
+<h2 ng-show=" negociacaoRecebimento.pagamentoConfirmado != 'true' && negociacaoRecebimento.pagamentoConfirmado != true && negociacaoRecebimento.valorTotalAPagar != null && negociacaoRecebimento.valorTotalAPagar != 0.0 " >Realizar Pagamentos</h2>
+<h2 ng-show="apresentarMatriculaconfirmado && (negociacaoRecebimento.pagamentoConfirmado == 'true' || negociacaoRecebimento.pagamentoConfirmado == true  || negociacaoRecebimento.valorTotalAPagar == null || negociacaoRecebimento.valorTotalAPagar <= 0.0 || negociacaoRecebimento.valorTotalAPagar <= '0.0') " >Matr&iacute;cula realizada com sucesso.</h2>
+<div class="form-group">
+	<div class="form-group" >
+		<div class="row" >
+			<span   class="input-group-addon" id="sizing-addon2" style="text-align: left;">Matr&iacute;cula  {{matricula.matricula}}</span> 
+			
+			<span   class="input-group-addon" id="sizing-addon2" title="Comprovante Matr&iacute;cula">
+			
+				<div class="btn-group right" role="group" aria-label="...">				    		
+					
+				    <a href="{{matricula.linkDownloadComprovante}}" target="_blank">
+						<button type="button" class="btn btn-default">Comprovante Matr&iacute;cula
+						 <img  src="image/imprimirBoletoResumido.png" >
+						 </button>
+					</a>
+					 <a  ng-show="apresentarMatriculaconfirmado">
+						<button type="button"  ng-click="concluirMatricula()" class="btn btn-default">Concluir Matr&iacute;cula						 
+						 </button>
+					</a>
+				</div>	
+			</span> 
+		    						
+		</div>		
+	</div>
+</div>
+<!--  esta div estava incluida acima da div onde fica os icones de pix ,boleto e cartao  -->
+<!--  foi incluida acima como era antes  -->
+
+	
+<div class="form-group" ng-show="negociacaoRecebimento.pagamentoConfirmado != 'true'  && negociacaoRecebimento.pagamentoConfirmado != true ">
+	<div ng-show="negociacaoRecebimento.valorTotalAPagar != null && negociacaoRecebimento.valorTotalAPagar != 0.0 " class="input-group input-group-sm" style="width: 100%;">
+	        <h2>Formas de Pagamento</h2>
+			<h4>Total de {{negociacaoRecebimento.valorConta | currency: "R$ " : 2}}</h4>	
+	     <div class="form-group">
+			<div  class="row">				    				    			
+				<span  class="input-group-addon" id="input-sizing-addon1" title="Imprimir Boleto"  ng-show="negociacaoRecebimento.apresentarOpcaoBoleto == 'true' || negociacaoRecebimento.apresentarOpcaoBoleto == true " >
+					<button type="button" ng-click="realizarImpressaoBoleto();" style="min-width: 102px !important;"   class="btn btn-default"  id="btn_boleto_online" >
+						 <img  src="image/imprimirBoletoResumido.png"  style="font-size: 12px;" >
+						 <span class="fields tituloCampos btn-block text-center " style="font-size: 12px;">Boleto On-line</span> 
+					</button>				
+				</span>					
+				<span class="input-group-addon" id="input-sizing-addon2" title="Visualizar Pix Qr Code" ng-show="negociacaoRecebimento.apresentarOpcaoPix == 'true' || negociacaoRecebimento.apresentarOpcaoPix == true " >
+				   <button type="button" id="btnAbrirModalPix"  class="btn btn-default" style="min-width: 102px !important;"  ng-click="realizarVisualizacaoPix()" >                    
+					   <img  src="image/iconePix.png"  style="font-size: 12px;" >
+					   <span class="fields tituloCampos btn-block text-center "  style="font-size: 12px;">Pix Qr Code</span>						
+			        </button>						
+				</span> 				
+				<span class="input-group-addon" id="input-sizing-addon3" title="Cart&atilde;o de Cr&eacute;dito" ng-show="negociacaoRecebimento.apresentarOpcaocartaoCreditoOnline == 'true' || negociacaoRecebimento.apresentarOpcaocartaoCreditoOnline == true " >
+				   <button type="button" id="btnAbrirModalCartaoCredito"  class="btn btn-default" style="min-width: 102px !important;"  ng-click="realizarVisualizacaoCartaoCredito()" >                    
+					 <img  src="image/iconeCartao.png"  style="font-size: 12px;width:17px;height:17px;" >
+					   <span class="fields tituloCampos btn-block text-center "  style="font-size: 12px;">Cart&atilde;o</span>						
+			        </button>					
+				</span>					 
+			</div>				
+		</div>	
+	     <div class="form-group"  ng-show="apresentarOpcaoPagamentoCartao == true" >
+			<div  class="form-group" ng-show="negociacaoRecebimento.apresentarMensagemRepasseTaxa == 'true' || negociacaoRecebimento.apresentarMensagemRepasseTaxa == true " style="width: 100%;padding-top: 6px;" >
+				<span aria-hidden="true">{{negociacaoRecebimento.mensagemRepasseTaxa}}</span>
+			</div>
+			<div  style="width:100%;margin-bottom:40px;margin-top:40px;" class="text-center">
+			    <h4>Selecione a Bandeira do Cart&atilde;o de Cr&eacute;dito</h4>
+				<span ng-repeat="bandeira in bandeiras" style="width: 100%;padding: 5px;margin-top:20px;" >					
+				     <button style="text-decoration:none" title="Adicionar Cart&atilde;o"   ng-click="adicionarCartaoCredito(bandeira.codigo)" >	                    
+	                    <span class="fields tituloCampos btn-block text-center " style="padding-top: 6px;"> {{bandeira.nomeCartao}}
+	                     </span>
+	                </button>					
+				</span>	
+			</div>
+			<div  style="overflow: auto; max-height: 500px; min-height: 150px;"  ng-show="negociacaoRecebimento.formaPagamentoMatriculaOnlineExternas.length > 0" >		
+				<ul class="list-group">
+					<div ng-repeat="formaPagamentoMatriculaOnlineExterna in negociacaoRecebimento.formaPagamentoMatriculaOnlineExternas" ng-show="negociacaoRecebimento.formaPagamentoMatriculaOnlineExternas.length > 0">
+					
+						<li class="list-group-item">
+							<div class="panel panel-default">
+								<div class="panel-heading">
+									Cart&atilde;o de Cr&eacute;dito {{$index + 1}}
+									<div class="btn-group right" role="group" aria-label="...">
+										<button type="button" class="close" data-ng-click="removerCartaoCreditoFormaPagamento(formaPagamentoMatriculaOnlineExterna)" aria-label="Close">
+											<span aria-hidden="true">&times;</span>
+										</button>
+									</div>
+								</div>
+								<div class="panel-body">
+									<div class="form-group">
+										<div class="input-group input-group-sm">
+										    <span class="input-group-addon" id="labelParcela">Parcela *</span> 
+											<select  class="form-control"  name="inputParcela_{{$index}}"   formcontrolName="parcela"   id="inputParcela_{{$index}}" ng-options="lista.chave as lista.valor for lista in formaPagamentoMatriculaOnlineExterna.listaItemParcelasDisponiveis" ng-model="formaPagamentoMatriculaOnlineExterna.parcela"  ng-change="calcularTotalPago()"></select>
+											<span  id="labelValor" class="input-group-addon" id="sizing-addon2">Valor *</span>											
+											<input  id="valorCalcularTaxa_{{$index}}"  name="valorCalcularTaxa_{{$index}}"  ng-if="negociacaoRecebimento.apresentarMensagemRepasseTaxa =='true' || negociacaoRecebimento.apresentarMensagemRepasseTaxa == true "  class="form-control"  ng-model="formaPagamentoMatriculaOnlineExterna.valorRecebimentoCalcularTaxaOperacaoCartao"   ng-blur="inicializarCalcularTotalPago(formaPagamentoMatriculaOnlineExterna);" autofocus="" onkeyup="mascaraDecimal(this, event)"   aria-describedby="sizing-addon2" >
+											<input id="valor" ng-if="negociacaoRecebimento.apresentarMensagemRepasseTaxa !='true' && negociacaoRecebimento.apresentarMensagemRepasseTaxa != true " class="form-control" placeholder="Valor" onkeydown="mascaraDecimal(this, event)" ng-model="formaPagamentoMatriculaOnlineExterna.valor" aria-describedby="sizing-addon2" required="" autofocus="">
+										</div>
+										<div class="input-group input-group-sm" ng-if="negociacaoRecebimento.apresentarMensagemRepasseTaxa =='true' || negociacaoRecebimento.apresentarMensagemRepasseTaxa == true ">										    									
+			                                 <span id="labelTaxaCartao"  class="input-group-addon" id="sizing-addon2">Taxa do Cart&atilde;o</span>											
+					                         <span id="valorTaxaCartao" class="input-group-addon"  >{{formaPagamentoMatriculaOnlineExterna.valorTaxaRepasseOperacaoCartao | currency: "R$ " : 2}}</span>
+			                                 <span id="labelTotalComTaxaCartao" class="input-group-addon"  >Valor Recebimento</span>			                                
+			                                 <span id="labelValorTotalComTaxaCartao" class="input-group-addon"   >{{formaPagamentoMatriculaOnlineExterna.valor | currency: "R$ " : 2}}</span>
+										</div>
+									</div>
+									<div class="form-group">
+										<div class="form-group">
+											<div class="input-group input-group-sm">
+												<span class="input-group-addon" id="sizing-addon2">N&uacute;mero do Cart&atilde;o *</span> <input id="numeroCartao" maxlength="20" onkeydown="somenteNumero(this, event)" class="form-control" placeholder="N&uacute;mero do Cart&atilde;o" ng-model="formaPagamentoMatriculaOnlineExterna.numeroCartao" aria-describedby="sizing-addon2" required="" autofocus="">
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="input-group input-group-sm">
+												<span class="input-group-addon" id="sizing-addon2">Nome no Cart&atilde;o *</span> <input id="nomeCartao" class="form-control" placeholder="Nome no Cart&atilde;o" ng-model="formaPagamentoMatriculaOnlineExterna.nomeNoCartao" aria-describedby="sizing-addon2" required="" autofocus="">
+											</div>
+										</div>
+										<div class="form-group" ng-show="negociacaoRecebimento.apresentarOpcaoCPF">
+											<div class="input-group input-group-sm">
+												<span class="input-group-addon"  ng-show="negociacaoRecebimento.apresentarOpcaoCPF" id="sizing-addon2">CPF *</span> 
+												<input  ng-show="negociacaoRecebimento.apresentarOpcaoCPF" ui-mask="999.999.999.99" id="cpfCartao" class="form-control" ng-model="formaPagamentoMatriculaOnlineExterna.cpfNoCartao" aria-describedby="sizing-addon2" required="negociacaoRecebimento.opcaoCPFObrigatorio" autofocus="">
+												<span class="input-group-addon" ng-show="negociacaoRecebimento.apresentarOpcaoCelular" id="sizing-addon2">Celular *</span> 
+												<input ng-show="negociacaoRecebimento.apresentarOpcaoCelular" ui-mask="(99) 99999-9999" id="celularCartao" class="form-control" ng-model="formaPagamentoMatriculaOnlineExterna.celularNoCartao" aria-describedby="sizing-addon2" required="negociacaoRecebimento.apresentarOpcaoCelular" autofocus="">
+											</div>
+										</div>
+										<div class="form-group" ng-show="negociacaoRecebimento.apresentarOpcaoEmail">
+											<div class="input-group input-group-sm">
+												<span class="input-group-addon"  id="sizing-addon2">E-Mail *</span> 
+												<input  id="emailCartao" class="form-control" placeholder="E-Mail do Resp. Cart&atilde;o" ng-model="formaPagamentoMatriculaOnlineExterna.emailNoCartao" aria-describedby="sizing-addon2" required="negociacaoRecebimento.opcaoEmailObrigatorio" autofocus="">												
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="input-group input-group-sm">											
+												<span class="input-group-addon" id="sizing-addon2">M&acirc;s Validade *</span>												
+												 <select name="singleSelect" class="form-control" name="mesValidade_{{$index}}"   formcontrolName="mesValidade"   id="mesValidade_{{$index}}" ng-model="formaPagamentoMatriculaOnlineExterna.mesValidade">
+													<option ng-repeat="mes in meses" value="{{mes.id}}">{{mes.nome}}</option>
+												</select>												
+												 <span class="input-group-addon" id="sizing-addon2">Ano Validade *</span> 												 
+												 <select name="singleSelect" style="width: 50%;" class="form-control" name="anoValidade_{{$index}}"   formcontrolName="anoValidade"   id="anoValidade_{{$index}}" ng-model="formaPagamentoMatriculaOnlineExterna.anoValidade">
+													<option ng-repeat="ano in anos" value="{{ano}}">{{ano}}</option>
+												</select>
+											</div>
+										</div>
+										<div class="form-group">
+											<div class="input-group input-group-sm">
+												<span class="input-group-addon" id="sizing-addon2">N&uacute;mero de Verifica&ccedil;&atilde;o do Cart&atilde;o *</span> <input id="cvv" maxlength="10" onkeydown="somenteNumero(this, event)" style="width: 40%;" class="form-control" placeholder="CVV" ng-model="formaPagamentoMatriculaOnlineExterna.codigoDeVerificacao" aria-describedby="sizing-addon2" required="" autofocus="">&nbsp;<a href="" data-toggle="modal" data-target="#myModal">O que &eacute; isso?</a>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</li>
+					</div ng-repeat-end>
+					
+					<div class="panel panel-default">
+					    <div class="panel-body">
+							<div  class="form-group">					    
+						         <div class="input-group input-group-sm" style="margin-bottom: 1px;width:100%" >	
+							        <div class="input-group input-group-sm" style="width:100%">
+							          <div class="input-group-addon"  ng-if="negociacaoRecebimento.apresentarMensagemRepasseTaxa =='true' ">
+							            <span  style="text-align: center !important;"> Valor Conta</span>
+						                <span  style="text-align: center !important;">{{negociacaoRecebimento.valorConta | currency: "R$ " : 2 }}</span>
+							          </div>
+							          <div class="input-group-addon" ng-if="negociacaoRecebimento.apresentarMensagemRepasseTaxa =='true' "  >		               
+						                 <span  style="text-align: center !important;">Taxa do Cart&atilde;o</span>
+						                <span  style="text-align: center !important;">{{negociacaoRecebimento.valorTotalTaxaRepasseOperacaoCartao | currency: "R$ " : 2 }}</span>
+					                  </div>
+					                  <div class="input-group-addon"  >	
+						                <span  style="text-align: center !important;">Valor Total</span>
+						                <span  style="text-align: center !important;">{{negociacaoRecebimento.valorTotalAPagar | currency: "R$ " : 2}}</span>
+					                 </div>
+					                 <div class="input-group-addon" >	
+						               <span  style="text-align: center !important;">Restante</span>
+						                <span style="text-align: center !important;">{{negociacaoRecebimento.residuo | currency: "R$ " : 2}}</span>
+						             </div>
+					               </div>				             
+					           </div>						                
+						   </div>				      
+						   <div class="btn-group right" role="group" aria-label="..."  style="display: flex !important;">						  								
+						     <div  ng-show="negociacaoRecebimento.valorTotalAPagar != 0.0">
+								<button type="button" ng-click="realizarPagamentoCartaoCredito()" class="btn btn-default">Pagar</button>
+						     </div>
+						   </div>
+						</div>
+					</div>
+				</ul>
+			</div>
+		</div>
+			
+	</div>	
+	
+</div>
+<div class="modal fade" id="myModal">
+	<div class="modal-dialog">
+		<div class="modal-content" style="width: 485px;">
+			<div class="modal-header">
+				<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+					<span aria-hidden="true">&times;</span>
+				</button>
+				<div>
+					<img alt="" src="image/numero_validador.png">
+				</div>
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+			</div>
+		</div>
+		<!-- /.modal-content -->
+	</div>
+	<!-- /.modal-dialog -->
+</div>
+
+	
+<div class="modal fade" id="modalVisualizarPix" role="dialog">
+    <div class="modal-dialog">
+      <div class="modal-content">
+         <div class="modal-header  " style="text-align: left;"  shadowOpacity="true">  
+             <button type="button" class="close" data-dismiss="modal">&times;</button>             		                                      
+              <span class="modal-title  h4">Pix</span>                        
+         </div>
+         <div id="orientacaoPix"   layout="block"  style="text-align: center;margin-top: 10px;" class="row"  ></div>    		
+	     <div layout="block"  class="row" style="text-align: center;" ng-show="modalPixCarregado">                     	
+		      <div layout="block"  class="col-md-6 " style="margin-bottom: 50px;"  >		
+		           <span  ng-show="apresentarQrCode"  class="modal-title  h4">Qr Code</span>                    
+		           <div id="panelQrCode" ></div>       			
+		      </div> 
+		      <div ng-show="apresentarQrCode"  layout="block"  class="col-md-6"   >
+		            <span class="modal-title  h4">Copie e Cola</span>                   
+		            <textarea   cols="32" rows="8" id="qrCodeCopieCole" readonly="true"  ng-model="pix.qrCode"></textarea>						
+	          </div>                                  
+		 </div> 
+		 <div class="row" ng-show="!apresentarQrCode" style="text-align: center;margin-bottom: 10px;" >	
+			    <button type="button" id="btnAbrirModalPix"  class="btn btn-default" ng-click="montarQrCode()" >                    
+				 <img  src="image/iconePix.png" > Gerar Pix Qr Code
+		        </button>		   
+		  </div>               	    	     
+      </div>
+    </div>	      
+</div>
+

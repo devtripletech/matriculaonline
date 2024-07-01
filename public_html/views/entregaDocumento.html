@@ -1,0 +1,280 @@
+
+		<h2>Entrega Documentos</h2>
+		<br></br>
+	    <div class="row" ng-init="initEntregaDocumentos()" layout="block" id="row-panel-ilustracao-situacao">
+            <div class="col-md-10 pull-right" layout="block" >
+                <div class="col-md-3 text-center">
+                    <div  class="panel border rounded " style="border: 1px solid #1cc88a !important;">                       
+                        <div class="row bg-success  rounded-top"  style="font-size: 11px;margin-left: 0px;margin-right: 0px;" >
+                            <div style="float:left; width:100%;padding:0px; line-height:normal;">
+                                <span class="tituloCamposResultado text-white">Entregue</span>
+                            </div>                          
+                        </div>
+                        <div>
+                            <div class="row" >                                   
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+									  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+									</svg>
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div  class="panel border rounded " style="border: 1px solid #4e73df !important;">                
+                        <div class="row bg-primary  rounded-top" style="font-size: 11px;margin-left: 0px;margin-right: 0px;">
+                            <div style="float:left; width:100%;padding:0px; line-height:normal;">
+                                <span class="tituloCamposResultado text-white">Pendente</span>
+                            </div>                            
+                        </div>
+                        <div>
+                            <div class="row" >
+                             <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16">
+								  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								  <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+								</svg>
+                            </div>                           
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div  class="panel border rounded " style="border: 1px solid #f6c23e !important">                   
+                        <div class="row bg-warning  rounded-top"  style="font-size: 11px;margin-left: 0px;margin-right: 0px;" >
+                            <div style="float:left; width:100%;padding:0px; line-height:normal;">
+                                <span class="tituloCamposResultado text-white">Pendente Aprova&ccedil;&atilde;o</span>
+                            </div>                            
+                        </div>
+                        <div>
+                            <div class="row ">
+                              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+								  <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+								  <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+								</svg>
+								
+                            </div>                            
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3 text-center">
+                    <div  class="panel border rounded " style="border: 1px solid #e74a3b !important;">                        
+                        <div class="row bg-danger  rounded-top"  style="font-size: 11px;margin-left: 0px;margin-right: 0px;" >
+                            <div style="float:left; width:100%;padding:0px; line-height:normal;">
+                                <span class="tituloCamposResultado text-white">Documento Rejeitado</span>
+                            </div>                            
+                        </div>
+                        <div>
+                            <div class="row">
+                               <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-slash-circle" viewBox="0 0 16 16">
+								  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+								  <path d="M11.354 4.646a.5.5 0 0 0-.708 0l-6 6a.5.5 0 0 0 .708.708l6-6a.5.5 0 0 0 0-.708z"/>
+								</svg>
+                            </div>                          
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div> 
+        <div id="conteudo" style=" width:100%" ng-if="matricula.documentacaoMatriculaVOs.length > 0"> 
+            <div class="row tabconteudo mb20"   id="div-tab-conteudo-mb20">            
+                <div class="col-md-6"  align="center" style="padding: 2em;" layout="block"   ng-repeat="documento in matricula.documentacaoMatriculaVOs"   id="div-tab-conteudo-lista">                                         
+                    <div  layout="block"    ng-class="(documento.gerarSuspensaoMatricula == 'true') ? 'row border-left rounded pictureResponsive' :   'row border rounded pictureResponsive'"   style="width: 90%;"  id="div-tab-conteudo-lista-borda-sublinhada{{documento.codigo}}" >          
+                        <div layout="block"  class="row border-bottom  bg-gray rounded"  style="width: 100%;">
+                            <div class="col-md-10" style="text-align: left;" >
+                                <h4 class="timeline-title" style="font-size: 0.8em !important;font-weight: bold;">{{documento.tipoDeDocumentoVO.nome}}</h4>
+                            </div>
+                            <div   layout="block" style="padding-top: 2px;">
+                                <div  ng-if="documento.entregue == 'true'">
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-check" viewBox="0 0 16 16">
+									  <path d="M10.97 4.97a.75.75 0 0 1 1.07 1.05l-3.99 4.99a.75.75 0 0 1-1.08.02L4.324 8.384a.75.75 0 1 1 1.06-1.06l2.094 2.093 3.473-4.425a.267.267 0 0 1 .02-.022z"/>
+									</svg>
+                                </div>
+                                <div  ng-if="documento.entregue == 'false' && documento.arquivoAprovadoPeloDep == 'false' && documento.arquivoVO.nome == '' && (documento.dataNegarDocDep == null || documento.dataNegarDocDep == undefined)">
+                                   <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-dash-circle" viewBox="0 0 16 16">
+									  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+									  <path d="M4 8a.5.5 0 0 1 .5-.5h7a.5.5 0 0 1 0 1h-7A.5.5 0 0 1 4 8z"/>
+									</svg>
+                                </div>
+                                <div  ng-if="documento.entregue == 'false' && documento.arquivoAprovadoPeloDep == 'false' && documento.arquivoVO.nome != '' &&  (documento.tipoDeDocumentoVO.documentoFrenteVerso == 'false' || documento.arquivoVOVerso.nome != '' ) &&  (documento.dataNegarDocDep == null || documento.dataNegarDocDep == undefined)">
+                                    <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-exclamation-triangle" viewBox="0 0 16 16">
+									  <path d="M7.938 2.016A.13.13 0 0 1 8.002 2a.13.13 0 0 1 .063.016.146.146 0 0 1 .054.057l6.857 11.667c.036.06.035.124.002.183a.163.163 0 0 1-.054.06.116.116 0 0 1-.066.017H1.146a.115.115 0 0 1-.066-.017.163.163 0 0 1-.054-.06.176.176 0 0 1 .002-.183L7.884 2.073a.147.147 0 0 1 .054-.057zm1.044-.45a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566z"/>
+									  <path d="M7.002 12a1 1 0 1 1 2 0 1 1 0 0 1-2 0zM7.1 5.995a.905.905 0 1 1 1.8 0l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995z"/>
+									</svg>
+                                </div>
+                                <div  ng-if="documento.entregue == 'false' &&  documento.dataNegarDocDep != null" >
+                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-slash-circle" viewBox="0 0 16 16">
+									  <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z"/>
+									  <path d="M11.354 4.646a.5.5 0 0 0-.708 0l-6 6a.5.5 0 0 0 .708.708l6-6a.5.5 0 0 0 0-.708z"/>
+									</svg>
+                                </div>
+                            </div> 
+                        
+                        </div>                            
+                        <div  layout="block" class="col-md-12"   id="div-tab-conteudo-lista-borda-sublinhada-documento" ng-if="(documento.entregue == 'false' && (documento.arquivoVOAssinado == null || documento.arquivoVOAssinado == undefined || documento.arquivoVOAssinado.codigo == undefined || documento.arquivoVOAssinado.codigo == '0' ))  ">
+                            <div layout="block"     ng-class="documento.tipoDeDocumentoVO.documentoFrenteVerso == 'true' ? 'col-md-6 tabconteudo' : 'col-md-12 tabconteudo' "  id="div-tab-conteudo-lista-borda-sublinhada-documento-frente">
+                                <div layout="block" class="row"  id="div-tab-conteudo-lista-borda-sublinhada-documento-frente-label" style="height: 190px;">                                        
+                                    <div layout="block" class="row " style="padding-top: 20px;">                                   
+                                        <label  ng-class="(documento.arquivoVO.nome == '' ||  documento.dataNegarDocDep != null) ?  'borda-sublinhada-pendente  form-control-label ' : 'borda-sublinhada-enviada cor-cliente form-control-label ' "  style="cursor: pointer;min-width: 110px;min-height: 120px;">
+                                            <div style="padding-top: 15px;">
+                                                <img    ng-if="documento.arquivoVO.caminhoImagemAnexo == '' ||  
+                                                                documento.arquivoVO.caminhoImagemAnexo == null || 
+                                                                documento.arquivoVO.caminhoImagemAnexo == undefined" 
+                                                                src="image/icon-image-slash.png"
+                                                                style="height: 90px;width: 100px;border-radius: 35px;"
+                                                                class="opacity" 
+                                                >                                           
+                                               
+                                                
+                                                <svg  ng-if="documento.arquivoVO.caminhoImagemAnexo != '' &&
+                                                                documento.arquivoVO.caminhoImagemAnexo != null && 
+                                                                documento.arquivoVO.caminhoImagemAnexo != undefined &&
+                                                                (documento.arquivoVO.nome.includes('pdf') || documento.arquivoVO.nome.includes('PDF'))"  xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+												  <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
+												</svg>
+                                                <img ng-if="documento.arquivoVO.caminhoImagemAnexo != '' && 
+                                                            documento.arquivoVO.caminhoImagemAnexo != null && 
+                                                            documento.arquivoVO.caminhoImagemAnexo != undefined && 
+                                                            (documento.arquivoVO.nome.includes('png')  || 
+                                                                documento.arquivoVO.nome.includes('jpg')  || 
+                                                                documento.arquivoVO.nome.includes('JPEG')  ||
+                                                                documento.arquivoVO.nome.includes('jpeg'))" 
+                                                            ng-src="{{documento.arquivoVO.caminhoImagemAnexo}}"
+                                                            style="height: 90px;width: 100px;border-radius: 35px;"
+                                                >  
+                                                 <input type = "file"   style="display: none;" name="inputfile" ng-click="setDocumento(documento)"  onchange="angular.element(this).scope().uploadDocumento(this,true)"/>        
+                                                
+                                            </div>
+                                        </label>  
+                                    </div>
+                                    <div layout="block" class="row" ng-if="documento.tipoDeDocumentoVO.documentoFrenteVerso == 'true'" >
+                                        <span   >Frente</span>    
+                                    </div>                     
+                                </div>                                   
+                            </div>
+                            <div layout="block" class="col-md-6 tabconteudo"  ng-if="documento.tipoDeDocumentoVO.documentoFrenteVerso == 'true'  && (documento.arquivoVOVerso != null || documento.arquivoVOVerso != undefined )"  id="div-tab-conteudo-lista-borda-sublinhada-documento-verso">
+                                <div layout="block" class="row" id="div-tab-conteudo-lista-borda-sublinhada-documento-verso-label" style="height: 190px;" >                                       
+                                    <div layout="block"  class="row "   style="padding-top: 20px;" >
+                                         
+                                        <label  ng-class="( documento.arquivoVOVerso.nome == '' ||  documento.dataNegarDocDep != null) ?  'borda-sublinhada-pendente  form-control-label' : 'borda-sublinhada-enviada cor-cliente form-control-label' " style="cursor: pointer;min-width: 110px;min-height: 120px;">
+                                            <div style="padding-top: 15px;" >
+                                                <img  ng-if="documento.arquivoVOVerso.caminhoImagemAnexo == '' ||  
+                                                            documento.arquivoVOVerso.caminhoImagemAnexo == null ||
+                                                            documento.arquivoVOVerso.caminhoImagemAnexo == undefined" 
+                                                            src="image/icon-image-slash.png"                                                            
+                                                            style="height: 90px;width: 100px;border-radius: 35px;"
+                                                            class="opacity"
+                                                >                                              
+                                               
+                                                  <svg   ng-if="documento.arquivoVOVerso.caminhoImagemAnexo != '' && 
+                                                                documento.arquivoVOVerso.caminhoImagemAnexo != null &&
+                                                                documento.arquivoVOVerso.caminhoImagemAnexo != undefined && 
+                                                                (documento.arquivoVO.nome.includes('pdf') || documento.arquivoVO.nome.includes('PDF'))"  xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+												  <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
+												</svg>
+                                                
+                                                
+                                                <img ng-if="documento.arquivoVOVerso.caminhoImagemAnexo != '' &&
+                                                            documento.arquivoVOVerso.caminhoImagemAnexo != null &&
+                                                            documento.arquivoVOVerso.caminhoImagemAnexo != undefined && 
+                                                            (documento.arquivoVOVerso.nome.includes('png')  || 
+                                                            documento.arquivoVOVerso.nome.includes('jpg')  || 
+                                                            documento.arquivoVOVerso.nome.includes('JPEG')  ||
+                                                            documento.arquivoVOVerso.nome.includes('jpeg'))" 
+                                                            ng-src="{{documento.arquivoVOVerso.caminhoImagemAnexo}}"  
+                                                            style="height: 90px;width: 100px;border-radius: 35px;"
+                                                >                                
+                                                <input type = "file"   style="display: none;" name="image" ng-click="setDocumento(documento)"  onchange="angular.element(this).scope().uploadDocumento(this,false)"/>       
+                                            </div>
+                                        </label> 
+                                    </div> 
+                                    <div layout="block" class="row">
+                                        <span >Verso</span> 
+                                    </div>
+                                </div>   
+                                                        
+                            </div>                           
+                        </div>
+                        <div  layout="block" class="row"   id="div-tab-conteudo-lista-borda-sublinhada-documento-assinado"   ng-if="(documento.entregue == 'true')  "   >
+                            <div layout="block"     class="col-md-12 tabconteudo"  id="div-tab-conteudo-lista-borda-sublinhada-documento-assinado-documento">
+                                <div layout="block" class="row"  id="div-tab-conteudo-lista-borda-sublinhada-documento-assinado-documento-label" style="height: 190px;">                                        
+                                    <div layout="block" class="row " style="padding-top: 20px;">                                    
+                                        <label  class="borda-sublinhada-enviada cor-cliente form-control-label "  style="cursor: pointer;min-width: 155px;min-height: 140px;">
+                                            <div style="padding-top: 15px;">                                                                       
+                                                <svg    xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+												  <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
+												                                  
+                                            </div>
+                                        </label>  
+                                    </div>                                                             
+                                </div>                                   
+                            </div>                                                     
+                        </div>                          
+                    </div>             
+                </div>        
+            </div>
+            <div class="btn-group right" role="group" aria-label="...">
+				<button type="button" ng-click="realizarAvancarContratoMatricula()" ng-disabled="loading" class="btn btn-default">Avan&#x00E7;ar Contrato Matricula</button>
+			</div>
+        </div>   
+        <button type="button" id="btnAbrirModalEtregaVersoDocumento" style="display: none;"   data-toggle="modal" data-target="#modalDocumentoVerso"></button>	
+        
+        <div class="modal fade" id="modalDocumentoVerso" role="dialog">
+		    <div class="modal-dialog">
+		      <div class="modal-content">
+		         <div class="modal-header  " style="text-align: center;"  shadowOpacity="true">  
+		             <button type="button" class="close" data-dismiss="modal">&times;</button> 
+		              <button type="button" id="btnFecharModalEtregaVersoDocumento" style="display: none;" data-dismiss="modal" ></button>	
+		                                      
+                     <span class="modal-title  h4">Documento Verso</span>                        
+                 </div>
+		        
+		       
+		        <div layout="block" id="tu"  class="row justify-content-center align-items-center" >
+                    <div style="padding: 10px;" layout="block">
+                        <form id="formInscricao" enctype='multipart/form-data' class="col-6" >   
+                            <div class="row" style="text-align: center;" layout="block">  
+                                <label  ng-class="documento.arquivoVOVerso.nome == '' ?  'borda-sublinhada-pendente  form-control-label ' : 'borda-sublinhada-enviada cor-cliente form-control-label ' "  style="cursor: pointer;min-width: 155px;min-height: 140px;" >
+                                    <div style="padding-top: 15px;" >
+                                        <img  ng-if="documento.arquivoVOVerso.caminhoImagemAnexo == '' ||  
+                                                    documento.arquivoVOVerso.caminhoImagemAnexo == null ||
+                                                    documento.arquivoVOVerso.caminhoImagemAnexo == undefined" 
+                                                    src="image/icon-image-slash.png"
+                                                    style="height: 105px;width: 125px;border-radius: 35px;"
+                                                    class="opacity"
+                                        >      
+                                        
+                                        
+                                         <svg ng-if="documento.arquivoVOVerso.caminhoImagemAnexo != '' && 
+                                                        documento.arquivoVOVerso.caminhoImagemAnexo != null &&
+                                                        documento.arquivoVOVerso.caminhoImagemAnexo != undefined && 
+                                                        documento.arquivoVOVerso.nome.includes('pdf')"  xmlns="http://www.w3.org/2000/svg" width="50" height="100" fill="currentColor" class="bi bi-filetype-pdf" viewBox="0 0 16 16">
+												  <path fill-rule="evenodd" d="M14 4.5V14a2 2 0 0 1-2 2h-1v-1h1a1 1 0 0 0 1-1V4.5h-2A1.5 1.5 0 0 1 9.5 3V1H4a1 1 0 0 0-1 1v9H2V2a2 2 0 0 1 2-2h5.5L14 4.5ZM1.6 11.85H0v3.999h.791v-1.342h.803c.287 0 .531-.057.732-.173.203-.117.358-.275.463-.474a1.42 1.42 0 0 0 .161-.677c0-.25-.053-.476-.158-.677a1.176 1.176 0 0 0-.46-.477c-.2-.12-.443-.179-.732-.179Zm.545 1.333a.795.795 0 0 1-.085.38.574.574 0 0 1-.238.241.794.794 0 0 1-.375.082H.788V12.48h.66c.218 0 .389.06.512.181.123.122.185.296.185.522Zm1.217-1.333v3.999h1.46c.401 0 .734-.08.998-.237a1.45 1.45 0 0 0 .595-.689c.13-.3.196-.662.196-1.084 0-.42-.065-.778-.196-1.075a1.426 1.426 0 0 0-.589-.68c-.264-.156-.599-.234-1.005-.234H3.362Zm.791.645h.563c.248 0 .45.05.609.152a.89.89 0 0 1 .354.454c.079.201.118.452.118.753a2.3 2.3 0 0 1-.068.592 1.14 1.14 0 0 1-.196.422.8.8 0 0 1-.334.252 1.298 1.298 0 0 1-.483.082h-.563v-2.707Zm3.743 1.763v1.591h-.79V11.85h2.548v.653H7.896v1.117h1.606v.638H7.896Z"/>
+										</svg>
+												                                        
+                                        
+                                        <img ng-if="documento.arquivoVOVerso.caminhoImagemAnexo != '' &&
+                                                    documento.arquivoVOVerso.caminhoImagemAnexo != null &&
+                                                    documento.arquivoVOVerso.caminhoImagemAnexo != undefined && 
+                                                    (documento.arquivoVOVerso.nome.includes('png')  || 
+                                                    documento.arquivoVOVerso.nome.includes('jpg')  || 
+                                                    documento.arquivoVOVerso.nome.includes('JPEG')  ||
+                                                    documento.arquivoVOVerso.nome.includes('jpeg'))" 
+                                                    ng-src="{{documento.arquivoVOVerso.caminhoImagemAnexo}}"  
+                                                    style="height: 105px;width: 125px;border-radius: 35px;"
+                                        >                                
+                                        <input type = "file"   style="display: none;" name="image" ng-click="setDocumento(documento)"  onchange="angular.element(this).scope().uploadDocumento(this,false)"/>       
+
+                                    </div>
+                                </label>   
+                            </div>         
+                        </form>
+                    </div>
+                </div>
+		      </div>
+		      
+		    </div>
+		 </div>
+		 
+		 
+		 
+		 
+		 
+		
